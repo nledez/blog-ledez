@@ -7,14 +7,18 @@
 
 # Site settings
 title: Live from my brain with some lag
+name: Nicolas Ledez
 email: from-my-blog@ledez.net
 description: > # this means to ignore newlines until "baseurl:"
   Pense-bête & Todos
   Ruby, Python, devops, Linux, Raspberry π, ...
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://jekyll.ledez.net/" # the base hostname & protocol for your site
+disqusid: blog-ledez
 twitter_username: nledez
 github_username:  nledez
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+# highlighter: pygments
