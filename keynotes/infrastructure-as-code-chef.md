@@ -2,8 +2,7 @@
 id: 1112
 title: '&laquo;&nbsp;Infrastructure as code&nbsp;&raquo; avec Chef'
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1112
 page_layout:
   - default

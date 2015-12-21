@@ -2,8 +2,7 @@
 id: 1095
 title: keynotes
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1095
 page_layout:
   - default

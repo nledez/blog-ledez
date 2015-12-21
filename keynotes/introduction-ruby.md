@@ -2,8 +2,7 @@
 id: 1110
 title: Introduction à Ruby
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1110
 page_layout:
   - default

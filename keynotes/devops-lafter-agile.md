@@ -2,8 +2,7 @@
 id: 1116
 title: 'Dev(\)Ops ? l&rsquo;after Agile ?'
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1116
 page_layout:
   - default

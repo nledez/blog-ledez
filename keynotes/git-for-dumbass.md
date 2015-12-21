@@ -2,8 +2,7 @@
 id: 1114
 title: Git for dumbass
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1114
 page_layout:
   - default

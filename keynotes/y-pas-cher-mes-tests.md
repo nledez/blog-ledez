@@ -2,8 +2,7 @@
 id: 1098
 title: Y sont pas cher mes tests !
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1098
 page_layout:
   - default

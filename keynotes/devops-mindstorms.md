@@ -2,8 +2,7 @@
 id: 1118
 title: DevOps Mindstorms
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1118
 page_layout:
   - default

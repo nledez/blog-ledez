@@ -2,8 +2,7 @@
 id: 1106
 title: Introduction au Cloud
 author: Nicolas Ledez
-layout:
-  - list-post
+layout: page
 guid: http://blog.ledez.net/?page_id=1106
 page_layout:
   - default
