@@ -4,12 +4,22 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Je suis architecte système chez Cozy Cloud.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+De formation industrielle puis informatique, je travaille dans l’IT depuis 2001.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+J’anime également les Devcamp de Rennes, le groupe Rennes DevOps.
+
+Mes développements sont surtout réalisés pour automatiser les tâches rébarbatives.
+
+Les sujets qui m’intéressent :
+
+Ruby/Python/devops/Linux/RaspberryPi/… bref, hacker.
+
+Je vais donc vous raconter ici ce que je fais de temps en temps.
+
+Les comptes rendus des conférences où je suis allé faire un tour.
+
+Des articles un peu plus techniques. Qui me servent de pense-bête, mais vous pouvez en profiter aussi ^^.
+
+Attention, les propos tenus ici n’engagent que **moi**.
