@@ -31,20 +31,17 @@ Toutes les étapes pour avoir une machine avec un Pow et Zsh qui torchent ! :
 [Extrait du site de Pow][1]  
 C&rsquo;est le plus dur :p
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="co4">$ </span>curl get.pow.cx <span class="sy0">|</span> <span class="kw2">sh</span>
-  </div>
-</div>
+{% highlight bash %}
+$ curl get.pow.cx | sh
+{% endhighlight %}
 
 Maintenant une connexion sur un site http://<app>.dev/ doit fonctionner.  
 Pour une nouvelle application, le mode opératoire est simple :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    $ <span class="kw3">cd</span> ~<span class="sy0">/</span>.pow<br /> $ <span class="kw2">ln</span> <span class="re5">-s</span> <span class="sy0">/</span>path<span class="sy0">/</span>to<span class="sy0">/</span>myapp
-  </div>
-</div>
+{% highlight bash %}
+$ cd ~/.pow
+$ ln -s /path/to/myapp
+{% endhighlight %}
 
 Pff trop la flemme&#8230;
 
@@ -54,29 +51,23 @@ Pour gagner du temps, on va installer ZSH, avec le plugin &laquo;&nbsp;quivabien
 
 [Extrait du site oh-my-zsh][2]
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="co4">$ </span>curl <span class="re5">-L</span> https:<span class="sy0">//</span>github.com<span class="sy0">/</span>robbyrussell<span class="sy0">/</span>oh-my-zsh<span class="sy0">/</span>raw<span class="sy0">/</span>master<span class="sy0">/</span>tools<span class="sy0">/</span>install.sh <span class="sy0">|</span> <span class="kw2">sh</span>
-  </div>
-</div>
+{% highlight bash %}
+$ curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+{% endhighlight %}
 
 Si jamais votre Shell par défaut est écrasé (en général bash). Vous pouvez revenir en arrière :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="kw2">chsh</span> <span class="re5">-s</span> <span class="sy0">/</span>bin<span class="sy0">/</span><span class="kw2">bash</span>
-  </div>
-</div>
+{% highlight ruby %}
+chsh -s /bin/bash
+{% endhighlight %}
 
 ### Modification de la configuration par défaut
 
 Modifier la ligne dans le fichier ~/.zshrc :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="re2">plugins</span>=<span class="br0">&#40;</span><span class="kw2">git</span> brew bundler gem heroku osx pow rails3 redis-cli textmate<span class="br0">&#41;</span>
-  </div>
-</div>
+{% highlight bash %}
+plugins=(git brew bundler gem heroku osx pow rails3 redis-cli textmate)
+{% endhighlight %}
 
 C&rsquo;est surtout le plugin pow qu&rsquo;il faut mettre, les autres sont ceux que j&rsquo;utilise. Choisissez vos armes.
 
@@ -96,37 +87,41 @@ On peut utiliser dans ce cas l&rsquo;application [Pow-index][3].
 
 Si vous n&rsquo;avez pas ça :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="sy0">%</span> gem search <span class="re5">--remote</span> pow-index &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span class="sy0">!</span><span class="nu0">6441</span><br /> <br /> <span class="sy0">***</span> REMOTE GEMS <span class="sy0">***</span><br /> <br /> pow-index <span class="br0">&#40;</span>0.0.4<span class="br0">&#41;</span>
-  </div>
-</div>
+{% highlight bash %}
+% gem search --remote pow-index                                                                                        !6441
+
+*** REMOTE GEMS ***
+
+pow-index (0.0.4)
+{% endhighlight %}
 
 Regardez plus bas (la version git).
 
 Sans [RVM][4] :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    $ gem <span class="kw2">install</span> pow-index<br /> $ pow-index index
-  </div>
-</div>
+{% highlight bash %}
+$ gem install pow-index
+$ pow-index index
+{% endhighlight %}
 
 Avec [RVM][4] :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    $ rvm use default<span class="sy0">@</span>pow-index <span class="re5">--create</span><br /> $ gem <span class="kw2">install</span> pow-index<br /> $ pow-index index<br /> $ gem <span class="kw2">which</span> pow-index<br /> $ <span class="kw3">cd</span> $<span class="br0">&#40;</span>gem <span class="kw2">which</span> pow-index <span class="sy0">|</span> <span class="kw2">sed</span> <span class="st_h">'s#lib/pow-index.rb$##'</span><span class="br0">&#41;</span><br /> $ <span class="kw3">echo</span> <span class="st_h">'rvm use default@pow-index'</span> <span class="sy0">&</span>gt; .rvmrc
-  </div>
-</div>
+{% highlight bash %}
+$ rvm use default@pow-index --create
+$ gem install pow-index
+$ pow-index index
+$ gem which pow-index
+$ cd $(gem which pow-index | sed 's#lib/pow-index.rb$##')
+$ echo 'rvm use default@pow-index' &gt; .rvmrc
+{% endhighlight %}
 
 J&rsquo;ai fais quelques modifications suplémentaires dans un fork sur Github, [@marutanm][5] répond rapidement aux pull-request il devrait donc y avoir une version 0.0.5. En attendant :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    $ <span class="kw2">git clone</span> https:<span class="sy0">//</span>nledez<span class="sy0">@</span>github.com<span class="sy0">/</span>nledez<span class="sy0">/</span>Pow-index.git<br /> $ <span class="kw3">cd</span> Pow-index<br /> $ <span class="kw2">ln</span> <span class="re5">-s</span> $<span class="br0">&#40;</span><span class="kw3">pwd</span><span class="br0">&#41;</span> ~<span class="sy0">/</span>.pow<span class="sy0">/</span>index
-  </div>
-</div>
+{% highlight bash %}
+$ git clone https://nledez@github.com/nledez/Pow-index.git
+$ cd Pow-index
+$ ln -s $(pwd) ~/.pow/index
+{% endhighlight %}
 
 Vous pouvez aussi remplacer index par default. Dans ce cas, n&rsquo;importe quelle URL qui se termine en .dev seras redirigé vers celui-là.
 

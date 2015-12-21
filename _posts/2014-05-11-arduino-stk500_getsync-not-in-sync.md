@@ -34,26 +34,26 @@ Après quelques mois à chercher voici ma solution :<!--more-->
 
 Je suis souvent tombé sur cette erreur :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    avrdude: Version 5.11, compiled on Sep 2 2011 at 18:52:52<br /> Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/<br /> Copyright (c) 2007-2009 Joerg Wunsch
-  </div>
-</div>
+{% highlight text %}
+avrdude: Version 5.11, compiled on Sep 2 2011 at 18:52:52
+Copyright (c) 2000-2005 Brian Dean, http://www.bdmicro.com/
+Copyright (c) 2007-2009 Joerg Wunsch
 
-System wide configuration file is &laquo;&nbsp;/Applications/Dev/Arduino.app/Contents/Resources/Java/hardware/tools/avr/etc/avrdude.conf&nbsp;&raquo;  
-User configuration file is &laquo;&nbsp;/Users/nico/.avrduderc&nbsp;&raquo;  
+System wide configuration file is "/Applications/Dev/Arduino.app/Contents/Resources/Java/hardware/tools/avr/etc/avrdude.conf"
+User configuration file is "/Users/nico/.avrduderc"
 User configuration file does not exist or is not a regular file, skipping
 
-Using Port : /dev/tty.usbserial-A9ELLV3R  
-Using Programmer : arduino  
-Overriding Baud Rate : 57600  
-avrdude: Send: 0 \[30\] \[20\]  
-avrdude: Send: 0 \[30\] \[20\]  
-avrdude: Send: 0 \[30\] \[20\]  
-avrdude: Recv: . [00]  
+Using Port : /dev/tty.usbserial-A9ELLV3R
+Using Programmer : arduino
+Overriding Baud Rate : 57600
+avrdude: Send: 0 [30] [20]
+avrdude: Send: 0 [30] [20]
+avrdude: Send: 0 [30] [20]
+avrdude: Recv: . [00]
 avrdude: stk500_getsync(): not in sync: resp=0x00
 
 avrdude done. Thank you.
+{% endhighlight %}
 
 J&rsquo;ai cherché pendant des heures sur le Net comment résoudre ce &laquo;&nbsp;stk500_getsync(): not in sync: resp=0x00&nbsp;&raquo;.
 
@@ -65,11 +65,13 @@ Au final, la solution (sur mon Mac) était de réinstaller complètement les dri
 
 #### Avec le pl2303hx
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    cd /System/Library/Extensions<br /> sudo mv NoZAP-PL2303-10.9.kext ~/Desktop/<br /> sudo mv ProlificUsbSerial.kext ~/Desktop/<br /> cd /var/db/receipts<br /> sudo mv com.prolific.prolificUsbserialCableDriverV151.ProlificUsbSerial.pkg.bom com.prolific.prolificUsbserialCableDriverV151.ProlificUsbSerial.pkg.plist ~/Desktop/
-  </div>
-</div>
+{% highlight bash %}
+cd /System/Library/Extensions
+sudo mv NoZAP-PL2303-10.9.kext ~/Desktop/
+sudo mv ProlificUsbSerial.kext ~/Desktop/
+cd /var/db/receipts
+sudo mv com.prolific.prolificUsbserialCableDriverV151.ProlificUsbSerial.pkg.bom com.prolific.prolificUsbserialCableDriverV151.ProlificUsbSerial.pkg.plist ~/Desktop/
+{% endhighlight %}
 
 Un petit reboot pour être sûr.
 
@@ -82,11 +84,10 @@ Puis l&rsquo;installer.
 
 #### Et avec le FTDI
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    cd /System/Library/Extensions<br /> sudo mv FTDIUSBSerialDriver.kext ~/Desktop/
-  </div>
-</div>
+{% highlight bash %}
+cd /System/Library/Extensions
+sudo mv FTDIUSBSerialDriver.kext ~/Desktop/
+{% endhighlight %}
 
 Le petit reboot de précaution.
 

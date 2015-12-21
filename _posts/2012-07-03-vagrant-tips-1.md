@@ -21,11 +21,54 @@ Lors du [Breizhcamp][1], j&rsquo;ai présenté dans ma démonstration comment tu
 
 <!--more-->
 
-<div class="codecolorer-container ruby default" style="overflow:auto;white-space:nowrap;">
-  <div class="ruby codecolorer">
-    <span class="co1"># -*- mode: ruby -*-</span><br /> <span class="co1"># vi: set ft=ruby :</span><br /> <br /> <span class="re2">Vagrant::Config</span>.<span class="me1">run</span> <span class="kw1">do</span> <span class="sy0">|</span>config<span class="sy0">|</span><br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">share_folder</span> <span class="st0">"apt-cache"</span>, <span class="st0">"/var/cache/apt/archives"</span>, <span class="st0">"../sources/apt-cache"</span><br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">share_folder</span> <span class="st0">"gem-cache"</span>, <span class="st0">"/usr/local/lib/ruby/gems/1.9.1/cache"</span>, <span class="st0">"../sources/gem-cache"</span><br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">share_folder</span> <span class="st0">"gem-cache-1.8"</span>, <span class="st0">"/opt/ruby/lib/ruby/gems/1.8/cache"</span>, <span class="st0">"../sources/gem-cache"</span><br /> <br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">define</span> <span class="re3">:script</span> <span class="kw1">do</span> <span class="sy0">|</span>app_config<span class="sy0">|</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">customize</span> <span class="br0">&#91;</span><span class="st0">"modifyvm"</span>, <span class="re3">:id</span>, <span class="st0">"--name"</span>, <span class="st0">"script"</span>, <span class="st0">"--memory"</span>, <span class="st0">"256"</span><span class="br0">&#93;</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">box</span> = <span class="st0">"lucid64"</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">host_name</span> = <span class="st0">"script"</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">forward_port</span> <span class="nu0">22</span>, <span class="nu0">2222</span>, <span class="re3">:auto</span> <span class="sy0">=></span> <span class="kw2">true</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">forward_port</span> <span class="nu0">80</span>, <span class="nu0">4567</span><br /> &nbsp; &nbsp; <span class="co1"># app_config.vm.network :hostonly, "33.33.13.37"</span><br /> &nbsp; &nbsp; <span class="co1"># config.vm.boot_mode = :gui</span><br /> <br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">provision</span> <span class="re3">:shell</span>, <span class="re3">:path</span> <span class="sy0">=></span> <span class="st0">"script-install-proxy.sh"</span><br /> &nbsp; <span class="kw1">end</span><br /> <br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">define</span> <span class="re3">:chef</span> <span class="kw1">do</span> <span class="sy0">|</span>app_config<span class="sy0">|</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">customize</span> <span class="br0">&#91;</span><span class="st0">"modifyvm"</span>, <span class="re3">:id</span>, <span class="st0">"--name"</span>, <span class="st0">"script"</span>, <span class="st0">"--memory"</span>, <span class="st0">"256"</span><span class="br0">&#93;</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">box</span> = <span class="st0">"chef"</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">host_name</span> = <span class="st0">"chef"</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">forward_port</span> <span class="nu0">22</span>, <span class="nu0">2222</span>, <span class="re3">:auto</span> <span class="sy0">=></span> <span class="kw2">true</span><br /> <br /> &nbsp; &nbsp; <span class="co1"># sudo apt-get install chef</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">provision</span> <span class="re3">:chef_solo</span> <span class="kw1">do</span> <span class="sy0">|</span>chef<span class="sy0">|</span><br /> &nbsp; &nbsp; &nbsp; chef.<span class="me1">cookbooks_path</span> = <span class="st0">"cookbooks"</span><br /> &nbsp; &nbsp; &nbsp; chef.<span class="me1">add_recipe</span><span class="br0">&#40;</span><span class="st0">"nginx"</span><span class="br0">&#41;</span><br /> &nbsp; &nbsp; <span class="kw1">end</span><br /> &nbsp; <span class="kw1">end</span><br /> <br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">define</span> <span class="re3">:puppet</span> <span class="kw1">do</span> <span class="sy0">|</span>app_config<span class="sy0">|</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">customize</span> <span class="br0">&#91;</span><span class="st0">"modifyvm"</span>, <span class="re3">:id</span>, <span class="st0">"--name"</span>, <span class="st0">"script"</span>, <span class="st0">"--memory"</span>, <span class="st0">"256"</span><span class="br0">&#93;</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">box</span> = <span class="st0">"puppet"</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">host_name</span> = <span class="st0">"puppet"</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">forward_port</span> <span class="nu0">22</span>, <span class="nu0">2222</span>, <span class="re3">:auto</span> <span class="sy0">=></span> <span class="kw2">true</span><br /> <br /> &nbsp; &nbsp; <span class="co1"># sudo vi /etc/puppet/puppet.conf</span><br /> &nbsp; &nbsp; <span class="co1"># sudo apt-get install puppet-common</span><br /> &nbsp; &nbsp; app_config.<span class="me1">vm</span>.<span class="me1">provision</span> <span class="re3">:puppet</span> <span class="kw1">do</span> <span class="sy0">|</span>puppet<span class="sy0">|</span><br /> &nbsp; &nbsp; &nbsp; puppet.<span class="me1">manifests_path</span> = <span class="st0">"manifests"</span><br /> &nbsp; &nbsp; <span class="kw1">end</span><br /> &nbsp; <span class="kw1">end</span><br /> <span class="kw1">end</span>
-  </div>
-</div>
+{% highlight ruby %}
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant::Config.run do |config|
+  config.vm.share_folder "apt-cache", "/var/cache/apt/archives", "../sources/apt-cache"
+  config.vm.share_folder "gem-cache", "/usr/local/lib/ruby/gems/1.9.1/cache", "../sources/gem-cache"
+  config.vm.share_folder "gem-cache-1.8", "/opt/ruby/lib/ruby/gems/1.8/cache", "../sources/gem-cache"
+
+  config.vm.define :script do |app_config|
+    app_config.vm.customize ["modifyvm", :id, "--name", "script", "--memory", "256"]
+    app_config.vm.box = "lucid64"
+    app_config.vm.host_name = "script"
+    app_config.vm.forward_port 22, 2222, :auto => true
+    app_config.vm.forward_port 80, 4567
+    # app_config.vm.network :hostonly, "33.33.13.37"
+    # config.vm.boot_mode = :gui
+
+    app_config.vm.provision :shell, :path => "script-install-proxy.sh"
+  end
+
+  config.vm.define :chef do |app_config|
+    app_config.vm.customize ["modifyvm", :id, "--name", "script", "--memory", "256"]
+    app_config.vm.box = "chef"
+    app_config.vm.host_name = "chef"
+    app_config.vm.forward_port 22, 2222, :auto => true
+
+    # sudo apt-get install chef
+    app_config.vm.provision :chef_solo do |chef|
+      chef.cookbooks_path = "cookbooks"
+      chef.add_recipe("nginx")
+    end
+  end
+
+  config.vm.define :puppet do |app_config|
+    app_config.vm.customize ["modifyvm", :id, "--name", "script", "--memory", "256"]
+    app_config.vm.box = "puppet"
+    app_config.vm.host_name = "puppet"
+    app_config.vm.forward_port 22, 2222, :auto => true
+
+    # sudo vi /etc/puppet/puppet.conf
+    # sudo apt-get install puppet-common
+    app_config.vm.provision :puppet do |puppet|
+      puppet.manifests_path = "manifests"
+    end
+  end
+end
+{% endhighlight %}
 
 Avec tout ça, vous avez 3 VM avec du provisioning :
 

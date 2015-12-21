@@ -22,35 +22,55 @@ Et en pleine lecture de [tmux: Productive Mouse-Free Development][3], je me rend
 
 Fichier &laquo;&nbsp;.tmux-clust.conf&nbsp;&raquo;
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    new-session <span class="re5">-d</span> <span class="re5">-s</span> clust <span class="re5">-n</span> clust1 <span class="st_h">'ssh clust-root1'</span><br /> split-window <span class="re5">-v</span> <span class="re5">-t</span> clust <span class="st_h">'ssh clust-root2'</span><br /> <span class="kw1">set</span> <span class="re5">-g</span> status-right <span class="st0">""</span><br /> source-file ~<span class="sy0">/</span>.tmux-clust-bc.conf
-  </div>
-</div>
+{% highlight bash %}
+new-session -d -s clust -n clust1 'ssh clust-root1'
+split-window -v -t clust 'ssh clust-root2'
+set -g status-right ""
+source-file ~/.tmux-clust-bc.conf
+{% endhighlight %}
 
 Fichier &laquo;&nbsp;.tmux-clust-bc.conf&nbsp;&raquo;
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    set-window-option synchronize-panes on<br /> <span class="kw3">bind</span> r source-file ~<span class="sy0">/</span>.tmux-clust-nobc.conf \; display <span class="st0">"Stop broadcast"</span><br /> <span class="kw1">set</span> <span class="re5">-g</span> status-bg green<br /> <span class="kw1">set</span> <span class="re5">-g</span> pane-active-border-fg green<br /> unbind u<br /> unbind i<br /> unbind o<br /> unbind p<br /> <br /> <span class="kw3">bind</span> u set-window-option synchronize-panes off \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'1'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'2'</span> \; set-window-option synchronize-panes on<br /> <span class="kw3">bind</span> i set-window-option synchronize-panes off \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'2'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'1'</span> \; set-window-option synchronize-panes on<br /> <span class="kw3">bind</span> o set-window-option synchronize-panes off \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'192.168.21.'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'192.168.22.'</span> \; set-window-option synchronize-panes on<br /> <span class="kw3">bind</span> p set-window-option synchronize-panes off \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'192.168.22.'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'192.168.21.'</span> \; set-window-option synchronize-panes on
-  </div>
-</div>
+{% highlight bash %}
+set-window-option synchronize-panes on
+bind r source-file ~/.tmux-clust-nobc.conf \; display "Stop broadcast"
+set -g status-bg green
+set -g pane-active-border-fg green
+unbind u
+unbind i
+unbind o
+unbind p
+
+bind u set-window-option synchronize-panes off \; send-keys -t clust:0.0 '1' \; send-keys -t clust:0.1 '2' \; set-window-option synchronize-panes on
+bind i set-window-option synchronize-panes off \; send-keys -t clust:0.0 '2' \; send-keys -t clust:0.1 '1' \; set-window-option synchronize-panes on
+bind o set-window-option synchronize-panes off \; send-keys -t clust:0.0 '192.168.21.' \; send-keys -t clust:0.1 '192.168.22.' \; set-window-option synchronize-panes on
+bind p set-window-option synchronize-panes off \; send-keys -t clust:0.0 '192.168.22.' \; send-keys -t clust:0.1 '192.168.21.' \; set-window-option synchronize-panes on
+{% endhighlight %}
 
 Fichier &laquo;&nbsp;.tmux-clust-nobc.conf&nbsp;&raquo;
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    set-window-option synchronize-panes off<br /> <span class="kw3">bind</span> r source-file ~<span class="sy0">/</span>.tmux-clust-bc.conf \; display <span class="st0">"Now with broadcast"</span><br /> <span class="kw1">set</span> <span class="re5">-g</span> status-bg blue<br /> <span class="kw1">set</span> <span class="re5">-g</span> pane-active-border-fg blue<br /> <br /> unbind u<br /> unbind i<br /> unbind o<br /> unbind p<br /> <span class="kw3">bind</span> u send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'1'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'2'</span><br /> <span class="kw3">bind</span> i send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'2'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'1'</span><br /> <span class="kw3">bind</span> o send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'192.168.21.'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'192.168.22.'</span><br /> <span class="kw3">bind</span> p send-keys <span class="re5">-t</span> clust:<span class="nu0">0.0</span> <span class="st_h">'192.168.22.'</span> \; send-keys <span class="re5">-t</span> clust:<span class="nu0">0.1</span> <span class="st_h">'192.168.21.'</span>
-  </div>
-</div>
+{% highlight bash %}
+set-window-option synchronize-panes off
+bind r source-file ~/.tmux-clust-bc.conf \; display "Now with broadcast"
+set -g status-bg blue
+set -g pane-active-border-fg blue
+
+unbind u
+unbind i
+unbind o
+unbind p
+bind u send-keys -t clust:0.0 '1' \; send-keys -t clust:0.1 '2'
+bind i send-keys -t clust:0.0 '2' \; send-keys -t clust:0.1 '1'
+bind o send-keys -t clust:0.0 '192.168.21.' \; send-keys -t clust:0.1 '192.168.22.'
+bind p send-keys -t clust:0.0 '192.168.22.' \; send-keys -t clust:0.1 '192.168.21.'
+{% endhighlight %}
 
 Et pour finir le fichier &laquo;&nbsp;tmux-clust&nbsp;&raquo;
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="co0">#!/bin/bash</span><br /> tmux <span class="re5">-f</span> ~<span class="sy0">/</span>.tmux-clust.conf attach
-  </div>
-</div>
+{% highlight bash %}
+#!/bin/bash
+tmux -f ~/.tmux-clust.conf attach
+{% endhighlight %}
 
 Du coup, quand je me connecte avec le script &laquo;&nbsp;tmux-clust&nbsp;&raquo;, il lance une connexion vers clust-root1 et clust-root2 chacun dans un panneau. Et par défaut, on est dans le mode &laquo;&nbsp;bc&nbsp;&raquo; pour broadcast.
 

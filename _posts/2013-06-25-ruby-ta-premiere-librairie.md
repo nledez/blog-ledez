@@ -30,11 +30,11 @@ Nous allons tout mettre en place pour que tu puisses faire du TDD rapidement.
 
 Pour commencer, création d&rsquo;une librairie vide grâce à bundle :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    gem install bundler # Si jamais il n'est pas installé<br /> bundle gem demo_howto -t<br /> cd demo_howto
-  </div>
-</div>
+{% highlight bash %}
+gem install bundler # Si jamais il n'est pas installé
+bundle gem demo_howto -t
+cd demo_howto
+{% endhighlight %}
 
 \`bundle gem demo_howto -t\` permet de créer une coquille vide pour ta librairie.
 
@@ -44,29 +44,28 @@ Il faut y mettre à jours les parties &laquo;&nbsp;description&nbsp;&raquo; et &
 
 Et moi j&rsquo;ajoute les librairies :
 
-<div class="codecolorer-container ruby default" style="overflow:auto;white-space:nowrap;">
-  <div class="ruby codecolorer">
-    &nbsp; spec.<span class="me1">add_development_dependency</span> <span class="st0">"wdm"</span> <span class="kw1">if</span> RUBY_PLATFORM =~ <span class="sy0">/</span>mingw<span class="sy0">/</span><br /> &nbsp; spec.<span class="me1">add_development_dependency</span> <span class="st0">"ruby_gntp"</span> <span class="kw1">if</span> RUBY_PLATFORM =~ <span class="sy0">/</span>mingw<span class="sy0">/</span><br /> &nbsp; spec.<span class="me1">add_development_dependency</span> <span class="st0">"rb-fsevent"</span> <span class="kw1">if</span> RUBY_PLATFORM =~ <span class="sy0">/</span>darwin<span class="sy0">/</span><br /> &nbsp; spec.<span class="me1">add_development_dependency</span> <span class="st0">"growl"</span> <span class="kw1">if</span> RUBY_PLATFORM =~ <span class="sy0">/</span>darwin<span class="sy0">/</span><br /> &nbsp; spec.<span class="me1">add_development_dependency</span> <span class="st0">"guard"</span><br /> &nbsp; spec.<span class="me1">add_development_dependency</span> <span class="st0">"guard-rspec"</span>
-  </div>
-</div>
+{% highlight ruby %}
+  spec.add_development_dependency "wdm" if RUBY_PLATFORM =~ /mingw/
+  spec.add_development_dependency "ruby_gntp" if RUBY_PLATFORM =~ /mingw/
+  spec.add_development_dependency "rb-fsevent" if RUBY_PLATFORM =~ /darwin/
+  spec.add_development_dependency "growl" if RUBY_PLATFORM =~ /darwin/
+  spec.add_development_dependency "guard"
+  spec.add_development_dependency "guard-rspec"
+{% endhighlight %}
 
 Pour installer les librairies :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    bundle
-  </div>
-</div>
+{% highlight bash %}
+bundle
+{% endhighlight %}
 
 ## Rouge !
 
 Pour vérifier si tout marche :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    bundle exec rspec
-  </div>
-</div>
+{% highlight bash %}
+bundle exec rspec
+{% endhighlight %}
 
 Ça donne :  
 [<img src="http://blog.ledez.net/wp-content/uploads/2013/06/by-default-2013-06-24-at-22.37.59.png" alt="Barre rouge" width="540" height="273" class="alignnone size-full wp-image-798" />][9]
@@ -77,46 +76,40 @@ Avant de passer à la résolution du test, on va regarder 2/3 autres trucs.
 
 Tu vas faire :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    bundle exec guard init
-  </div>
-</div>
+{% highlight bash %}
+bundle exec guard init
+{% endhighlight %}
 
 Et ouvrir le fichier &laquo;&nbsp;Guardfile&nbsp;&raquo; pour enlever les parties les moins intéressantes (Rails, toussa) :
 
-<div class="codecolorer-container ruby default" style="overflow:auto;white-space:nowrap;">
-  <div class="ruby codecolorer">
-    guard <span class="re3">:rspec</span> <span class="kw1">do</span><br /> &nbsp; watch<span class="br0">&#40;</span><span class="sy0">%</span>r<span class="br0">&#123;</span>^spec<span class="sy0">/</span>.<span class="sy0">+</span>_spec\.<span class="me1">rb</span>$<span class="br0">&#125;</span><span class="br0">&#41;</span><br /> &nbsp; watch<span class="br0">&#40;</span><span class="sy0">%</span>r<span class="br0">&#123;</span>^lib<span class="sy0">/</span><span class="br0">&#40;</span>.<span class="sy0">+</span><span class="br0">&#41;</span>\.<span class="me1">rb</span>$<span class="br0">&#125;</span><span class="br0">&#41;</span> &nbsp; &nbsp; <span class="br0">&#123;</span> <span class="sy0">|</span>m<span class="sy0">|</span> <span class="st0">"spec/lib/#{m[1]}_spec.rb"</span> <span class="br0">&#125;</span><br /> &nbsp; watch<span class="br0">&#40;</span><span class="st0">'spec/spec_helper.rb'</span><span class="br0">&#41;</span> &nbsp;<span class="br0">&#123;</span> <span class="st0">"spec"</span> <span class="br0">&#125;</span><br /> <span class="kw1">end</span>
-  </div>
-</div>
+{% highlight ruby %}
+guard :rspec do
+  watch(%r{^spec/.+_spec\.rb$})
+  watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
+  watch('spec/spec_helper.rb')  { "spec" }
+end
+{% endhighlight %}
 
 Comme tu l&rsquo;as peut-être remarqué, il y a un léger problème de cohérence entre la partie générée par Bundler et Guard :  
 Guard va chercher les specs dans le répertoire &laquo;&nbsp;spec/lib/#{m[1]}\_spec.rb&nbsp;&raquo;. Alors que Bundler l&rsquo;a mis dans &laquo;&nbsp;spec/demo\_howto_spec.rb&nbsp;&raquo;.
 
 Donc tu fais bien comme tu veux, mais moi je déplace le fichier de spec :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="kw2">git mv</span> spec<span class="sy0">/</span>demo_howto_spec.rb spec<span class="sy0">/</span>lib<span class="sy0">/</span>demo_howto_spec.rb
-  </div>
-</div>
+{% highlight bash %}
+git mv spec/demo_howto_spec.rb spec/lib/demo_howto_spec.rb
+{% endhighlight %}
 
 Tu vas pouvoir essayer tout ça :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    bundle exec guard
-  </div>
-</div>
+{% highlight bash %}
+bundle exec guard
+{% endhighlight %}
 
 Et si tu édites les deux fichiers dans ton éditeur de texte (moi j&rsquo;utilise vi) :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    mvim -o lib/demo_howto.rb spec/lib/demo_howto_spec.rb
-  </div>
-</div>
+{% highlight bash %}
+mvim -o lib/demo_howto.rb spec/lib/demo_howto_spec.rb
+{% endhighlight %}
 
 Voilà de quoi démarrer <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
@@ -130,19 +123,19 @@ Ha oui, tu voulais surement que ça passe vert !
 
 Remplace donc :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    &nbsp; it 'should do something useful' do<br /> &nbsp; &nbsp; false.should be_true<br /> &nbsp; end
-  </div>
-</div>
+{% highlight bash %}
+  it 'should do something useful' do
+    false.should be_true
+  end
+{% endhighlight %}
 
 Par :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    &nbsp; it 'should do something useful' do<br /> &nbsp; &nbsp; true.should be_true<br /> &nbsp; end
-  </div>
-</div>
+{% highlight bash %}
+  it 'should do something useful' do
+    true.should be_true
+  end
+{% endhighlight %}
 
 [<img src="http://blog.ledez.net/wp-content/uploads/2013/06/by-default-2013-06-24-at-23.03.01.png" alt="La barre verte" width="221" height="93" class="alignnone size-full wp-image-801" />][11]
 

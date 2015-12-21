@@ -164,11 +164,12 @@ Il ne reste qu&rsquo;a faire la même chose pour la résistance chauffante. Et l
 
 Pour les thermistances, il faut mettre :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    #define TEMP_SENSOR_0 2<br /> #define TEMP_SENSOR_1 0<br /> #define TEMP_SENSOR_2 0<br /> #define TEMP_SENSOR_BED 0
-  </div>
-</div>
+{% highlight c %}
+#define TEMP_SENSOR_0 2
+#define TEMP_SENSOR_1 0
+#define TEMP_SENSOR_2 0
+#define TEMP_SENSOR_BED 0
+{% endhighlight %}
 
 Seul le capteur de température de l&rsquo;extruder est présent.
 

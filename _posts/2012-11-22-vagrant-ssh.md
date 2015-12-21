@@ -16,26 +16,27 @@ Suite au Tweet : <a title="de @ndeloof" href="https://twitter.com/ndeloof/statu
 
 Et que ma solution ne tient pas en 140 caractères :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    ssh -p 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.vagrant.d/insecure_private_key vagrant@localhost
-  </div>
-</div>
+{% highlight bash %}
+ssh -p 2222 -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null -i ~/.vagrant.d/insecure_private_key vagrant@localhost
+{% endhighlight %}
 
 Sinon dans votre ~/.ssh/config :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    Host vagrant-box<br /> &nbsp; Hostname localhost<br /> &nbsp; User vagrant<br /> &nbsp; Port 2222<br /> &nbsp; StrictHostKeyChecking no<br /> &nbsp; UserKnownHostsFile /dev/null<br /> &nbsp; IdentityFile ~/.vagrant.d/insecure_private_key
-  </div>
-</div>
+{% highlight bash %}
+Host vagrant-box
+  Hostname localhost
+  User vagrant
+  Port 2222
+  StrictHostKeyChecking no
+  UserKnownHostsFile /dev/null
+  IdentityFile ~/.vagrant.d/insecure_private_key
+{% endhighlight %}
 
 Maintenant, vos :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    ssh vagrant-box<br /> knife cook
-  </div>
-</div>
+{% highlight bash %}
+ssh vagrant-box
+knife cook
+{% endhighlight %}
 
 Vont marcher direct !

@@ -34,19 +34,16 @@ Stamp -> en premier plan, background -> en fond.
 
 Le script suivant va transformer le document avec le fichier $stamp en premier plan :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="re2">pdftk</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>bin<span class="sy0">/</span>pdftk<br /> <span class="re1">$pdftk</span> <span class="st0">"<span class="es2">$doc_source</span>"</span> stamp <span class="st0">"<span class="es2">$stamp</span>"</span> output <span class="st0">"<span class="es2">$dest</span>"</span>
-  </div>
-</div>
+{% highlight bash %}
+pdftk=/usr/local/bin/pdftk
+$pdftk "$doc_source" stamp "$stamp" output "$dest"
+{% endhighlight %}
 
 Un peu plus long, transformer le document avec $stamp en fond, mais que sur la première page :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="co4">$</span>pdftk <span class="st0">"<span class="es2">$doc_source</span>"</span> <span class="kw2">cat</span> <span class="nu0">1</span> output - <span class="sy0">|</span> <span class="re1">$pdftk</span> - background <span class="st0">"<span class="es2">$stamp</span>"</span> output - <span class="sy0">|</span> <span class="re1">$pdftk</span> <span class="re2">A</span>=- <span class="re2">B</span>=<span class="st0">"<span class="es2">$doc_source</span>"</span> <span class="kw2">cat</span> A1 B2-end output <span class="st0">"<span class="es2">$dest</span>"</span>
-  </div>
-</div>
+{% highlight bash %}
+$pdftk "$doc_source" cat 1 output - | $pdftk - background "$stamp" output - | $pdftk A=- B="$doc_source" cat A1 B2-end output "$dest"
+{% endhighlight %}
 
 ### Etape 2 : automatiser un peu tout ça
 
@@ -67,15 +64,17 @@ Créer un nouveau Workflow avec :
 
 Et le source :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="kw3">cd</span> <span class="st0">"/Users/nico/Documents/PDF-Watermark"</span><br /> <span class="re2">pdftk</span>=<span class="sy0">/</span>usr<span class="sy0">/</span>local<span class="sy0">/</span>bin<span class="sy0">/</span>pdftk<br /> <span class="re2">doc_source</span>=<span class="st0">"$1"</span><br /> <span class="re2">stamp</span>=<span class="st0">"Fond-de-page.pdf"</span><br /> <span class="re2">dest</span>=<span class="sy0">`</span><span class="kw3">echo</span> <span class="st0">"<span class="es2">$doc_source</span>"</span> <span class="sy0">|</span> <span class="kw2">sed</span> <span class="re5">-E</span> <span class="st_h">'s/.pdf$/-mail.pdf/'</span><span class="sy0">`</span>
-  </div>
-</div>
+{% highlight bash %}
+cd "/Users/nico/Documents/PDF-Watermark"
+pdftk=/usr/local/bin/pdftk
+doc_source="$1"
+stamp="Fond-de-page.pdf"
+dest=`echo "$doc_source" | sed -E 's/.pdf$/-mail.pdf/'`
 
-$pdftk &laquo;&nbsp;$doc\_source&nbsp;&raquo; cat 1 output &#8211; | $pdftk &#8211; stamp &laquo;&nbsp;$stamp&nbsp;&raquo; output &#8211; | $pdftk A=- B=&nbsp;&raquo;$doc\_source&nbsp;&raquo; cat A1 B2-end output &laquo;&nbsp;$dest&nbsp;&raquo;
+$pdftk "$doc_source" cat 1 output - | $pdftk - stamp "$stamp" output - | $pdftk A=- B="$doc_source" cat A1 B2-end output "$dest"
 
-open &laquo;&nbsp;$dest&nbsp;&raquo;
+open "$dest"
+{% endhighlight %}
 
 Explications :
 

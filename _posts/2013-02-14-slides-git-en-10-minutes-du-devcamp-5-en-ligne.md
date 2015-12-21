@@ -19,14 +19,211 @@ Les slides &laquo;&nbsp;Git en 10 minutes&nbsp;&raquo; que j&rsquo;ai présenté
 
 
 <div style="margin-bottom: 5px;">
-  <strong> <a title="Git en 10 minutes" href="http://www.slideshare.net/ledez/10-minutes4git" target="_blank">Git en 10 minutes</a> </strong> from <strong><a href="http://www.slideshare.net/ledez" target="_blank">Nicolas Ledez</a></strong>
+  <strong> <a title="Git en 10 minutes" href="http://www.slideshare.net/nledez/10-minutes-pour-git" target="_blank">Git en 10 minutes</a> </strong> from <strong><a href="http://www.slideshare.net/nledez" target="_blank">Nicolas Ledez</a></strong>
 </div>
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="co4">user1$ </span>. ~<span class="sy0">/</span>git-change-author woot1<br /> Loaded: Woot en haut <span class="sy0"><</span>woot<span class="sy0">@</span>en.haut<span class="sy0">></span><br /> <span class="co4">user1$ </span><span class="kw2">mkdir</span> woot ; <span class="kw3">cd</span> woot<br /> <span class="co4">user1$ </span><span class="kw2">git init</span> ; <span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">"Empty commit"</span> <span class="re5">--allow-empty</span><br /> Initialized empty Git repository <span class="kw1">in</span> <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot<span class="sy0">/</span>.git<span class="sy0">/</span><br /> <span class="br0">&#91;</span>master <span class="br0">&#40;</span>root-commit<span class="br0">&#41;</span> 03fff56<span class="br0">&#93;</span> Empty commit<br /> <span class="co4">user1$ </span><span class="kw3">echo</span> <span class="st_h">'A powwerwull tooool wooooot !!!11!!!'</span> <span class="sy0">></span> README<br /> <span class="co4">user1$ </span><span class="kw2">git status</span><br /> <span class="co0"># On branch master</span><br /> <span class="co0"># Untracked files:</span><br /> <span class="co0"># &nbsp; (use "git add <file>..." to include in what will be committed)</span><br /> <span class="co0">#</span><br /> <span class="co0"># &nbsp; &nbsp; &nbsp; README</span><br /> nothing added to commit but untracked files present <span class="br0">&#40;</span>use <span class="st0">"git add"</span> to track<span class="br0">&#41;</span><br /> <span class="co4">user1$ </span><span class="kw2">git add</span> README <br /> <span class="co4">user1$ </span><span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">"Add README file"</span><br /> <span class="br0">&#91;</span>master 4c4cf98<span class="br0">&#93;</span> Add README <span class="kw2">file</span><br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> &nbsp;create mode <span class="nu0">100644</span> README<br /> <span class="co4">user1$ </span><span class="kw2">git clone</span> <span class="re5">--bare</span> woot <br /> Cloning into bare repository <span class="st_h">'woot.git'</span>...<br /> done.<br /> <span class="co4">user1$ </span><span class="kw3">cd</span> woot<br /> <span class="co4">user1$ </span><span class="kw2">git remote</span> <span class="re5">-v</span><br /> <span class="co4">user1$ </span><span class="kw2">git remote</span> add origin ..<span class="sy0">/</span>woot.git<br /> <span class="co4">user1$ </span><span class="kw2">git remote</span> <span class="re5">-v</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br /> origin &nbsp;..<span class="sy0">/</span>woot.git <span class="br0">&#40;</span>fetch<span class="br0">&#41;</span><br /> origin &nbsp;..<span class="sy0">/</span>woot.git <span class="br0">&#40;</span>push<span class="br0">&#41;</span><br /> <span class="co4">user1$ </span><span class="kw2">git log</span> &nbsp; &nbsp; &nbsp; &nbsp; <br /> commit 4c4cf9861d129c9ece8e7c7d95a81e7062463659<br /> Author: Woot en haut <span class="sy0"><</span>woot<span class="sy0">@</span>en.haut<span class="sy0">></span><br /> Date: &nbsp; Wed Feb <span class="nu0">13</span> <span class="nu0">22</span>:<span class="nu0">34</span>:<span class="nu0">51</span> <span class="nu0">2013</span> +0100<br /> <br /> &nbsp; &nbsp; Add README <span class="kw2">file</span><br /> <br /> commit 03fff5607971a750c0436de90ffb7cf1f69c638e<br /> Author: Woot en haut <span class="sy0"><</span>woot<span class="sy0">@</span>en.haut<span class="sy0">></span><br /> Date: &nbsp; Wed Feb <span class="nu0">13</span> <span class="nu0">22</span>:<span class="nu0">32</span>:<span class="nu0">18</span> <span class="nu0">2013</span> +0100<br /> <br /> &nbsp; &nbsp; Empty commit<br /> <span class="co4">user2$ </span><span class="kw3">pwd</span><br /> <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<br /> <span class="co4">user2$ </span><span class="kw2">git clone</span> woot.git woot-user2<br /> Cloning into <span class="st_h">'woot-user2'</span>...<br /> done.<br /> <span class="co4">user2$ </span><span class="kw3">cd</span> woot-user2 <br /> <span class="co4">user2$ </span><span class="kw2">git remote</span> <span class="re5">-v</span><br /> origin&nbsp; <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot.git <span class="br0">&#40;</span>fetch<span class="br0">&#41;</span><br /> origin&nbsp; <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot.git <span class="br0">&#40;</span>push<span class="br0">&#41;</span><br /> <span class="co4">user1$ </span><span class="kw3">echo</span> <span class="st_h">'User 1 add a file'</span> <span class="sy0">></span> file1<br /> <span class="co4">user1$ </span><span class="kw2">git add</span> file1<br /> <span class="co4">user1$ </span><span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">"Add file1"</span> &nbsp;<br /> <span class="br0">&#91;</span>master 8b66ba5<span class="br0">&#93;</span> Add file1<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> &nbsp;create mode <span class="nu0">100644</span> file1<br /> <span class="co4">user1$ </span><span class="kw2">git push</span><br /> Counting objects: <span class="nu0">4</span>, done.<br /> Delta compression using up to <span class="nu0">4</span> threads.<br /> Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">2</span><span class="sy0">/</span><span class="nu0">2</span><span class="br0">&#41;</span>, done.<br /> Writing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">3</span><span class="sy0">/</span><span class="nu0">3</span><span class="br0">&#41;</span>, <span class="nu0">279</span> bytes, done.<br /> Total <span class="nu0">3</span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> To ..<span class="sy0">/</span>woot.git<br /> &nbsp; &nbsp;4c4cf98..8b66ba5 &nbsp;master -<span class="sy0">></span> master<br /> <span class="co4">user2$ </span><span class="kw3">echo</span> <span class="st_h">'User 2 add a file'</span> <span class="sy0">></span> file2<br /> <span class="co4">user2$ </span><span class="kw2">git add</span> file2 ; <span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">"Add file2"</span><br /> <span class="br0">&#91;</span>master 816c64e<span class="br0">&#93;</span> Add file2<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> &nbsp;create mode <span class="nu0">100644</span> file2<br /> <span class="co4">user2$ </span><span class="kw2">git push</span><br /> To <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot.git<br /> &nbsp;<span class="sy0">!</span> <span class="br0">&#91;</span>rejected<span class="br0">&#93;</span> &nbsp; &nbsp; &nbsp; &nbsp;master -<span class="sy0">></span> master <span class="br0">&#40;</span>non-fast-forward<span class="br0">&#41;</span><br /> error: failed to push some refs to <span class="st_h">'/Users/nico/Devs/git/woot-dir/woot.git'</span><br /> hint: Updates were rejected because the tip of your current branch is behind<br /> hint: its remote counterpart. Merge the remote changes <span class="br0">&#40;</span>e.g. <span class="st_h">'git pull'</span><span class="br0">&#41;</span><br /> hint: before pushing again.<br /> hint: See the <span class="st_h">'Note about fast-forwards'</span> <span class="kw1">in</span> <span class="st_h">'git push --help'</span> <span class="kw1">for</span> details.<br /> <span class="co4">user2$ </span><span class="kw2">git pull</span><br /> remote: Counting objects: <span class="nu0">4</span>, done.<br /> remote: Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">2</span><span class="sy0">/</span><span class="nu0">2</span><span class="br0">&#41;</span>, done.<br /> remote: Total <span class="nu0">3</span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> Unpacking objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">3</span><span class="sy0">/</span><span class="nu0">3</span><span class="br0">&#41;</span>, done.<br /> From <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot<br /> &nbsp; &nbsp;4c4cf98..8b66ba5 &nbsp;master &nbsp; &nbsp; -<span class="sy0">></span> origin<span class="sy0">/</span>master<br /> Merge made by the <span class="st_h">'recursive'</span> strategy.<br /> &nbsp;file1 <span class="sy0">|</span> <span class="nu0">1</span> +<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> <span class="co0"># BEGIN FILE #####</span><br /> Merge branch <span class="st_h">'master'</span> of <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot<br /> <br /> <span class="co0"># Please enter a commit message to explain why this merge is necessary,</span><br /> <span class="co0"># especially if it merges an updated upstream into a topic branch.</span><br /> <span class="co0"># </span><br /> <span class="co0"># Lines starting with '#' will be ignored, and an empty message aborts</span><br /> <span class="co0"># the commit.</span><br /> <span class="co0"># END FILE #####</span><br /> &nbsp;create mode <span class="nu0">100644</span> file1<br /> <span class="co4">user2$ </span><span class="kw2">git push</span><br /> Counting objects: <span class="nu0">7</span>, done.<br /> Delta compression using up to <span class="nu0">4</span> threads.<br /> Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">4</span><span class="sy0">/</span><span class="nu0">4</span><span class="br0">&#41;</span>, done.<br /> Writing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">5</span><span class="sy0">/</span><span class="nu0">5</span><span class="br0">&#41;</span>, <span class="nu0">607</span> bytes, done.<br /> Total <span class="nu0">5</span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> To <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot.git<br /> &nbsp; &nbsp;8b66ba5..8bc04de &nbsp;master -<span class="sy0">></span> master<br /> <span class="co4">user1$ </span><span class="kw2">git pull</span><br /> remote: Counting objects: <span class="nu0">7</span>, done.<br /> remote: Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">4</span><span class="sy0">/</span><span class="nu0">4</span><span class="br0">&#41;</span>, done.<br /> remote: Total <span class="nu0">5</span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> Unpacking objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">5</span><span class="sy0">/</span><span class="nu0">5</span><span class="br0">&#41;</span>, done.<br /> From ..<span class="sy0">/</span>woot<br /> &nbsp; &nbsp;8b66ba5..8bc04de &nbsp;master &nbsp; &nbsp; -<span class="sy0">></span> origin<span class="sy0">/</span>master<br /> There is no tracking information <span class="kw1">for</span> the current branch.<br /> Please specify <span class="kw2">which</span> branch you want to merge with.<br /> See <span class="kw2">git-pull</span><span class="br0">&#40;</span><span class="nu0">1</span><span class="br0">&#41;</span> <span class="kw1">for</span> details<br /> <br /> &nbsp; &nbsp; <span class="kw2">git pull</span> <span class="sy0"><</span>remote<span class="sy0">></span> <span class="sy0"><</span>branch<span class="sy0">></span><br /> <br /> If you wish to <span class="kw1">set</span> tracking information <span class="kw1">for</span> this branch you can <span class="kw1">do</span> so with:<br /> <br /> &nbsp; &nbsp; <span class="kw2">git branch</span> <span class="re5">--set-upstream-to</span>=origin<span class="sy0">/<</span>branch<span class="sy0">></span> master<br /> <br /> <span class="co4">user1$ </span><span class="kw2">git pull</span> <br /> <span class="co4">user1$ </span><span class="kw2">git branch</span> <span class="re5">--set-upstream-to</span>=origin<span class="sy0">/</span>master master &nbsp;<br /> Branch master <span class="kw1">set</span> up to track remote branch master from origin.<br /> <span class="co4">user1$ </span><span class="kw2">git pull</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br /> Updating 8b66ba5..8bc04de<br /> Fast-forward<br /> &nbsp;file2 <span class="sy0">|</span> <span class="nu0">1</span> +<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> &nbsp;create mode <span class="nu0">100644</span> file2<br /> <span class="co4">user1$ </span><span class="kw3">echo</span> <span class="st_h">'A mod'</span> <span class="sy0">>></span> README <br /> <span class="co4">user1$ </span><span class="kw2">git commit</span> <span class="re5">-am</span> <span class="st0">"A mod in README"</span> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br /> <span class="br0">&#91;</span>master e955015<span class="br0">&#93;</span> A mod <span class="kw1">in</span> README<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> <span class="co4">user1$ </span><span class="kw2">git push</span><br /> Counting objects: <span class="nu0">5</span>, done.<br /> Delta compression using up to <span class="nu0">4</span> threads.<br /> Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">2</span><span class="sy0">/</span><span class="nu0">2</span><span class="br0">&#41;</span>, done.<br /> Writing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">3</span><span class="sy0">/</span><span class="nu0">3</span><span class="br0">&#41;</span>, <span class="nu0">333</span> bytes, done.<br /> Total <span class="nu0">3</span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> To ..<span class="sy0">/</span>woot.git<br /> &nbsp; &nbsp;8bc04de..e955015 &nbsp;master -<span class="sy0">></span> master<br /> <span class="co4">user2$ </span><span class="kw3">echo</span> <span class="st0">"Another update"</span> <span class="sy0">>></span> README<br /> <span class="co4">user2$ </span><span class="kw2">git commit</span> <span class="re5">-am</span> <span class="st0">"Update README"</span><br /> <span class="br0">&#91;</span>master cd8057c<span class="br0">&#93;</span> Update README<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span><br /> <span class="co4">user2$ </span><span class="kw2">git pull</span><br /> remote: Counting objects: <span class="nu0">5</span>, done.<br /> remote: Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">2</span><span class="sy0">/</span><span class="nu0">2</span><span class="br0">&#41;</span>, done.<br /> remote: Total <span class="nu0">3</span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> Unpacking objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">3</span><span class="sy0">/</span><span class="nu0">3</span><span class="br0">&#41;</span>, done.<br /> From <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot<br /> &nbsp; &nbsp;8bc04de..e955015 &nbsp;master &nbsp; &nbsp; -<span class="sy0">></span> origin<span class="sy0">/</span>master<br /> Auto-merging README<br /> CONFLICT <span class="br0">&#40;</span>content<span class="br0">&#41;</span>: Merge conflict <span class="kw1">in</span> README<br /> Automatic merge failed; fix conflicts and <span class="kw1">then</span> commit the result.<br /> <span class="co4">user2$ </span><span class="kw2">cat</span> README <br /> A powwerwull tooool wooooot <span class="sy0">!!!</span><span class="nu0">11</span><span class="sy0">!!!</span><br /> <span class="sy0"><<<<<<<</span> HEAD<br /> Another update<br /> =======<br /> A mod<br /> <span class="sy0">>>>>>>></span> e9550154ae16b0f43431e9dfbb53287803f67f9c<br /> <span class="co4">user2$ </span><span class="kw2">vi</span> README <span class="co0"># Fix README</span><br /> <span class="co4">user2$ </span><span class="kw2">git status</span><br /> <span class="co0"># On branch master</span><br /> <span class="co0"># Your branch and 'origin/master' have diverged,</span><br /> <span class="co0"># and have 1 and 1 different commit each, respectively.</span><br /> <span class="co0"># &nbsp; (use "git pull" to merge the remote branch into yours)</span><br /> <span class="co0">#</span><br /> <span class="co0"># You have unmerged paths.</span><br /> <span class="co0"># &nbsp; (fix conflicts and run "git commit")</span><br /> <span class="co0">#</span><br /> <span class="co0"># Unmerged paths:</span><br /> <span class="co0"># &nbsp; (use "git add <file>..." to mark resolution)</span><br /> <span class="co0">#</span><br /> <span class="co0"># &nbsp; both modified: &nbsp; &nbsp; &nbsp;README</span><br /> <span class="co0">#</span><br /> no changes added to commit <span class="br0">&#40;</span>use <span class="st0">"git add"</span> and<span class="sy0">/</span>or <span class="st0">"git commit -a"</span><span class="br0">&#41;</span><br /> <span class="co4">user2$ </span><span class="kw2">git add</span> README ; <span class="kw2">git commit</span> <span class="re5">-m</span> <span class="st0">"Merge and fix conflicts"</span><br /> <span class="br0">&#91;</span>master 8fce8a6<span class="br0">&#93;</span> Merge and fix conflicts<br /> <span class="co4">user2$ </span><span class="kw2">git push</span><br /> Counting objects: <span class="nu0">8</span>, done.<br /> Delta compression using up to <span class="nu0">4</span> threads.<br /> Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">4</span><span class="sy0">/</span><span class="nu0">4</span><span class="br0">&#41;</span>, done.<br /> Writing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">4</span><span class="sy0">/</span><span class="nu0">4</span><span class="br0">&#41;</span>, <span class="nu0">472</span> bytes, done.<br /> Total <span class="nu0">4</span> <span class="br0">&#40;</span>delta <span class="nu0">1</span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> To <span class="sy0">/</span>Users<span class="sy0">/</span>nico<span class="sy0">/</span>Devs<span class="sy0">/</span>git<span class="sy0">/</span>woot-dir<span class="sy0">/</span>woot.git<br /> &nbsp; &nbsp;e955015..8fce8a6 &nbsp;master -<span class="sy0">></span> master<br /> <span class="co4">user1$ </span><span class="kw2">git pull</span><br /> remote: Counting objects: <span class="nu0">8</span>, done.<br /> remote: Compressing objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">4</span><span class="sy0">/</span><span class="nu0">4</span><span class="br0">&#41;</span>, done.<br /> remote: Total <span class="nu0">4</span> <span class="br0">&#40;</span>delta <span class="nu0">1</span><span class="br0">&#41;</span>, reused <span class="nu0"></span> <span class="br0">&#40;</span>delta <span class="nu0"></span><span class="br0">&#41;</span><br /> Unpacking objects: <span class="nu0">100</span><span class="sy0">%</span> <span class="br0">&#40;</span><span class="nu0">4</span><span class="sy0">/</span><span class="nu0">4</span><span class="br0">&#41;</span>, done.<br /> From ..<span class="sy0">/</span>woot<br /> &nbsp; &nbsp;e955015..8fce8a6 &nbsp;master &nbsp; &nbsp; -<span class="sy0">></span> origin<span class="sy0">/</span>master<br /> Updating e955015..8fce8a6<br /> Fast-forward<br /> &nbsp;README <span class="sy0">|</span> <span class="nu0">2</span> +-<br /> &nbsp;<span class="nu0">1</span> <span class="kw2">file</span> changed, <span class="nu0">1</span> insertion<span class="br0">&#40;</span>+<span class="br0">&#41;</span>, <span class="nu0">1</span> deletion<span class="br0">&#40;</span>-<span class="br0">&#41;</span>
-  </div>
-</div>
+{% highlight bash %}
+user1$ . ~/git-change-author woot1
+Loaded: Woot en haut <woot@en.haut>
+user1$ mkdir woot ; cd woot
+user1$ git init ; git commit -m "Empty commit" --allow-empty
+Initialized empty Git repository in /Users/nico/Devs/git/woot-dir/woot/.git/
+[master (root-commit) 03fff56] Empty commit
+user1$ echo 'A powwerwull tooool wooooot !!!11!!!' > README
+user1$ git status
+# On branch master
+# Untracked files:
+#   (use "git add <file>..." to include in what will be committed)
+#
+#       README
+nothing added to commit but untracked files present (use "git add" to track)
+user1$ git add README
+user1$ git commit -m "Add README file"
+[master 4c4cf98] Add README file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+user1$ git clone --bare woot
+Cloning into bare repository 'woot.git'...
+done.
+user1$ cd woot
+user1$ git remote -v
+user1$ git remote add origin ../woot.git
+user1$ git remote -v                    
+origin  ../woot.git (fetch)
+origin  ../woot.git (push)
+user1$ git log        
+commit 4c4cf9861d129c9ece8e7c7d95a81e7062463659
+Author: Woot en haut <woot@en.haut>
+Date:   Wed Feb 13 22:34:51 2013 +0100
+
+    Add README file
+
+commit 03fff5607971a750c0436de90ffb7cf1f69c638e
+Author: Woot en haut <woot@en.haut>
+Date:   Wed Feb 13 22:32:18 2013 +0100
+
+    Empty commit
+user2$ pwd
+/Users/nico/Devs/git/woot-dir
+user2$ git clone woot.git woot-user2
+Cloning into 'woot-user2'...
+done.
+user2$ cd woot-user2
+user2$ git remote -v
+origin  /Users/nico/Devs/git/woot-dir/woot.git (fetch)
+origin  /Users/nico/Devs/git/woot-dir/woot.git (push)
+user1$ echo 'User 1 add a file' > file1
+user1$ git add file1
+user1$ git commit -m "Add file1"  
+[master 8b66ba5] Add file1
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file1
+user1$ git push
+Counting objects: 4, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 279 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ../woot.git
+   4c4cf98..8b66ba5  master -> master
+user2$ echo 'User 2 add a file' > file2
+user2$ git add file2 ; git commit -m "Add file2"
+[master 816c64e] Add file2
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2
+user2$ git push
+To /Users/nico/Devs/git/woot-dir/woot.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to '/Users/nico/Devs/git/woot-dir/woot.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+user2$ git pull
+remote: Counting objects: 4, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From /Users/nico/Devs/git/woot-dir/woot
+   4c4cf98..8b66ba5  master     -> origin/master
+Merge made by the 'recursive' strategy.
+ file1 | 1 +
+ 1 file changed, 1 insertion(+)
+# BEGIN FILE #####
+Merge branch 'master' of /Users/nico/Devs/git/woot-dir/woot
+
+# Please enter a commit message to explain why this merge is necessary,
+# especially if it merges an updated upstream into a topic branch.
+#
+# Lines starting with '#' will be ignored, and an empty message aborts
+# the commit.
+# END FILE #####
+ create mode 100644 file1
+user2$ git push
+Counting objects: 7, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 607 bytes, done.
+Total 5 (delta 0), reused 0 (delta 0)
+To /Users/nico/Devs/git/woot-dir/woot.git
+   8b66ba5..8bc04de  master -> master
+user1$ git pull
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 5 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (5/5), done.
+From ../woot
+   8b66ba5..8bc04de  master     -> origin/master
+There is no tracking information for the current branch.
+Please specify which branch you want to merge with.
+See git-pull(1) for details
+
+    git pull <remote> <branch>
+
+If you wish to set tracking information for this branch you can do so with:
+
+    git branch --set-upstream-to=origin/<branch> master
+
+user1$ git pull
+user1$ git branch --set-upstream-to=origin/master master  
+Branch master set up to track remote branch master from origin.
+user1$ git pull                                        
+Updating 8b66ba5..8bc04de
+Fast-forward
+ file2 | 1 +
+ 1 file changed, 1 insertion(+)
+ create mode 100644 file2
+user1$ echo 'A mod' >> README
+user1$ git commit -am "A mod in README"          
+[master e955015] A mod in README
+ 1 file changed, 1 insertion(+)
+user1$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 333 bytes, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To ../woot.git
+   8bc04de..e955015  master -> master
+user2$ echo "Another update" >> README
+user2$ git commit -am "Update README"
+[master cd8057c] Update README
+ 1 file changed, 1 insertion(+)
+user2$ git pull
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0)
+Unpacking objects: 100% (3/3), done.
+From /Users/nico/Devs/git/woot-dir/woot
+   8bc04de..e955015  master     -> origin/master
+Auto-merging README
+CONFLICT (content): Merge conflict in README
+Automatic merge failed; fix conflicts and then commit the result.
+user2$ cat README
+A powwerwull tooool wooooot !!!11!!!
+<<<<<<< HEAD
+Another update
+=======
+A mod
+>>>>>>> e9550154ae16b0f43431e9dfbb53287803f67f9c
+user2$ vi README # Fix README
+user2$ git status
+# On branch master
+# Your branch and 'origin/master' have diverged,
+# and have 1 and 1 different commit each, respectively.
+#   (use "git pull" to merge the remote branch into yours)
+#
+# You have unmerged paths.
+#   (fix conflicts and run "git commit")
+#
+# Unmerged paths:
+#   (use "git add <file>..." to mark resolution)
+#
+#   both modified:      README
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+user2$ git add README ; git commit -m "Merge and fix conflicts"
+[master 8fce8a6] Merge and fix conflicts
+user2$ git push
+Counting objects: 8, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 472 bytes, done.
+Total 4 (delta 1), reused 0 (delta 0)
+To /Users/nico/Devs/git/woot-dir/woot.git
+   e955015..8fce8a6  master -> master
+user1$ git pull
+remote: Counting objects: 8, done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 4 (delta 1), reused 0 (delta 0)
+Unpacking objects: 100% (4/4), done.
+From ../woot
+   e955015..8fce8a6  master     -> origin/master
+Updating e955015..8fce8a6
+Fast-forward
+ README | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+{% endhighlight %}
 
 Toutes ces commandes donnent ça :  
 [<img src="http://blog.ledez.net/wp-content/uploads/2013/02/by-default-2013-02-13-at-22.55.41.png" alt="Git &quot;workflow&quot;" class="alignnone size-medium wp-image-545" />][1]

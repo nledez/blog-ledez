@@ -69,11 +69,9 @@ Ca donne ça, et ça fonctionne <img src="https://blog.ledez.net/wp-includes/ima
 
 Et pour me connecter à partir de mon Mac, ça donne :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="kw2">screen</span> <span class="sy0">/</span>dev<span class="sy0">/</span>tty.SLAB_USBtoUART <span class="nu0">115200</span>
-  </div>
-</div>
+{% highlight bash %}
+screen /dev/tty.SLAB_USBtoUART 115200
+{% endhighlight %}
 
  [1]: http://blog.ledez.net/wp-content/uploads/2013/06/RaspberryPi.jpeg
  [2]: https://twitter.com/lhuet35 "Laurent Huet aka Minitel master"

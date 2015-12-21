@@ -59,11 +59,20 @@ J&rsquo;ai &laquo;&nbsp;choisi&nbsp;&raquo; CouchDB pour commencer.
 
 Le fichier de configuration ressemble à quoi ? Et bien tout simplement :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    [Unit]<br /> Description=Couchdb service<br /> After=network.target<br /> <br /> [Service]<br /> User=couchdb<br /> PermissionsStartOnly=true<br /> ExecStartPre=-/bin/mkdir -p /var/run/couchdb<br /> ExecStartPre=/bin/chown -R couchdb:couchdb /var/run/couchdb<br /> ExecStart=/usr/bin/couchdb -o /dev/stdout -e /dev/stderr<br /> Restart=always
-  </div>
-</div>
+{% highlight config %}
+[Unit]
+Description=Couchdb service
+After=network.target
+
+[Service]
+User=couchdb
+PermissionsStartOnly=true
+ExecStartPre=-/bin/mkdir -p /var/run/couchdb
+ExecStartPre=/bin/chown -R couchdb:couchdb /var/run/couchdb
+ExecStart=/usr/bin/couchdb -o /dev/stdout -e /dev/stderr
+Restart=always
+{% endhighlight %}
+
 
 Comme tu peux le constater, c&rsquo;est loin d&rsquo;être du binaire. Simple à lire et comprendre. Et je ne sais pas pour toi, mais moi perso je n&rsquo;ai jamais aimé écrire les script init. C&rsquo;est toujours la galère <img src="https://blog.ledez.net/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 

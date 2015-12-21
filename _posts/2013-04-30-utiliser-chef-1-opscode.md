@@ -50,19 +50,15 @@ Donc l&rsquo;infrastructure ! Pour démarrer en douceur, je vous propose d&rsquo
 
 Pour la validation, vous savez faire. Pour la clé : Copier tout le bloc
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    -----BEGIN RSA PRIVATE KEY-----
-  </div>
-</div>
+{% highlight text %}
+-----BEGIN RSA PRIVATE KEY-----
+{% endhighlight %}
 
 à
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    -----END RSA PRIVATE KEY-----
-  </div>
-</div>
+{% highlight text %}
+-----END RSA PRIVATE KEY-----
+{% endhighlight %}
 
 compris. Et enregistrez le contenu dans un fichier qui porte le nom de votre user et l&rsquo;extension &lsquo;.pem&rsquo;. Par la suite, ce fichier sera nommé &laquo;&nbsp;nledez-demo.pem&nbsp;&raquo; [<img class=" wp-image-609 alignleft" alt="Opscode" src="http://blog.ledez.net/wp-content/uploads/2013/04/OpscodeLogo_Tag_FINAL-1024x614.png" width="156" height="94" />][3] A partir de là, vous êtes déclaré comme utilisateur dans le système d&rsquo;Opscode. Maintenant, pour gérer vos serveurs vous aurez besoin de créer une organisation. Prenez cette direction pour [créer une organisation][4]. Je vais appeler la mienne :
 

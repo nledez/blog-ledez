@@ -22,7 +22,7 @@ Parce que pour un bon Chef, le plus important c&rsquo;est un bon poste de travai
 
 <em id="__mceDel"><!--more-->
 
-<em id="__mceDel">A commencer par :</em><br /> <a href="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg"><img class="size-full wp-image-624 alignnone" alt="Une Hote" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg" width="300" height="152" /></a></em>
+<em id="__mceDel">A commencer par :</em><br /> <a href="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg"><img class="size-full wp-image-624 alignnone" alt="Une Hote" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg" width="300" height="152" /></a>
 
 <em id="__mceDel"><em id="__mceDel">Bon, plus sérieusement, vous verrez souvent ce schéma dans les présentations Chef :</em></em>
 
@@ -81,13 +81,13 @@ Et pour gérer tout ça en ligne de commande, il y a l&rsquo;outil &laquo;&nbsp;
 
 Comme vous avez installé Ruby c&rsquo;est trés simple :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="sy0">%</span> gem <span class="kw2">install</span> chef <span class="re5">--no-ri</span> <span class="re5">--no-rdoc</span><br /> Successfully installed chef-11.4.4<br /> <span class="nu0">1</span> gem installed
-  </div>
-</div>
+{% highlight bash %}
+% gem install chef --no-ri --no-rdoc
+Successfully installed chef-11.4.4
+1 gem installed
 
 % rbenv rehash # Si vous utilisez rbenv
+{% endhighlight %}
 
 Allez donc un tour à l&rsquo;adresse de la [console d&rsquo;administration Opscode][3].
 
@@ -99,35 +99,53 @@ Préparez la clé de validation :
 
 Et copiez les fichiers téléchargé dans le répertoire &laquo;&nbsp;.chef&nbsp;&raquo;. Il resemble à ça pour le fichier &laquo;&nbsp;knife.rb&nbsp;&raquo; :
 
-<div class="codecolorer-container ruby default" style="overflow:auto;white-space:nowrap;">
-  <div class="ruby codecolorer">
-    current_dir = <span class="kw4">File</span>.<span class="me1">dirname</span><span class="br0">&#40;</span><span class="kw2">__FILE__</span><span class="br0">&#41;</span><br /> log_level <span class="re3">:info</span><br /> log_location STDOUT<br /> node_name <span class="st0">"nledez-demo"</span><br /> client_key <span class="st0">"#{current_dir}/nledez-demo.pem"</span><br /> validation_client_name <span class="st0">"nledez-demo-validator"</span><br /> validation_key <span class="st0">"#{current_dir}/nledez-demo-validator.pem"</span><br /> chef_server_url <span class="st0">"https://api.opscode.com/organizations/nledez-demo"</span><br /> cache_type <span class="st0">'BasicFile'</span><br /> cache_options<span class="br0">&#40;</span> <span class="re3">:path</span> =<span class="sy0">&</span>gt; <span class="st0">"#{ENV['HOME']}/.chef/checksums"</span> <span class="br0">&#41;</span><br /> cookbook_path <span class="br0">&#91;</span><span class="st0">"#{current_dir}/../cookbooks"</span><span class="br0">&#93;</span>
-  </div>
-</div>
+{% highlight ruby %}
+current_dir = File.dirname(__FILE__)
+log_level :info
+log_location STDOUT
+node_name "nledez-demo"
+client_key "#{current_dir}/nledez-demo.pem"
+validation_client_name "nledez-demo-validator"
+validation_key "#{current_dir}/nledez-demo-validator.pem"
+chef_server_url "https://api.opscode.com/organizations/nledez-demo"
+cache_type 'BasicFile'
+cache_options( :path =&gt; "#{ENV['HOME']}/.chef/checksums" )
+cookbook_path ["#{current_dir}/../cookbooks"]
+{% endhighlight %}
 
 Fichier &laquo;&nbsp;nledez-demo.pem&nbsp;&raquo; :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    -----BEGIN RSA PRIVATE KEY-----<br /> dnutNWZEhXApWvImbZdMw3bX0wVW28i7EADKz2cApPcWNYNyK2fN1fx6Y9m7bvEwp<br /> boJYSf1JlkSWa68k0HXT6Bu8yJDWwHMfNwpJNQoTJsSoieZRNNxjlNL6m9QVjUpDX<br /> jS1vCWemC3CbY2eUdffL8v4RMCJV9RoejcIISej7maprol240Eakz22ivqrVt6oQ4<br /> KEOqEBPKFgke1ok6Dt0vwkAZfFjx7Wkraq9Tl9BbigQgsHPqbjFFvvItyxiXNMmMt<br /> [...]<br /> -----END RSA PRIVATE KEY-----
-  </div>
-</div>
+{% highlight text %}
+-----BEGIN RSA PRIVATE KEY-----
+dnutNWZEhXApWvImbZdMw3bX0wVW28i7EADKz2cApPcWNYNyK2fN1fx6Y9m7bvEwp
+boJYSf1JlkSWa68k0HXT6Bu8yJDWwHMfNwpJNQoTJsSoieZRNNxjlNL6m9QVjUpDX
+jS1vCWemC3CbY2eUdffL8v4RMCJV9RoejcIISej7maprol240Eakz22ivqrVt6oQ4
+KEOqEBPKFgke1ok6Dt0vwkAZfFjx7Wkraq9Tl9BbigQgsHPqbjFFvvItyxiXNMmMt
+[...]
+-----END RSA PRIVATE KEY-----
+{% endhighlight %}
 
 Placez vos clés dans le même répertoire :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="sy0">%</span> <span class="kw2">ls</span> .chef<br /> knife.rb nledez-demo-validator.pem nledez-demo.pem
-  </div>
-</div>
+{% highlight bash %}
+% ls .chef
+knife.rb nledez-demo-validator.pem nledez-demo.pem
+{% endhighlight %}
 
 Et pour tester que la configuration marche bien :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="sy0">%</span> <span class="kw1">for</span> i <span class="kw1">in</span> node client cookbook environment role ; <span class="kw1">do</span> <span class="kw3">echo</span> <span class="st0">"===== <span class="es2">$i</span>:"</span> ; knife <span class="re1">$i</span> list ; <span class="kw1">done</span><br /> ===== node:<br /> <br /> ===== client:<br /> nledez-demo-validator<br /> ===== cookbook:<br /> <br /> ===== environment:<br /> _default<br /> ===== role:
-  </div>
-</div>
+{% highlight bash %}
+% for i in node client cookbook environment role ; do echo "===== $i:" ; knife $i list ; done
+===== node:
+
+===== client:
+nledez-demo-validator
+===== cookbook:
+
+===== environment:
+_default
+===== role:
+{% endhighlight %}
 
 Vous constatez que c&rsquo;est la même chose que dans l&rsquo;IHM Web <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
@@ -148,8 +166,6 @@ Crédit photos :
 
 [La suite chef !][12]
 
-Merci [@ehebert35][13] pour la relecture.
-
  [1]: http://blog.ledez.net/informatique/utiliser-chef-1-opscode/ "Utiliser chef #1 – Création d’un compte chez Opscode"
  [2]: http://fr.wikipedia.org/wiki/Domain-specific_programming_language "Page Wikipedia des DSL"
  [3]: https://manage.opscode.com/organizations
@@ -162,4 +178,3 @@ Merci [@ehebert35][13] pour la relecture.
  [10]: http://www.opscode.com/
  [11]: http://www.vim.fr/element.asp?ID=1396
  [12]: http://blog.ledez.net/divers/chef-3-tdd-1/ "Utiliser Chef #3 – TDD ! 1/2"
- [13]: https://twitter.com/ehebert35
