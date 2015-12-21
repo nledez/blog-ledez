@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Keynotes</h1>
+
+  <ul class="keynote-list">
+    {% for keynote in site.keynotes %}
+      <li>
+        <span class="keynote-meta">{{ keynote.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="keynote-link" href="{{ keynote.url | prepend: site.baseurl }}">{{ keynote.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
