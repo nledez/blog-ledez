@@ -14,8 +14,8 @@ tags:
 ---
 Installer les éléments de base pour développer en Rails :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    <span class="kw3">echo</span> <span class="st_h">'rvm --create use default@rails > /dev/null'</span> <span class="sy0">></span> .rvmrc<br /> <span class="kw3">cd</span> ; <span class="kw3">cd</span> -<br /> gem <span class="kw2">install</span> rails rspec-rails cucumber-rails capybara web-app-theme
-  </div>
-</div>
+{% highlight bash %}
+echo 'rvm --create use default@rails > /dev/null' > .rvmrc
+cd ; cd -
+gem install rails rspec-rails cucumber-rails capybara web-app-theme
+{% endhighlight %}

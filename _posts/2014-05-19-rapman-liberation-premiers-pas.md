@@ -2,8 +2,7 @@
 id: 1036
 title: 'Rapman &#8211; libération &#8211; premiers pas'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=1036
 permalink: /diy/impression3d/rapman/rapman-liberation-premiers-pas/
 feature_size:

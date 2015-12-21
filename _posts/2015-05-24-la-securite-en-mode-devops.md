@@ -2,8 +2,7 @@
 id: 2405
 title: La sécurité en mode devops
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=2405
 permalink: /informatique/devops/la-securite-en-mode-devops/
 feature_size:

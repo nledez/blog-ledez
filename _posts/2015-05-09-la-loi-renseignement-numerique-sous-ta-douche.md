@@ -2,8 +2,7 @@
 id: 2390
 title: La loi renseignement numérique sous ta douche
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=2390
 permalink: /blog/la-loi-renseignement-numerique-sous-ta-douche/
 feature_size:

@@ -2,8 +2,7 @@
 id: 2368
 title: 'Check-list de sécurisation d&rsquo;un serveur'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=2368
 permalink: /informatique/check-list-de-securisation-dun-serveur/
 feature_size:

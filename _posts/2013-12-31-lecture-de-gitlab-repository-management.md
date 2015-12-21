@@ -2,8 +2,7 @@
 id: 927
 title: 'Lecture de &laquo;&nbsp;GitLab Repository Management&nbsp;&raquo;'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=927
 permalink: /blog/lecture-de-gitlab-repository-management/
 hide_post_title:

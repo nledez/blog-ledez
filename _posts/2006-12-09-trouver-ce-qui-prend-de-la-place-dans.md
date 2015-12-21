@@ -12,11 +12,9 @@ Comment trouver ce qui prend de la place dans / (sous Unix, et en particulier So
 
 D&rsquo;habitude, j&rsquo;utilise la commande suivante (sous Linux) :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     du -ksx *|sort -n|awk '{print $2}'|xargs du -hsx
-  </div>
-</div>
+{% endhighlight %}
 
 Explications :
 
@@ -30,56 +28,42 @@ Le script suivant marche dans / sous Solaris :
 
 Je cherche tous les points de montages à la racine en enlevant le / du début :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     MOUNTED=`mount|awk '$1 !~ /\/.*\// {print $1}'|sed 's#^/##'`
-  </div>
-</div>
+{% endhighlight %}
 
 Je liste tout à la racine :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     ALL=`ls /`
-  </div>
-</div>
+{% endhighlight %}
 
 J&rsquo;initialise la variable NOTMOUNTPOINT :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     NOTMOUNTPOINT=""
-  </div>
-</div>
+{% endhighlight %}
 
 Pour tous les fichiers/répertoire faire :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     for i in $ALL;do
-  </div>
-</div>
+{% endhighlight %}
 
 Si l&rsquo;élément courant n&rsquo;est pas un point de montage, l&rsquo;ajouter à la liste NOTMOUNTPOINT :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     echo $MOUNTED|grep -c $i > /dev/null; if [[ $? == 1 ]]; then NOTMOUNTPOINT="$NOTMOUNTPOINT $i";fi;done
-  </div>
-</div>
+{% endhighlight %}
 
 Et ensuite avec la même méthode qu&rsquo;au dessus, afficher les tailles des répertoires :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     echo $NOTMOUNTPOINT|xargs du -ksd|sort -n|awk '{print $2}'|xargs du -hsd
-  </div>
-</div>
+{% endhighlight %}
 
 Ce qui donne en une seule ligne :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     MOUNTED=`mount|awk '$1 !~ /\/.*\// {print $1}'|sed 's/^\///'`;ALL=`ls /`;NOTMOUNTPOINT="";for i in $ALL;do echo $MOUNTED|grep -c $i > /dev/null; if [[ $? == 1 ]]; then NOTMOUNTPOINT="$NOTMOUNTPOINT $i";fi;done;echo $NOTMOUNTPOINT|xargs du -ksd|sort -n|awk '{print $2}'|xargs du -hsd
-  </div>
-</div>
+{% endhighlight %}

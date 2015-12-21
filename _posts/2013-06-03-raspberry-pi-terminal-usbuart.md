@@ -2,8 +2,7 @@
 id: 743
 title: Raspberry π / Terminal USB/UART
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=743
 permalink: /informatique/raspberry-pi-terminal-usbuart/
 hide_post_title:

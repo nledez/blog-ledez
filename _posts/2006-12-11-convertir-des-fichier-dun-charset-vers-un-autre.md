@@ -10,18 +10,14 @@ categories:
 ---
 J&rsquo;ai enfin une solution simple pour convertir un fichier d&rsquo;un charset vers un autre :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     iconv --from-code=ISO-8859-1 --to-code=UTF-8 le_fichier_iso > le_fichier_utf8
-  </div>
-</div>
+{% endhighlight %}
 
 A l&rsquo;inverse :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     iconv --from-code=UTF-8 --to-code=ISO-8859-1 le_fichier_utf8 > le_fichier_iso
-  </div>
-</div>
+{% endhighlight %}
 
 <http://www.kriyayoga.com/love_blog/post.php/224>

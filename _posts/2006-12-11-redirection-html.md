@@ -8,10 +8,20 @@ permalink: /informatique/tips/redirection-html/
 categories:
   - Tips
 ---
-<div class="codecolorer-container html4strict default" style="overflow:auto;white-space:nowrap;">
-  <div class="html4strict codecolorer">
-    <span class="sc2"><?xml <span class="kw3">version</span><span class="sy0">=</span><span class="st0">"1.0"</span> encoding<span class="sy0">=</span><span class="st0">"ISO-8859-1"</span>?></span><br /> <span class="sc0"><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"></span><br /> <span class="sc2"><<a href="http://december.com/html/4/element/html.html"><span class="kw2">html</span></a> xmlns<span class="sy0">=</span><span class="st0">"http://www.w3.org/1999/xhtml"</span>></span><br /> <span class="sc2"><<a href="http://december.com/html/4/element/head.html"><span class="kw2">head</span></a>></span><br /> <span class="sc2"><<a href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">http-equiv</span><span class="sy0">=</span><span class="st0">"content-type"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"text/html; charset=ISO-8859-1"</span> <span class="sy0">/</span>><<a href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">http-equiv</span><span class="sy0">=</span><span class="st0">"refresh"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"0; url=http://nouvelle.adresse.fr/dossier2/page2.html"</span> <span class="sy0">/</span>></span><br /> <span class="sc2"><<a href="http://december.com/html/4/element/title.html"><span class="kw2">title</span></a>></span>Redirection<span class="sc2"><<span class="sy0">/</span><a href="http://december.com/html/4/element/title.html"><span class="kw2">title</span></a>></span><br /> <span class="sc2"><<a href="http://december.com/html/4/element/meta.html"><span class="kw2">meta</span></a> <span class="kw3">name</span><span class="sy0">=</span><span class="st0">"robots"</span> <span class="kw3">content</span><span class="sy0">=</span><span class="st0">"noindex,follow"</span> <span class="sy0">/</span>></span><br /> <span class="sc2"><<span class="sy0">/</span><a href="http://december.com/html/4/element/head.html"><span class="kw2">head</span></a>></span><br /> <br /> <span class="sc2"><<a href="http://december.com/html/4/element/body.html"><span class="kw2">body</span></a>></span><br /> <span class="sc2"><<a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>><<a href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a> xhref<span class="sy0">=</span><span class="st0">"http://nouvelle.adresse.fr/dossier2/page2.html"</span> mce_href<span class="sy0">=</span><span class="st0">"http://nouvelle.adresse.fr/dossier2/page2.html"</span>></span>Redirection<span class="sc2"><<span class="sy0">/</span><a href="http://december.com/html/4/element/a.html"><span class="kw2">a</span></a>><<span class="sy0">/</span><a href="http://december.com/html/4/element/p.html"><span class="kw2">p</span></a>></span><br /> <span class="sc2"><<span class="sy0">/</span><a href="http://december.com/html/4/element/body.html"><span class="kw2">body</span></a>></span><br /> <span class="sc2"><<span class="sy0">/</span><a href="http://december.com/html/4/element/html.html"><span class="kw2">html</span></a>></span>
-  </div>
-</div>
+{% highlight html %}
+    <?xml version="1.0" encoding="ISO-8859-1"?>
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1" /><meta http-equiv="refresh" content="0; url=http://nouvelle.adresse.fr/dossier2/page2.html" />
+    <title>Redirection</title>
+    <meta name="robots" content="noindex,follow" />
+    </head>
+    
+    <body>
+    <p><a xhref="http://nouvelle.adresse.fr/dossier2/page2.html" mce_href="http://nouvelle.adresse.fr/dossier2/page2.html">Redirection</a></p>
+    </body>
+    </html>
+{% endhighlight %}
 
 Plus de détails ici : <http://alexandre.alapetite.net/doc-alex/redirections/index.fr.html>

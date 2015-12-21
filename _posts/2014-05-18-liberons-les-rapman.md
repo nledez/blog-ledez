@@ -2,8 +2,7 @@
 id: 1025
 title: Libérons les Rapman !
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=1025
 permalink: /diy/impression3d/rapman/liberons-les-rapman/
 feature_size:

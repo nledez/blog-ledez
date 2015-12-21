@@ -2,8 +2,7 @@
 id: 933
 title: 'RMLL 2013 #j1 &#8211; HackerSpace'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=933
 permalink: /conferences/rmll-2013-j1-hackerspace/
 hide_post_title:

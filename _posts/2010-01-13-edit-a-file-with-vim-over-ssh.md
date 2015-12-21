@@ -17,19 +17,15 @@ Next step of [http://blog.ledez.net/informatique/tips/editer-un-fichier-directem
 
 I would like to edit /etc/init.d/squid on bozzo host:
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vim scp://bozzo//etc/init.d/squid
-  </div>
-</div>
+{% highlight bash %}
+vim scp://bozzo//etc/init.d/squid
+{% endhighlight %}
 
 If you try with:
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vim scp://bozzo/etc/init.d/squid
-  </div>
-</div>
+{% highlight bash %}
+vim scp://bozzo/etc/init.d/squid
+{% endhighlight %}
 
 vim edit the file &laquo;&nbsp;etc/init.d/squid&nbsp;&raquo; in user home directory (/root/etc/squid/squid.conf in normal root account)
 

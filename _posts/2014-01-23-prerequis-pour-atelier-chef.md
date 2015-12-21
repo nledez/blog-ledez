@@ -2,8 +2,7 @@
 id: 957
 title: Prerequis pour un atelier chef
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=957
 permalink: /informatique/devops/prerequis-pour-atelier-chef/
 hide_post_title:
@@ -35,11 +34,9 @@ Installer chef :
 
 J&rsquo;ai déjà Ruby :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    gem <span class="kw2">install</span> chef foodcritic chefspec vagrant-wrapper minitest-chef-handler
-  </div>
-</div>
+{% highlight bash %}
+    gem install chef foodcritic chefspec vagrant-wrapper minitest-chef-handler
+{% endhighlight %}
 
 Je n&rsquo;ai pas Ruby et je &laquo;&nbsp;n&rsquo;en veux pas&nbsp;&raquo; :  
 <http://www.getchef.com/chef/install/>  
@@ -58,27 +55,47 @@ Installer Vagrant :
 
 Créez un fichier &laquo;&nbsp;Vagrantfile&nbsp;&raquo; :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
+{% highlight bash %}
     vagrant init
-  </div>
-</div>
+{% endhighlight %}
 
 Et remplacez son contenu par :
 
-<div class="codecolorer-container ruby default" style="overflow:auto;white-space:nowrap;">
-  <div class="ruby codecolorer">
-    <span class="co1"># -*- mode: ruby -*-</span><br /> <span class="co1"># vi: set ft=ruby :</span><br /> <br /> Vagrant.<span class="me1">configure</span><span class="br0">&#40;</span><span class="st0">"2"</span><span class="br0">&#41;</span> <span class="kw1">do</span> <span class="sy0">|</span>config<span class="sy0">|</span><br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">define</span> <span class="st0">"ubuntu12"</span> <span class="kw1">do</span> <span class="sy0">|</span>ub12<span class="sy0">|</span><br /> &nbsp; &nbsp; ub12.<span class="me1">vm</span>.<span class="me1">hostname</span> = <span class="st0">"ubuntu12"</span><br /> &nbsp; &nbsp; ub12.<span class="me1">vm</span>.<span class="me1">box</span> = <span class="st0">"opscode-ubuntu-12.04"</span><br /> &nbsp; &nbsp; ub12.<span class="me1">vm</span>.<span class="me1">box_url</span> = <span class="st0">"http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04_chef-provisionerless.box"</span><br /> &nbsp; <span class="kw1">end</span><br /> <br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">define</span> <span class="st0">"ubuntu10"</span> <span class="kw1">do</span> <span class="sy0">|</span>ub10<span class="sy0">|</span><br /> &nbsp; &nbsp; ub10.<span class="me1">vm</span>.<span class="me1">hostname</span> = <span class="st0">"ubuntu10"</span><br /> &nbsp; &nbsp; ub10.<span class="me1">vm</span>.<span class="me1">box</span> = <span class="st0">"opscode-ubuntu-10.04"</span><br /> &nbsp; &nbsp; ub10.<span class="me1">vm</span>.<span class="me1">box_url</span> = <span class="st0">"http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-10.04_chef-provisionerless.box"</span><br /> &nbsp; <span class="kw1">end</span><br /> <br /> &nbsp; config.<span class="me1">vm</span>.<span class="me1">provision</span> <span class="re3">:chef_solo</span> <span class="kw1">do</span> <span class="sy0">|</span>chef<span class="sy0">|</span><br /> &nbsp; &nbsp; chef.<span class="me1">json</span> = <span class="br0">&#123;</span><br /> &nbsp; &nbsp; &nbsp; <span class="re3">:mysql</span> <span class="sy0">=></span> <span class="br0">&#123;</span><br /> &nbsp; &nbsp; &nbsp; &nbsp; <span class="re3">:server_root_password</span> <span class="sy0">=></span> <span class="st0">'rootpass'</span>,<br /> &nbsp; &nbsp; &nbsp; &nbsp; <span class="re3">:server_debian_password</span> <span class="sy0">=></span> <span class="st0">'debpass'</span>,<br /> &nbsp; &nbsp; &nbsp; &nbsp; <span class="re3">:server_repl_password</span> <span class="sy0">=></span> <span class="st0">'replpass'</span><br /> &nbsp; &nbsp; &nbsp; <span class="br0">&#125;</span><br /> &nbsp; &nbsp; <span class="br0">&#125;</span><br /> &nbsp; <span class="kw1">end</span><br /> <span class="kw1">end</span>
-  </div>
-</div>
+{% highlight ruby %}
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  config.vm.define "ubuntu12" do |ub12|
+    ub12.vm.hostname = "ubuntu12"
+    ub12.vm.box = "opscode-ubuntu-12.04"
+    ub12.vm.box_url = "http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-12.04_chef-provisionerless.box"
+  end
+
+  config.vm.define "ubuntu10" do |ub10|
+    ub10.vm.hostname = "ubuntu10"
+    ub10.vm.box = "opscode-ubuntu-10.04"
+    ub10.vm.box_url = "http://opscode-vm-bento.s3.amazonaws.com/vagrant/virtualbox/opscode_ubuntu-10.04_chef-provisionerless.box"
+  end
+
+  config.vm.provision :chef_solo do |chef|
+    chef.json = {
+      :mysql => {
+        :server_root_password => 'rootpass',
+        :server_debian_password => 'debpass',
+        :server_repl_password => 'replpass'
+      }
+    }
+  end
+end
+{% endhighlight %}
 
 Vérifiez que les commandes suivantes fonctionnent :
 
-<div class="codecolorer-container bash default" style="overflow:auto;white-space:nowrap;">
-  <div class="bash codecolorer">
-    vagrant up<br /> vagrant provision
-  </div>
-</div>
+{% highlight bash %}
+vagrant up
+vagrant provision
+{% endhighlight %}
 
 Bon, c&rsquo;est un peu rapide, mais je n&rsquo;ai pas eu le temps de préparer mieux. Pourtant, j&rsquo;avais plein d&rsquo;idées <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 

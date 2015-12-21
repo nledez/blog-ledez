@@ -2,8 +2,7 @@
 id: 2352
 title: Je travaille chez Cozy Cloud et depuis peu avec Tristan Nitot !
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=2352
 permalink: /blog/je-travaille-chez-cozy-cloud-et-depuis-peu-avec-tristan-nitot/
 feature_size:

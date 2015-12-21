@@ -10,8 +10,11 @@ categories:
 ---
 Run this script :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    #! /bin/bash<br /> SID_LIST=`cat /var/opt/oracle/oratab |egrep -v '^(#|$|*)'|cut -f1 -d:`<br /> for sid in $SID_LIST; do<br /> echo " ===== $sid ===== "<br /> su - ora920 -c "export ORACLE_SID=$sid;echo 'select file_name from dba_data_files;'|sqlplus '/ as sysdba'"|egrep '^/'|cut -f5 -d'/'<br /> done
-  </div>
-</div>
+{% highlight bash %}
+#! /bin/bash
+SID_LIST=`cat /var/opt/oracle/oratab |egrep -v '^(#|$|*)'|cut -f1 -d:`
+for sid in $SID_LIST; do
+echo " ===== $sid ===== "
+su - ora920 -c "export ORACLE_SID=$sid;echo 'select file_name from dba_data_files;'|sqlplus '/ as sysdba'"|egrep '^/'|cut -f5 -d'/'
+done
+{% endhighlight %}

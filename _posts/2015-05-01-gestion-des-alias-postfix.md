@@ -2,8 +2,7 @@
 id: 2382
 title: Gestion des alias postfix
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=2382
 permalink: /informatique/gestion-des-alias-postfix/
 feature_size:

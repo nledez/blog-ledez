@@ -11,18 +11,14 @@ categories:
 ---
 We have this error on my IMAP server :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight text %}
     cyrus/master[32170]: service imap pid 32188 in BUSY state: terminated abnormally
-  </div>
-</div>
+{% endhighlight %}
 
 We have a Debian sid with cyrus21 & openldap authentification.
 
 I solve this with a :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
+{% highlight bash %}
     chmod 644 /etc/libnss-ldap.conf
-  </div>
-</div>
+{% endhighlight %}

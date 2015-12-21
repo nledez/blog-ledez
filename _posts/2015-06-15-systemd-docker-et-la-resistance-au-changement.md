@@ -2,8 +2,7 @@
 id: 2412
 title: Systemd, Docker et la résistance au changement
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=2412
 permalink: /informatique/systemd-docker-et-la-resistance-au-changement/
 feature_size:

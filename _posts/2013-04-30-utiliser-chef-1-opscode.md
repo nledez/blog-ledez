@@ -2,8 +2,7 @@
 id: 578
 title: 'Utiliser chef #1 &#8211; Création d&rsquo;un compte chez Opscode'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=578
 permalink: /informatique/utiliser-chef-1-opscode/
 hide_post_title:

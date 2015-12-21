@@ -2,8 +2,7 @@
 id: 1004
 title: 'Arduino &laquo;&nbsp;stk500_getsync(): not in sync&nbsp;&raquo;'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=1004
 permalink: /diy/arduino-stk500_getsync-not-in-sync/
 hide_post_title:

@@ -14,18 +14,14 @@ tags:
 ---
 To delete line in vi(m) if line respect a pattern :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    :g/^#/ d
-  </div>
-</div>
+{% highlight viml %}
+:g/^#/ d
+{% endhighlight %}
 
 Is delete comment lines
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    :g/^$/ d
-  </div>
-</div>
+{% highlight viml %}
+:g/^$/ d
+{% endhighlight %}
 
 Is delete empty lines

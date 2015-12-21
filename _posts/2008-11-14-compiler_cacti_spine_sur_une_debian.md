@@ -11,29 +11,27 @@ categories:
 ---
 A chaque fois que je veux compiler spine sous Debian, j&rsquo;ai cette erreur là :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    checking for ranlib... ranlib<br /> checking for strip... strip<br /> checking for correct ltmain.sh version... no<br /> configure: error:
-  </div>
-</div>
-
-\*\\*\* [Gentoo] sanity check failed! \*\**  
-\*\\*\* libtool.m4 and ltmain.sh have a version mismatch! \*\**  
-\*\\*\* (libtool.m4 = 1.5.22, ltmain.sh = &laquo;&nbsp;1.5.22 Debian 1.5.22-4&nbsp;&raquo;) \*\**
+{% highlight text %}
+checking for ranlib... ranlib
+checking for strip... strip
+checking for correct ltmain.sh version... no
+configure: error:
+*** [Gentoo] sanity check failed! ***
+*** libtool.m4 and ltmain.sh have a version mismatch! ***
+*** (libtool.m4 = 1.5.22, ltmain.sh = « 1.5.22 Debian 1.5.22-4 ») ***
 
 Please run:
 
-libtoolize &#8211;copy &#8211;force
+libtoolize –copy –force
 
-if appropriate, please contact the maintainer of this  
+if appropriate, please contact the maintainer of this
 package (or your distribution) for help.
+{% endhighlight %}
 
 Donc pour gagner du temps dans mes recherches dans Google la prochaine fois, Nicolas fait ça :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    aclocal && libtoolize --force && autoconf && autoheader && automake && ./configure && make
-  </div>
-</div>
+{% highlight bash %}
+aclocal && libtoolize --force && autoconf && autoheader && automake && ./configure && make
+{% endhighlight %}
 
 Et voilà ! Un Spine tout frais !

@@ -2,8 +2,7 @@
 id: 763
 title: 'Des nouvelles &#8211; juin 2013'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=763
 permalink: /blog/des-nouvelles-juin-2013/
 hide_post_title:

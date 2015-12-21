@@ -2,8 +2,7 @@
 id: 860
 title: 'Compte-rendu de l&rsquo;Agile Tour Nantes 2013'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=860
 permalink: /informatique/devops/compte-rendu-de-lagile-tour-nantes-2013/
 hide_post_title:

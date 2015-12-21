@@ -2,8 +2,7 @@
 id: 1015
 title: 'Commande électronique de la semaine #2 &#8211; DIY'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=1015
 permalink: /diy/commande-electronique-semaine-2-diy/
 hide_post_title:

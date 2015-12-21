@@ -8,26 +8,20 @@ permalink: /informatique/tips/editer-un-fichier-directement-en-ftp-avec-vim/
 categories:
   - Tips
 ---
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vim ftp://mon_utilisateur@mon_serveur_ftp/un_repertoire/un_fichier.ext
-  </div>
-</div>
+{% highlight bash %}
+vim ftp://mon_utilisateur@mon_serveur_ftp/un_repertoire/un_fichier.ext
+{% endhighlight %}
 
 ou
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vim ftp://mon_utilisateur@mon_serveur_ftp/un_fichier.ext
-  </div>
-</div>
+{% highlight bash %}
+vim ftp://mon_utilisateur@mon_serveur_ftp/un_fichier.ext
+{% endhighlight %}
 
 Et pas :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vim ftp://mon_utilisateur@mon_serveur_ftp:un_repertoire/un_fichier.ext
-  </div>
-</div>
+{% highlight bash %}
+vim ftp://mon_utilisateur@mon_serveur_ftp:un_repertoire/un_fichier.ext
+{% endhighlight %}
 
 L&rsquo;éditeur va demander le mot de passe FTP et c&rsquo;est partit. Donc plus besoin de modifier le fichier en local pour le renvoyer en FTP&#8230;

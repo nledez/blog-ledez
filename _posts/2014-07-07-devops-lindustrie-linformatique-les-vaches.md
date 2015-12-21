@@ -2,8 +2,7 @@
 id: 1132
 title: 'DevOps, l&rsquo;industrie, l&rsquo;informatique et les vaches'
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=1132
 permalink: /informatique/devops/devops-lindustrie-linformatique-les-vaches/
 feature_size:

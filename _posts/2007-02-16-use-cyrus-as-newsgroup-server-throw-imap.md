@@ -16,79 +16,95 @@ For my mails, I use a IMAP server ([cyrus-imap][1]), for my rss I use [FoFRedux]
 
 Now with [cyrus-imap][1] you can feed newsgroup in NNTP :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    apt-get install cyrus-nntpd-2.2
-  </div>
-</div>
+{% highlight bash %}
+apt-get install cyrus-nntpd-2.2
+{% endhighlight %}
 
 In a directory (such as home directory). You can launch it as normal user. It&rsquo;s to get tools scripts  
-apt-get source cyrus-imapd-2.2
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vi /etc/cyrus.conf
-  </div>
-</div>
+{% highlight bash %}
+apt-get source cyrus-imapd-2.2
+vi /etc/cyrus.conf
+{% endhighlight %}
 
 uncomment nntp lines
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    vi /etc/imapd.conf
-  </div>
-</div>
+{% highlight bash %}
+vi /etc/imapd.conf
+{% endhighlight %}
 
 add :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    newsprefix: news
-  </div>
-</div>
+{% highlight bash %}
+newsprefix: news
+{% endhighlight %}
 
 Restart cyrus
 
 get mknewsgroups script
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    wget ftp://ftp.isc.org/usenet/CONFIG/active
-  </div>
-</div>
-
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    ./mknewsgroups -n -u cyrus -w fr.comp.text.tex -a "anyone +p news write" localhost
-  </div>
-</div>
+{% highlight bash %}
+wget ftp://ftp.isc.org/usenet/CONFIG/active
+./mknewsgroups -n -u cyrus -w fr.comp.text.tex -a "anyone +p news write" localhost
+{% endhighlight %}
 
 you get this :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    reading configure file...<br /> you are using "news" as your news prefix.<br /> done<br /> C01 CREATE "news.fr.comp.text.tex"<br /> S01 SETACL "news.fr.comp.text.tex" news write<br /> S02 SETACL "news.fr.comp.text.tex" anyone +p
-  </div>
-</div>
+{% highlight bash %}
+reading configure file...
+you are using "news" as your news prefix.
+done
+C01 CREATE "news.fr.comp.text.tex"
+S01 SETACL "news.fr.comp.text.tex" news write
+S02 SETACL "news.fr.comp.text.tex" anyone +p
+{% endhighlight %}
 
 If you think it&rsquo;s ok :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    ./mknewsgroups -u cyrus -w fr.comp.text.tex -a "anyone +p news write" localhost
-  </div>
-</div>
+{% highlight bash %}
+./mknewsgroups -u cyrus -w fr.comp.text.tex -a "anyone +p news write" localhost
+{% endhighlight %}
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    cat /usr/local/bin/cyrus-fetchnews<br /> #! /bin/sh<br /> <br /> CONF="/etc/news-cyrus-abo"<br /> <br /> env > /tmp/cyfetch<br /> <br /> if [ ! -f ${CONF} ]; then<br /> echo "${CONF} missing..."<br /> exit 1<br /> fi<br /> <br /> if [[ ${LOGNAME} != "cyrus" ]]; then<br /> echo "Must be run as cyrus User"<br /> exit 2<br /> fi<br /> <br /> source ${CONF}<br /> <br /> for ng in ${ABO_GROUPS}; do<br /> /usr/lib/cyrus/bin/fetchnews ${OPTIONS} -w ${ng} ${SERVER}<br /> done<br /> cat /etc/news-cyrus-abo<br /> SERVER="news.free.fr"<br /> OPTIONS="-n -y"<br /> ABO_GROUPS="fr.comp.text.tex comp.text.tex"<br /> <br /> cat /etc/cron.d/cyr-newsgroup<br /> MAILTO=root<br /> <br /> */5 * * * * cyrus /usr/local/bin/cyrus-fetchnews<br /> 0 0 * * * cyrus /usr/sbin/cyr_expire -E 60 -v<br /> To delete old articles :<br /> <code><br /> cyradm -u cyrus localhost
-  </div>
-</div>
+{% highlight bash %}
+cat /usr/local/bin/cyrus-fetchnews
+#! /bin/sh
+
+CONF="/etc/news-cyrus-abo"
+
+env &gt; /tmp/cyfetch
+
+if [ ! -f ${CONF} ]; then
+echo "${CONF} missing..."
+exit 1
+fi
+
+if [[ ${LOGNAME} != "cyrus" ]]; then
+echo "Must be run as cyrus User"
+exit 2
+fi
+
+source ${CONF}
+
+for ng in ${ABO_GROUPS}; do
+/usr/lib/cyrus/bin/fetchnews ${OPTIONS} -w ${ng} ${SERVER}
+done
+cat /etc/news-cyrus-abo
+SERVER="news.free.fr"
+OPTIONS="-n -y"
+ABO_GROUPS="fr.comp.text.tex comp.text.tex"
+
+cat /etc/cron.d/cyr-newsgroup
+MAILTO=root
+
+*/5 * * * * cyrus /usr/local/bin/cyrus-fetchnews
+0 0 * * * cyrus /usr/sbin/cyr_expire -E 60 -v
 
 mboxcfg news expire 60
+{% endhighlight %}
 
 & to check it :
 
+{% highlight bash %}
 localhost.localdomain> info news  
 {news}:  
 expire: 60  
@@ -96,6 +112,7 @@ lastpop:
 lastupdate: 16-Feb-2007 09:46:58 +0100  
 partition: default  
 size: 0
+{% endhighlight %}
 
 It&rsquo;s done 😉 & now you can view newsgroup in you favorite IMAP client.
 

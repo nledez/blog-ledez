@@ -14,16 +14,25 @@ Le plus dur est de construire la bonne règle et la tester.
 
 Voici ma méthode :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    STRING="E1B6E2A8BAE";LOG=/var/log/syslog;FILE=logcheck-postfix;vi $FILE ;clear;grep "$STRING" $LOG;echo '-----------------------------------------------';grep "$STRING" $LOG|grep -E -f $FILE
-  </div>
-</div>
+{% highlight text %}
+STRING="E1B6E2A8BAE";LOG=/var/log/syslog;FILE=logcheck-postfix;vi $FILE ;clear;grep "$STRING" $LOG;echo '-----------------------------------------------';grep "$STRING" $LOG|grep -E -f $FILE
+{% endhighlight %}
 
 Ce qui donne si ma règle est bonne:
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    Dec &nbsp;8 21:29:02 largo postfix/smtpd[4210]: E1B6E2A8BAE: client=OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]<br /> Dec &nbsp;8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: message-id=20061209055043.93457mail@mail.rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com<br /> Dec &nbsp;8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: reject: header Content-Type: text/plain;??charset="iso-2022-jp" from OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]; from=<vcxjwe97984gfd@lycos.com> to=<moi@chezmoi> proto=SMTP helo=<rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com>: 5.7.1 I don't speak japanese<br /> -----------------------------------------------<br /> Dec &nbsp;8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: reject: header Content-Type: text/plain;??charset="iso-2022-jp" from OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]; from=<vcxjwe97984gfd@lycos.com> to=<moi@chezmoi> proto=SMTP helo=<rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com>: 5.7.1 I don't speak japanese<br /> <code><br /> <br /> Sinon :<br /> <br /> <code><br /> Dec &nbsp;8 21:29:02 largo postfix/smtpd[4210]: E1B6E2A8BAE: client=OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]<br /> Dec &nbsp;8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: message-id=20061209055043.93457mail@mail.rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com<br /> Dec &nbsp;8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: reject: header Content-Type: text/plain;??charset="iso-2022-jp" from OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]; from=<vcxjwe97984gfd@lycos.com> to=<moi@chezmoi> proto=SMTP helo=<rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com>: 5.7.1 I don't speak japanese<br /> -----------------------------------------------
-  </div>
-</div>
+{% highlight text %}
+Dec  8 21:29:02 largo postfix/smtpd[4210]: E1B6E2A8BAE: client=OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]
+Dec  8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: message-id=20061209055043.93457mail@mail.rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com
+Dec  8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: reject: header Content-Type: text/plain;??charset="iso-2022-jp" from OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]; from=<vcxjwe97984gfd@lycos.com> to=<moi@chezmoi> proto=SMTP helo=<rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com>: 5.7.1 I don't speak japanese
+-----------------------------------------------
+Dec  8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: reject: header Content-Type: text/plain;??charset="iso-2022-jp" from OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]; from=<vcxjwe97984gfd@lycos.com> to=<moi@chezmoi> proto=SMTP helo=<rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com>: 5.7.1 I don't speak japanese
+{% endhighlight %}
+
+Sinon :
+
+{% highlight text %}
+Dec  8 21:29:02 largo postfix/smtpd[4210]: E1B6E2A8BAE: client=OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]
+Dec  8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: message-id=20061209055043.93457mail@mail.rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com
+Dec  8 21:29:03 largo postfix/cleanup[4223]: E1B6E2A8BAE: reject: header Content-Type: text/plain;??charset="iso-2022-jp" from OFSfa-08p4-52.ppp11.odn.ad.jp[211.3.115.52]; from=<vcxjwe97984gfd@lycos.com> to=<moi@chezmoi> proto=SMTP helo=<rltiurdtiurytryntrdsutbysdutysdtsyvtkx.com>: 5.7.1 I don't speak japanese
+-----------------------------------------------
+{% endhighlight %}

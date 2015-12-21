@@ -2,8 +2,7 @@
 id: 1124
 title: Brown Bag Lunches
 author: Nicolas Ledez
-layout:
-  - default
+layout: post
 guid: http://blog.ledez.net/?p=1124
 permalink: /blog/brown-bag-lunches/
 feature_size:

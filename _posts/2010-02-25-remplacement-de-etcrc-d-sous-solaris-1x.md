@@ -10,16 +10,12 @@ categories:
 ---
 Pour activer un service au démarage de la machine :
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    svcadm enable un_service
-  </div>
-</div>
+{% highlight bash %}
+svcadm enable un_service
+{% endhighlight %}
 
 Pour avoir les informations sur le service
 
-<div class="codecolorer-container text default" style="overflow:auto;white-space:nowrap;">
-  <div class="text codecolorer">
-    svcs -l le_service
-  </div>
-</div>
+{% highlight bash %}
+svcs -l le_service
+{% endhighlight %}
