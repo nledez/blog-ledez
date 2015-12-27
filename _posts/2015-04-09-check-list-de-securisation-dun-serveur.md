@@ -33,7 +33,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 <div id="attachment_2373" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly.jpg"><img class="size-medium wp-image-2373" src="http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly-300x225.jpg" alt="Pour ne pas finir à poil sur Internet" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly.jpg"><img class="size-medium wp-image-2373" src="2015/04/Flat-coated_Retriever_Molly-300x225.jpg" alt="Pour ne pas finir à poil sur Internet" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/04/Flat-coated_Retriever_Molly.jpg 800w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     Pour ne pas finir à poil sur Internet

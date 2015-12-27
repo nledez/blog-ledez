@@ -13,7 +13,7 @@ tags:
   - vm
 excerpt_separator: <!--more-->
 ---
-<img class="size-medium wp-image-411 alignright" title="Vagrant" src="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-300x300.png" alt="" width="300" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling.png 350w" sizes="(max-width: 300px) 100vw, 300px" />
+<img class="size-medium wp-image-411 alignright" title="Vagrant" src="2012/02/vagrant_chilling-300x300.png" alt="" width="300" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling.png 350w" sizes="(max-width: 300px) 100vw, 300px" />
 
 Pour un administrateur système, la virtualisation est un super jouet.
 
@@ -42,11 +42,11 @@ Package : c&rsquo;est la version compressée d&rsquo;un modèle de VM.
 
 On télécharge un package pour l&rsquo;installer en tant que box. Une instance de VM peut être convertie en package.
 
-[<img class="alignnone size-medium wp-image-419" title="Workflow Vagrant" src="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant-300x186.png" alt="" width="300" height="186" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant-300x186.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant.png 741w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="alignnone size-medium wp-image-419" title="Workflow Vagrant" src="2012/02/vagrant-300x186.png" alt="" width="300" height="186" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant-300x186.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant.png 741w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 ### Installation de VirtualBox
 
-<img class="size-full wp-image-416 alignright" title="Virtual Box" src="http://blog.ledez.net/wp-content/uploads/2012/02/vbox_logo2_gradient.png" alt="" width="140" height="180" />
+<img class="size-full wp-image-416 alignright" title="Virtual Box" src="2012/02/vbox_logo2_gradient.png" alt="" width="140" height="180" />
 
 La première chose à faire est d&rsquo;installer Virtual Box : direction [le site de Virtual Box][2]. Prenez l&rsquo;installeur qui correspond à votre système d&rsquo;exploitation. Attention Vagrant ne supporte que les versions VirtualBox 4.0.x et 4.1.x. Il y a peut-être une solution pour votre distribution Linux du style package tout prêt. Et je ne sais absolument pas ce que ça donne sous Windows.
 

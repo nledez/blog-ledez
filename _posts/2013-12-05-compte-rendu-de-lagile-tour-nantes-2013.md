@@ -43,7 +43,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_886" style="width: 160px" class="wp-caption alignleft">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18.jpg"><img class=" wp-image-886 " src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-300x300.jpg" alt="Le petit déj" width="150" height="150" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-150x150.jpg 150w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-300x300.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-1024x1024.jpg 1024w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18.jpg"><img class=" wp-image-886 " src="2013/12/2013-11-14-06.33.18-300x300.jpg" alt="Le petit déj" width="150" height="150" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-150x150.jpg 150w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-300x300.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.33.18-1024x1024.jpg 1024w" sizes="(max-width: 150px) 100vw, 150px" /></a>
       
       <p class="wp-caption-text">
         Le petit déj
@@ -63,7 +63,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 <div class="shortcode col3-1">
   <p>
     <div id="attachment_887" style="width: 160px" class="wp-caption alignright">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30.jpg"><img class="size-thumbnail wp-image-887" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-150x150.jpg" alt="Mon chien traumatisé par mon départ" width="150" height="150" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-150x150.jpg 150w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-300x300.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-1024x1024.jpg 1024w" sizes="(max-width: 150px) 100vw, 150px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30.jpg"><img class="size-thumbnail wp-image-887" src="2013/12/2013-11-14-06.48.30-150x150.jpg" alt="Mon chien traumatisé par mon départ" width="150" height="150" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-150x150.jpg 150w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-300x300.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-06.48.30-1024x1024.jpg 1024w" sizes="(max-width: 150px) 100vw, 150px" /></a>
       
       <p class="wp-caption-text">
         Mon chien traumatisé par mon départ
@@ -77,7 +77,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_894" style="width: 310px" class="wp-caption alignright">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18.jpg"><img class="size-medium wp-image-894" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18-300x225.jpg" alt="Chronoflex" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18.jpg"><img class="size-medium wp-image-894" src="2013/12/2013-11-14-09.21.18-300x225.jpg" alt="Chronoflex" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-09.21.18-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
       
       <p class="wp-caption-text">
         Chronoflex
@@ -93,7 +93,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_898" style="width: 310px" class="wp-caption alignright">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30.jpg"><img class="size-medium wp-image-898" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30-300x225.jpg" alt="Scrum ou kanban … comment choisir ?" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30.jpg"><img class="size-medium wp-image-898" src="2013/12/2013-11-14-10.41.30-300x225.jpg" alt="Scrum ou kanban … comment choisir ?" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-10.41.30-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
       
       <p class="wp-caption-text">
         Scrum ou kanban … comment choisir ?
@@ -109,7 +109,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_901" style="width: 310px" class="wp-caption alignright">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16.jpg"><img class="size-medium wp-image-901" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16-300x225.jpg" alt="Kanban par Laurent MORISSEAU" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16.jpg"><img class="size-medium wp-image-901" src="2013/12/2013-11-14-11.05.16-300x225.jpg" alt="Kanban par Laurent MORISSEAU" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-11.05.16-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
       
       <p class="wp-caption-text">
         Kanban par Laurent MORISSEAU
@@ -129,7 +129,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_902" style="width: 310px" class="wp-caption alignright">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR.jpg"><img class="size-medium wp-image-902" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR-300x225.jpg" alt="Culture Agile !" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR.jpg"><img class="size-medium wp-image-902" src="2013/12/2013-11-14-13.38.49-HDR-300x225.jpg" alt="Culture Agile !" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-13.38.49-HDR-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
       
       <p class="wp-caption-text">
         Culture Agile !
@@ -143,7 +143,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 </div>
 
 <div id="attachment_907" style="width: 1034px" class="wp-caption aligncenter">
-  <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22.jpg"><img class="size-large wp-image-907" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22-1024x318.jpg" alt="RennesDevOps in action" width="1024" height="318" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22-300x93.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22-1024x318.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22.jpg"><img class="size-large wp-image-907" src="2013/12/2013-11-14-15.31.22-1024x318.jpg" alt="RennesDevOps in action" width="1024" height="318" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22-300x93.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-15.31.22-1024x318.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
   
   <p class="wp-caption-text">
     RennesDevOps in action
@@ -158,7 +158,7 @@ Dans la foulée, j&rsquo;avais mon LT &laquo;&nbsp;Y sont pas cher mes tests !&n
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_908" style="width: 310px" class="wp-caption aligncenter">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18.jpg"><img class="size-medium wp-image-908" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18-300x225.jpg" alt="Let's sketch together !" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18.jpg"><img class="size-medium wp-image-908" src="2013/12/2013-11-14-17.55.18-300x225.jpg" alt="Let's sketch together !" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-17.55.18-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
       
       <p class="wp-caption-text">
         Let&rsquo;s sketch together !
@@ -174,7 +174,7 @@ Dans la foulée, j&rsquo;avais mon LT &laquo;&nbsp;Y sont pas cher mes tests !&n
 <div class="shortcode col3-1 first">
   <p>
     <div id="attachment_909" style="width: 210px" class="wp-caption aligncenter">
-      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26.png"><img class="size-medium wp-image-909" src="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26-200x300.png" alt="Tu sais que tu es breton si..." width="200" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26-200x300.png 200w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26.png"><img class="size-medium wp-image-909" src="2013/12/2013-11-14-19.27.26-200x300.png" alt="Tu sais que tu es breton si..." width="200" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26-200x300.png 200w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-11-14-19.27.26.png 640w" sizes="(max-width: 200px) 100vw, 200px" /></a>
       
       <p class="wp-caption-text">
         Tu sais que tu es breton si&#8230;

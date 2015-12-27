@@ -26,7 +26,7 @@ categories:
 excerpt_separator: <!--more-->
 ---
 <div id="attachment_2355" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://cozy.io/"><img class="wp-image-2355 size-medium" src="http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud-300x228.png" alt="CozyCloud" width="300" height="228" srcset="http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud-300x228.png 300w, http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="http://cozy.io/"><img class="wp-image-2355 size-medium" src="2015/03/bighappycloud-300x228.png" alt="CozyCloud" width="300" height="228" srcset="http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud-300x228.png 300w, http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     CozyCloud

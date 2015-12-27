@@ -12,7 +12,7 @@ tags:
   - TDD
 excerpt_separator: <!--more-->
 ---
-[<img class="alignnone  wp-image-792" alt="Ruby" src="http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png" width="181" height="181" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png 504w" sizes="(max-width: 181px) 100vw, 181px" />][1] Je sais bien que ça te démange toi aussi de [pisser du code][2].
+[<img class="alignnone  wp-image-792" alt="Ruby" src="2013/06/Ruby.png" width="181" height="181" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png 504w" sizes="(max-width: 181px) 100vw, 181px" />][1] Je sais bien que ça te démange toi aussi de [pisser du code][2].
 
 <troll>Et quoi de mieux que de faire du Ruby ?</troll>
 
@@ -144,7 +144,7 @@ C&rsquo;est trop facile Ruby :p
 
 EDIT: Ajout de Git dans les prérequis
 
- [1]: http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png
+ [1]: 2013/06/Ruby.png
  [2]: http://jepisseducode.com/ "Je pisse du code !"
  [3]: http://growl.info/ "Growl pour Mac OS X"
  [4]: http://www.growlforwindows.com/gfw/ "Growl pour Windows"

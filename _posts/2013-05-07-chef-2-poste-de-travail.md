@@ -17,17 +17,17 @@ excerpt_separator: <!--more-->
 ---
 La suite du [précédent article &laquo;&nbsp;Utiliser chef #1 – Création d’un compte chez Opscode&nbsp;&raquo;][1]
 
-<img class="alignnone size-full wp-image-620" alt="Chef2-BandeauChefVim" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-BandeauChefVim.png" width="849" height="66" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-BandeauChefVim-300x23.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-BandeauChefVim.png 849w" sizes="(max-width: 849px) 100vw, 849px" />
+<img class="alignnone size-full wp-image-620" alt="Chef2-BandeauChefVim" src="2013/04/Chef2-BandeauChefVim.png" width="849" height="66" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-BandeauChefVim-300x23.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-BandeauChefVim.png 849w" sizes="(max-width: 849px) 100vw, 849px" />
 
 Parce que pour un bon Chef, le plus important c&rsquo;est un bon poste de travail !
 
 <em id="__mceDel"><!--more-->
 
-<em id="__mceDel">A commencer par :</em><br /> <a href="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg"><img class="size-full wp-image-624 alignnone" alt="Une Hote" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg" width="300" height="152" /></a>
+<em id="__mceDel">A commencer par :</em><br /> <a href="2013/04/Chef2-Hote.jpeg"><img class="size-full wp-image-624 alignnone" alt="Une Hote" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-Hote.jpeg" width="300" height="152" /></a>
 
 <em id="__mceDel"><em id="__mceDel">Bon, plus sérieusement, vous verrez souvent ce schéma dans les présentations Chef :</em></em>
 
-<em id="__mceDel"><a href="http://blog.ledez.net/wp-content/uploads/2013/04/overview_chef_draft.png"><img alt="Architecture Chef" src="http://blog.ledez.net/wp-content/uploads/2013/04/overview_chef_draft.png" width="600" height="560" /></a></em>
+<em id="__mceDel"><a href="2013/04/overview_chef_draft.png"><img alt="Architecture Chef" src="http://blog.ledez.net/wp-content/uploads/2013/04/overview_chef_draft.png" width="600" height="560" /></a></em>
 
 <em id="__mceDel">On peut y voir plusieurs parties trés importantes :</em>
 
@@ -93,10 +93,10 @@ Successfully installed chef-11.4.4
 Allez donc un tour à l&rsquo;adresse de la [console d&rsquo;administration Opscode][3].
 
 Et générez la configuration de knife :  
-[<img class="alignnone size-full wp-image-635" alt="Génération de la configuration de knife" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-knife-config.png" width="605" height="283" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-knife-config-300x140.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-knife-config.png 605w" sizes="(max-width: 605px) 100vw, 605px" />][4]
+[<img class="alignnone size-full wp-image-635" alt="Génération de la configuration de knife" src="2013/04/Chef2-generate-knife-config.png" width="605" height="283" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-knife-config-300x140.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-knife-config.png 605w" sizes="(max-width: 605px) 100vw, 605px" />][4]
 
 Préparez la clé de validation :  
-[<img class="alignnone size-full wp-image-639" alt="Génération de la clé de validation" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-validator-key.png" width="605" height="283" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-validator-key-300x140.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-validator-key.png 605w" sizes="(max-width: 605px) 100vw, 605px" />][5]
+[<img class="alignnone size-full wp-image-639" alt="Génération de la clé de validation" src="2013/04/Chef2-generate-validator-key.png" width="605" height="283" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-validator-key-300x140.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-validator-key.png 605w" sizes="(max-width: 605px) 100vw, 605px" />][5]
 
 Et copiez les fichiers téléchargé dans le répertoire &laquo;&nbsp;.chef&nbsp;&raquo;. Il resemble à ça pour le fichier &laquo;&nbsp;knife.rb&nbsp;&raquo; :
 
@@ -153,7 +153,7 @@ Vous constatez que c&rsquo;est la même chose que dans l&rsquo;IHM Web <img src=
 Pour une raison que je n&rsquo;explique pas, la clé que j&rsquo;ai générée dans l&rsquo;article précédent ne marchait pas&#8230;  
 Je l&rsquo;ai regénérée à [l&rsquo;adresse de la gestion de compte][6].
 
-[<img class="alignnone size-full wp-image-643" alt="Régénérer sa clé utilisateur" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key.png" width="520" height="248" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key-300x143.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key.png 520w" sizes="(max-width: 520px) 100vw, 520px" />][7]
+[<img class="alignnone size-full wp-image-643" alt="Régénérer sa clé utilisateur" src="2013/04/Chef2-reset-user-key.png" width="520" height="248" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key-300x143.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key.png 520w" sizes="(max-width: 520px) 100vw, 520px" />][7]
 
 Voila voila, si tout ça marche pour vous c&rsquo;est bon pour les articles à suivre. Sinon il va falloir trouver pourquoi <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
@@ -170,10 +170,10 @@ Crédit photos :
  [1]: http://blog.ledez.net/informatique/utiliser-chef-1-opscode/ "Utiliser chef #1 – Création d’un compte chez Opscode"
  [2]: http://fr.wikipedia.org/wiki/Domain-specific_programming_language "Page Wikipedia des DSL"
  [3]: https://manage.opscode.com/organizations
- [4]: http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-knife-config.png
- [5]: http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-generate-validator-key.png
+ [4]: 2013/04/Chef2-generate-knife-config.png
+ [5]: 2013/04/Chef2-generate-validator-key.png
  [6]: https://www.opscode.com/account/password
- [7]: http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key.png
+ [7]: 2013/04/Chef2-reset-user-key.png
  [8]: https://github.com/nledez/chef-demo-repo
  [9]: https://github.com/nledez/chef-demo-repo/tree/article01
  [10]: http://www.opscode.com/

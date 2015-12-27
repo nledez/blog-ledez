@@ -49,7 +49,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      <a href="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm.jpg"><img class="alignnone wp-image-2408 size-medium" src="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm-300x209.jpg" alt="devops sécurité" width="300" height="209" srcset="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm-300x209.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm.jpg 490w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm.jpg"><img class="alignnone wp-image-2408 size-medium" src="2015/05/lxfsm-300x209.jpg" alt="devops sécurité" width="300" height="209" srcset="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm-300x209.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm.jpg 490w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>

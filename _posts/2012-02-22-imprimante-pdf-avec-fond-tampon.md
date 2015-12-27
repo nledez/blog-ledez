@@ -23,7 +23,7 @@ Coup de bol c&rsquo;est sur Mac <img src="smilies/simple-smile.png" alt=":)" cla
 
 J&rsquo;ai trouvé [pdftk][1] qui permet de travailler le PDF, le couteau suisse du PDF quoi&#8230; En plus avec un logo hyper sexy :
 
-<img class="alignnone size-medium wp-image-454" title="pdftk-logo" src="http://blog.ledez.net/wp-content/uploads/2012/02/pdftk-logo.png" alt="Logo pdftk" />
+<img class="alignnone size-medium wp-image-454" title="pdftk-logo" src="2012/02/pdftk-logo.png" alt="Logo pdftk" />
 
 <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
@@ -48,7 +48,7 @@ $pdftk "$doc_source" cat 1 output - | $pdftk - background "$stamp" output - | $p
 
 ### Etape 2 : automatiser un peu tout ça
 
-[<img class="alignleft  wp-image-458" title="Automator" src="http://blog.ledez.net/wp-content/uploads/2012/02/Automator-300x300.png" alt="Logo Automator" width="180" height="180" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/Automator-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/Automator-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/Automator.png 512w" sizes="(max-width: 180px) 100vw, 180px" />][2][Automator][3] est fait pour ça non ?
+[<img class="alignleft  wp-image-458" title="Automator" src="2012/02/Automator-300x300.png" alt="Logo Automator" width="180" height="180" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/Automator-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/Automator-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/Automator.png 512w" sizes="(max-width: 180px) 100vw, 180px" />][2][Automator][3] est fait pour ça non ?
 
 Simple pour automatiser des trucs, super bien intégré. Avec même des fonctionnalités inattendues.
 
@@ -61,7 +61,7 @@ Simple pour automatiser des trucs, super bien intégré. Avec même des fonction
 &nbsp;
 
 Créer un nouveau Workflow avec :  
-[<img class="alignnone size-full wp-image-460" title="Workflow-01" src="http://blog.ledez.net/wp-content/uploads/2012/02/Workflow-011.png" alt="" width="896" height="555" />][4]
+[<img class="alignnone size-full wp-image-460" title="Workflow-01" src="2012/02/Workflow-011.png" alt="" width="896" height="555" />][4]
 
 Et le source :
 
@@ -113,7 +113,7 @@ Et maintenant pour avoir le document, on va simplement imprimer et dans la liste
  [1]: http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/ "Site de PDFTK"
  [2]: http://blog.ledez.net/wp-content/uploads/2012/02/Automator.png
  [3]: http://www.apple.com/remotedesktop/automation.html "Site d'Automator"
- [4]: http://blog.ledez.net/wp-content/uploads/2012/02/Workflow-011.png
+ [4]: 2012/02/Workflow-011.png
  [5]: 2012/02/Workflow-031.png
  [6]: 2012/02/Workflow-021.png
  [7]: 2012/02/Workflow-04.png

@@ -60,7 +60,7 @@ Il faut prendre une alimentation de PC classique.
 </p>
 
 <div id="attachment_1042" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44.jpg"><img class="size-medium wp-image-1042" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44-300x225.jpg" alt="Cablage d'alim AT" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44.jpg"><img class="size-medium wp-image-1042" src="2014/05/2014-05-19-12.59.44-300x225.jpg" alt="Cablage d'alim AT" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.59.44-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     Cablage d&rsquo;alim AT
@@ -74,7 +74,7 @@ Comme ça, elle se met en marche toute seule.
 </p>
 
 <div id="attachment_1043" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25.jpg"><img class="size-medium wp-image-1043" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25-300x225.jpg" alt="Le connecteur molex femelles" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25.jpg"><img class="size-medium wp-image-1043" src="2014/05/2014-05-19-12.57.25-300x225.jpg" alt="Le connecteur molex femelles" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-12.57.25-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     Le connecteur molex femelles
@@ -83,10 +83,10 @@ Comme ça, elle se met en marche toute seule.
 
 ### Identification des fils
 
-[<img class="alignnone size-medium wp-image-1044" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.57-300x225.jpg" alt="2014-05-19 13.30.57" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.57-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.57-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][3]
+[<img class="alignnone size-medium wp-image-1044" src="2014/05/2014-05-19-13.30.57-300x225.jpg" alt="2014-05-19 13.30.57" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.57-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.57-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][3]
 
 <div id="attachment_1045" style="width: 235px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16.jpg"><img class="size-medium wp-image-1045" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16-225x300.jpg" alt="Les capteurs de fin de course" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16.jpg"><img class="size-medium wp-image-1045" src="2014/05/2014-05-19-13.31.16-225x300.jpg" alt="Les capteurs de fin de course" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.16-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
   
   <p class="wp-caption-text">
     Les capteurs de fin de course
@@ -102,7 +102,7 @@ Comme ça, elle se met en marche toute seule.
 </p>
 
 <div id="attachment_1046" style="width: 235px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46.jpg"><img class="size-medium wp-image-1046" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46-225x300.jpg" alt="Les prises par axes" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46.jpg"><img class="size-medium wp-image-1046" src="2014/05/2014-05-19-13.30.46-225x300.jpg" alt="Les prises par axes" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.30.46-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
   
   <p class="wp-caption-text">
     Les prises par axes
@@ -118,7 +118,7 @@ Est ici <http://reprap.org/mediawiki/images/6/6d/Rampswire14.svg>
 Maintenant, du câblage/soudure :
 
 <div id="attachment_1047" style="width: 235px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38.jpg"><img class="size-medium wp-image-1047" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38-225x300.jpg" alt="Branchement d'un fin de course" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38.jpg"><img class="size-medium wp-image-1047" src="2014/05/2014-05-19-14.05.38-225x300.jpg" alt="Branchement d'un fin de course" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-14.05.38-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
   
   <p class="wp-caption-text">
     Branchement d&rsquo;un fin de course
@@ -133,7 +133,7 @@ Maintenant, du câblage/soudure :
   2 paires de câbles viennent de l&rsquo;extrudeur :
 </p>
 
-[<img class="alignnone size-medium wp-image-1049" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.08-225x300.jpg" alt="2014-05-19 13.31.08" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.08-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.08-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" />][4]
+[<img class="alignnone size-medium wp-image-1049" src="2014/05/2014-05-19-13.31.08-225x300.jpg" alt="2014-05-19 13.31.08" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.08-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-13.31.08-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" />][4]
 
 La paire grise, est la violette. Comme le gris est du gros fil, je me dis que c&rsquo;est la résistance chauffante. Et que la violette est le capteur de température.
 
@@ -148,7 +148,7 @@ La paire grise, est la violette. Comme le gris est du gros fil, je me dis que c&
 </p>
 
 <div id="attachment_1048" style="width: 305px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy.png"><img class="size-medium wp-image-1048" src="http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy-295x300.png" alt="Dans Repetier" width="295" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy-295x300.png 295w, http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy.png 631w" sizes="(max-width: 295px) 100vw, 295px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy.png"><img class="size-medium wp-image-1048" src="2014/05/by-default-2014-05-19-at-17.21.20-copy-295x300.png" alt="Dans Repetier" width="295" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy-295x300.png 295w, http://blog.ledez.net/wp-content/uploads/2014/05/by-default-2014-05-19-at-17.21.20-copy.png 631w" sizes="(max-width: 295px) 100vw, 295px" /></a>
   
   <p class="wp-caption-text">
     Dans Repetier
@@ -205,7 +205,7 @@ Ouvrir Repetier et vérifier que la température est présente.
 </p>
 
 <div id="attachment_1051" style="width: 235px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09.jpg"><img class="size-medium wp-image-1051" src="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09-225x300.jpg" alt="Les fils du moteur pas à pas" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09.jpg"><img class="size-medium wp-image-1051" src="2014/05/2014-05-19-15.06.09-225x300.jpg" alt="Les fils du moteur pas à pas" width="225" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09-225x300.jpg 225w, http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-19-15.06.09-768x1024.jpg 768w" sizes="(max-width: 225px) 100vw, 225px" /></a>
   
   <p class="wp-caption-text">
     Les fils du moteur pas à pas

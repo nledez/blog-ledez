@@ -28,7 +28,7 @@ tags:
   - opscode
 excerpt_separator: <!--more-->
 ---
-<img class=" wp-image-587 alignleft" alt="Le logo Chef" src="http://blog.ledez.net/wp-content/uploads/2013/04/logo-chef.png" width="158" height="123" /> Premier article d&rsquo;une série pour vous aider à mettre en place Chef pour déployer vos applicatifs dans vos machines. Les premiers articles seront publiés rapidement pour vous permettre de commencer très vite. Puis les suivants seront plus espacés dans le temps afin de bien maitriser les différentes parties. Objectifs :
+<img class=" wp-image-587 alignleft" alt="Le logo Chef" src="2013/04/logo-chef.png" width="158" height="123" /> Premier article d&rsquo;une série pour vous aider à mettre en place Chef pour déployer vos applicatifs dans vos machines. Les premiers articles seront publiés rapidement pour vous permettre de commencer très vite. Puis les suivants seront plus espacés dans le temps afin de bien maitriser les différentes parties. Objectifs :
 
   * <span style="line-height: 13px;"><span style="line-height: 13px;"> M</span></span>ettre en place &laquo;&nbsp;l&rsquo;infrastructure&nbsp;&raquo;
   * Configurer le poste de développement
@@ -41,7 +41,7 @@ Et déjà avec tout ça, vous aurez de quoi faire. <!--more--> Si le sujet vous 
 [Breizhcamp][1] pour ma session &laquo;&nbsp;Introduction à DevOps&nbsp;&raquo;.
 
 <p style="text-align: center;">
-  <a title="Direction le Breizhcamp" href="http://www.breizhcamp.org/"><img class="alignnone size-large wp-image-600" alt="BreizhCamp new logo - with text XXL" src="http://blog.ledez.net/wp-content/uploads/2013/04/BreizhCamp-new-logo-with-text-XXL-1024x238.png" width="620" height="144" /></a>
+  <a title="Direction le Breizhcamp" href="http://www.breizhcamp.org/"><img class="alignnone size-large wp-image-600" alt="BreizhCamp new logo - with text XXL" src="2013/04/BreizhCamp-new-logo-with-text-XXL-1024x238.png" width="620" height="144" /></a>
 </p>
 
 Donc l&rsquo;infrastructure ! Pour démarrer en douceur, je vous propose d&rsquo;utiliser la [version hosté du serveur chef][2]. Remplissez le formulaire, à l&rsquo;issue de celui-ci il va falloir :
@@ -61,7 +61,7 @@ Pour la validation, vous savez faire. Pour la clé : Copier tout le bloc
 -----END RSA PRIVATE KEY-----
 {% endhighlight %}
 
-compris. Et enregistrez le contenu dans un fichier qui porte le nom de votre user et l&rsquo;extension &lsquo;.pem&rsquo;. Par la suite, ce fichier sera nommé &laquo;&nbsp;nledez-demo.pem&nbsp;&raquo; [<img class=" wp-image-609 alignleft" alt="Opscode" src="http://blog.ledez.net/wp-content/uploads/2013/04/OpscodeLogo_Tag_FINAL-1024x614.png" width="156" height="94" />][3] A partir de là, vous êtes déclaré comme utilisateur dans le système d&rsquo;Opscode. Maintenant, pour gérer vos serveurs vous aurez besoin de créer une organisation. Prenez cette direction pour [créer une organisation][4]. Je vais appeler la mienne :
+compris. Et enregistrez le contenu dans un fichier qui porte le nom de votre user et l&rsquo;extension &lsquo;.pem&rsquo;. Par la suite, ce fichier sera nommé &laquo;&nbsp;nledez-demo.pem&nbsp;&raquo; [<img class=" wp-image-609 alignleft" alt="Opscode" src="2013/04/OpscodeLogo_Tag_FINAL-1024x614.png" width="156" height="94" />][3] A partir de là, vous êtes déclaré comme utilisateur dans le système d&rsquo;Opscode. Maintenant, pour gérer vos serveurs vous aurez besoin de créer une organisation. Prenez cette direction pour [créer une organisation][4]. Je vais appeler la mienne :
 
   * <span style="line-height: 13px;">Ledez Corporation</span>
   * nledez-demo
