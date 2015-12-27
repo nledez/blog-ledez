@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
 
 # Site settings
 title: Live from my brain with some lag
@@ -26,3 +26,11 @@ paginate_path: "/page:num/"
 markdown: kramdown
 highlighter: rouge
 # highlighter: pygments
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+
+tag_permalink_style: pretty
