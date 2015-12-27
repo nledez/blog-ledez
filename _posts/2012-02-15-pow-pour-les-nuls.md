@@ -126,7 +126,7 @@ $ ln -s $(pwd) ~/.pow/index
 
 Vous pouvez aussi remplacer index par default. Dans ce cas, n&rsquo;importe quelle URL qui se termine en .dev seras redirigé vers celui-là.
 
-Et voilà plus qu&rsquo;à apprendre coder comme des malades <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Et voilà plus qu&rsquo;à apprendre coder comme des malades <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://pow.cx/ "Site de Pow"
  [2]: https://github.com/robbyrussell/oh-my-zsh "Site de oh-my-zsh"

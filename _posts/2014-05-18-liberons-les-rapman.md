@@ -32,7 +32,7 @@ Chantez avec moi en coeur le refrain :
 En ce moment j&rsquo;ai ça à la maison :
 
 <div id="attachment_1027" style="width: 160px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-16-18.56.14.jpg"><img class="size-thumbnail wp-image-1027" src="2014/05/2014-05-16-18.56.14-150x150.jpg" alt="Rapman 3.2" width="150" height="150" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-16-18.56.14.jpg"><img class="size-thumbnail wp-image-1027" src="/images/2014/05/2014-05-16-18.56.14-150x150.jpg" alt="Rapman 3.2" width="150" height="150" /></a>
   
   <p class="wp-caption-text">
     Rapman 3.2
@@ -52,7 +52,7 @@ En ce moment j&rsquo;ai ça à la maison :
 </p>
 
 <p class="p1">
-  J&rsquo;ai réussi à faire tous les tests de préimpression. Mais au moment de l&rsquo;impression, le &laquo;&nbsp;homing&nbsp;&raquo; se fait bien. Puis ça se déplace en X et là, écran noir. En gros c&rsquo;est planté <img src="smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  J&rsquo;ai réussi à faire tous les tests de préimpression. Mais au moment de l&rsquo;impression, le &laquo;&nbsp;homing&nbsp;&raquo; se fait bien. Puis ça se déplace en X et là, écran noir. En gros c&rsquo;est planté <img src="/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 </p>
 
 <p class="p1">
@@ -60,7 +60,7 @@ En ce moment j&rsquo;ai ça à la maison :
 </p>
 
 <div id="attachment_1028" style="width: 160px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-16-18.56.22.jpg"><img class="size-thumbnail wp-image-1028" src="2014/05/2014-05-16-18.56.22-150x150.jpg" alt="Carte de contrôle de la Rapman" width="150" height="150" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-16-18.56.22.jpg"><img class="size-thumbnail wp-image-1028" src="/images/2014/05/2014-05-16-18.56.22-150x150.jpg" alt="Carte de contrôle de la Rapman" width="150" height="150" /></a>
   
   <p class="wp-caption-text">
     Carte de contrôle de la Rapman
@@ -80,7 +80,7 @@ En ce moment j&rsquo;ai ça à la maison :
 </p>
 
 <div id="attachment_1026" style="width: 160px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-16-18.49.00.jpg"><img class="size-thumbnail wp-image-1026" src="2014/05/2014-05-16-18.49.00-150x150.jpg" alt="Arduino Mega + ramps" width="150" height="150" /></a>
+  <a href="http://blog.ledez.net/wp-content/uploads/2014/05/2014-05-16-18.49.00.jpg"><img class="size-thumbnail wp-image-1026" src="/images/2014/05/2014-05-16-18.49.00-150x150.jpg" alt="Arduino Mega + ramps" width="150" height="150" /></a>
   
   <p class="wp-caption-text">
     Arduino Mega + ramps

@@ -26,7 +26,7 @@ categories:
 excerpt_separator: <!--more-->
 ---
 <div id="attachment_2355" style="width: 310px" class="wp-caption alignnone">
-  <a href="http://cozy.io/"><img class="wp-image-2355 size-medium" src="2015/03/bighappycloud-300x228.png" alt="CozyCloud" width="300" height="228" srcset="http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud-300x228.png 300w, http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="http://cozy.io/"><img class="wp-image-2355 size-medium" src="/images/2015/03/bighappycloud-300x228.png" alt="CozyCloud" width="300" height="228" srcset="http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud-300x228.png 300w, http://blog.ledez.net/wp-content/uploads/2015/03/bighappycloud.png 350w" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p class="wp-caption-text">
     CozyCloud
@@ -35,7 +35,7 @@ excerpt_separator: <!--more-->
 
 Pour ceux qui me suivent un peu, j&rsquo;ai changé de travail en aout.
 
-Je suis arrivé chez [Cozy Cloud][1] comme administrateur système ou &laquo;&nbsp;[devops guru][2]&nbsp;&raquo; <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je suis arrivé chez [Cozy Cloud][1] comme administrateur système ou &laquo;&nbsp;[devops guru][2]&nbsp;&raquo; <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Je suis vraiment heureux et fier de travailler dans cette startup.
 
@@ -43,7 +43,7 @@ Et aujourd&rsquo;hui est une journée particulière. [Tristan Nitot nous rejoin
 
 <!--more-->
 
-Bref, une grosse journée s&rsquo;annonce ! <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Bref, une grosse journée s&rsquo;annonce ! <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <http://standblog.org/blog/post/2015/03/11/Je-rejoins-Cozy-Cloud>
 

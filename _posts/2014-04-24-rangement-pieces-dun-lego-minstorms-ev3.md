@@ -36,7 +36,7 @@ Ce qui représente un total de 3000 pièces. Ce qui devient rapidement un enfer 
 
 J&rsquo;ai fait un [premier extrait des images][4]. Plutôt moyen comme résultat sur les petites pièces :
 
-[<img class="alignnone size-full wp-image-987" src="2014/04/4142865.jpg" alt="4142865" width="16" height="11" />][5][<img class="alignnone  wp-image-987" src="http://blog.ledez.net/wp-content/uploads/2014/04/4142865.jpg" alt="4142865" width="115" height="79" />][5]
+[<img class="alignnone size-full wp-image-987" src="/images/2014/04/4142865.jpg" alt="4142865" width="16" height="11" />][5][<img class="alignnone  wp-image-987" src="http://blog.ledez.net/wp-content/uploads/2014/04/4142865.jpg" alt="4142865" width="115" height="79" />][5]
 
 &nbsp;
 
@@ -44,29 +44,29 @@ Et quand j&rsquo;ai vu la différence entre ce qu&rsquo;il y avait dans le PDF e
 
 J&rsquo;ai utilisé je ne sais plus quel soft pour [extraire les images][6]. Mais j&rsquo;ai été surpris d&rsquo;avoir 2 images par pièce :
 
-[<img class="alignnone size-full wp-image-988" src="http://blog.ledez.net/wp-content/uploads/2014/04/1_51.jpeg" alt="1_51" width="87" height="57" />][7] [<img class="alignnone size-full wp-image-989" src="2014/04/1_52.jpeg" alt="1_52" width="87" height="57" />][8]
+[<img class="alignnone size-full wp-image-988" src="http://blog.ledez.net/wp-content/uploads/2014/04/1_51.jpeg" alt="1_51" width="87" height="57" />][7] [<img class="alignnone size-full wp-image-989" src="/images/2014/04/1_52.jpeg" alt="1_52" width="87" height="57" />][8]
 
 &nbsp;
 
 Une moche est un masque. Direction &laquo;&nbsp;Photoshop&nbsp;&raquo;. J&rsquo;ai collé la version &laquo;&nbsp;noir & blanc&nbsp;&raquo; dans le [masque alpha de l&rsquo;autre image][9]. Puis [enregistré au format PNG][10]. Voilà le résultat :
 
-[<img class="alignnone size-full wp-image-990" src="2014/04/4142865.png" alt="4142865" width="87" height="57" />][11]
+[<img class="alignnone size-full wp-image-990" src="/images/2014/04/4142865.png" alt="4142865" width="87" height="57" />][11]
 
 Un peu plus classe non ?
 
 Je m&rsquo;en suis servi pour faire une fiche pour connaitre les positions dans les boîtes :
 
-[<img class="alignnone wp-image-992 size-full" src="2014/04/boites-noires.png" alt="boites-noires" width="1024" height="548" srcset="http://blog.ledez.net/wp-content/uploads/2014/04/boites-noires-300x160.png 300w, http://blog.ledez.net/wp-content/uploads/2014/04/boites-noires.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px" />][12]
+[<img class="alignnone wp-image-992 size-full" src="/images/2014/04/boites-noires.png" alt="boites-noires" width="1024" height="548" srcset="http://blog.ledez.net/wp-content/uploads/2014/04/boites-noires-300x160.png 300w, http://blog.ledez.net/wp-content/uploads/2014/04/boites-noires.png 1024w" sizes="(max-width: 1024px) 100vw, 1024px" />][12]
 
 et
 
-[<img class="alignnone wp-image-993 size-full" src="2014/04/boites-oranges.jpg" alt="boites-oranges" width="1889" height="1535" />][13]
+[<img class="alignnone wp-image-993 size-full" src="/images/2014/04/boites-oranges.jpg" alt="boites-oranges" width="1889" height="1535" />][13]
 
 &nbsp;
 
 Et pour finir le fichier pour faire l&rsquo;inventaire des boîtes :
 
-[<img class="alignnone wp-image-995 size-full" src="2014/04/inventaire-ev3.xlsx.png" alt="inventaire-ev3.xlsx" width="510" height="403" srcset="http://blog.ledez.net/wp-content/uploads/2014/04/inventaire-ev3.xlsx-300x237.png 300w, http://blog.ledez.net/wp-content/uploads/2014/04/inventaire-ev3.xlsx.png 510w" sizes="(max-width: 510px) 100vw, 510px" />][14]
+[<img class="alignnone wp-image-995 size-full" src="/images/2014/04/inventaire-ev3.xlsx.png" alt="inventaire-ev3.xlsx" width="510" height="403" srcset="http://blog.ledez.net/wp-content/uploads/2014/04/inventaire-ev3.xlsx-300x237.png 300w, http://blog.ledez.net/wp-content/uploads/2014/04/inventaire-ev3.xlsx.png 510w" sizes="(max-width: 510px) 100vw, 510px" />][14]
 
 &nbsp;
 

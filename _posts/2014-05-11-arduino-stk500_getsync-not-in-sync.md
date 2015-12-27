@@ -23,7 +23,7 @@ categories:
   - DIY
 excerpt_separator: <!--more-->
 ---
-[<img class="alignnone size-full wp-image-1019" src="2014/05/BannerArduinoStk500_getsync.jpg" alt="BannerArduinoStk500_getsync" width="751" height="140" />][1]
+[<img class="alignnone size-full wp-image-1019" src="/images/2014/05/BannerArduinoStk500_getsync.jpg" alt="BannerArduinoStk500_getsync" width="751" height="140" />][1]
 
 Comme tu as pu voir [ici][2], et [ici][3] j&rsquo;aime bien les Ardiuno. Mais j&rsquo;ai rencontré pas mal de problèmes avec les derniers que j&rsquo;ai reçus.
 

@@ -19,7 +19,7 @@ Mes retours sur le [Breizhcamp][1] qui vient de se dérouler :
   * Suite à une discussion, avec [@sdouche][2] ne pas dire &laquo;&nbsp;je n&rsquo;ai pas le temps&nbsp;&raquo; mais &laquo;&nbsp;j&rsquo;ai d&rsquo;autres priorités&nbsp;&raquo;
   * Encore avec [@sdouche][2], personnellement je pense que la répétition n&rsquo;est pas indispensable. Par contre, se préparer à toutes les éventualités, et improviser pour le reste&#8230; Par exemple pour ma démo Cloud j&rsquo;ai eu la bonne idée de prévoir un screencast
   * J&rsquo;ai vu plein de Mac dans les conférences, j&rsquo;aurais donc moins de monde à convertir
-  * Aprés une galette saucisse et une crêpe sucre, j&rsquo;ai encore faim <img src="smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  * Aprés une galette saucisse et une crêpe sucre, j&rsquo;ai encore faim <img src="/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <!--more-->
 
@@ -66,9 +66,9 @@ Si vous avez (raté || tellement aimé) ce que j&rsquo;ai raconté 😉 mes slid
 [Adresse de la démo chez Heroku][16]  
 [Code source de la démo][17]
 
-PS: Si dans les URL des PDF, vous remplacé &laquo;&nbsp;print&nbsp;&raquo; par &laquo;&nbsp;screen&nbsp;&raquo;, vous aurez les puces grisés pour faire la présentation vous-même. La licence étant [cc-by-nc-sa][18], n&rsquo;hésitez pas à réutilisez ce que vous voulez dans le cadre des limitations de la licence. Et un petit mail me ferait plaisir <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+PS: Si dans les URL des PDF, vous remplacé &laquo;&nbsp;print&nbsp;&raquo; par &laquo;&nbsp;screen&nbsp;&raquo;, vous aurez les puces grisés pour faire la présentation vous-même. La licence étant [cc-by-nc-sa][18], n&rsquo;hésitez pas à réutilisez ce que vous voulez dans le cadre des limitations de la licence. Et un petit mail me ferait plaisir <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
-EDIT : Maintenant il y a le son sur les slides NoSQL <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+EDIT : Maintenant il y a le son sur les slides NoSQL <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://www.breizhcamp.org/
  [2]: https://twitter.com/#!/sdouche

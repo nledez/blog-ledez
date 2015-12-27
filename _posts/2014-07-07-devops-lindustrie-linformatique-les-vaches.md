@@ -40,7 +40,7 @@ excerpt_separator: <!--more-->
 # Mon enfance {.p1}
 
 <p class="p1">
-  Je suis né en Corrèze. Oui le pays de Chirac, les pommes, la verdure. À l&rsquo;époque Internet pour personne. Donc je l&rsquo;ai bien vécu <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Mais comme j&rsquo;habitais à la campagne, j&rsquo;avais beaucoup de paysans autour de chez moi. Je me souviens que quand j&rsquo;étais petit tout le village aller aider le paysan à faire &laquo;&nbsp;le foin&nbsp;&raquo;. Et en échange, dans l&rsquo;année nous avions le droit d&rsquo;avoir un peu de lait produit par sa vingtaine de vaches. Ces moments de moisson étaient hyper conviviaux. Mais là, ce n&rsquo;est plus le sujet.
+  Je suis né en Corrèze. Oui le pays de Chirac, les pommes, la verdure. À l&rsquo;époque Internet pour personne. Donc je l&rsquo;ai bien vécu <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Mais comme j&rsquo;habitais à la campagne, j&rsquo;avais beaucoup de paysans autour de chez moi. Je me souviens que quand j&rsquo;étais petit tout le village aller aider le paysan à faire &laquo;&nbsp;le foin&nbsp;&raquo;. Et en échange, dans l&rsquo;année nous avions le droit d&rsquo;avoir un peu de lait produit par sa vingtaine de vaches. Ces moments de moisson étaient hyper conviviaux. Mais là, ce n&rsquo;est plus le sujet.
 </p>
 
 # Ma formation initiale {.p1}
@@ -110,7 +110,7 @@ excerpt_separator: <!--more-->
 </p>
 
 <p class="p2">
-  Et du coup, tout ce temps qui va être libéré va pouvoir être utilisé à faire cette fameuse maintenance proactive et réduire la maintenance curative. Vous allez donc améliorer la vie de votre plate-forme <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  Et du coup, tout ce temps qui va être libéré va pouvoir être utilisé à faire cette fameuse maintenance proactive et réduire la maintenance curative. Vous allez donc améliorer la vie de votre plate-forme <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 </p>
 
 <p class="p2">

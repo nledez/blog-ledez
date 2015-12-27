@@ -8,6 +8,6 @@ permalink: /legos/006-navette-spatiale/
 categories:
   - Legos
 ---
-<img width="119" height="96" alt="05103001.jpg" id="image23" src="2006/01/05103001-150x150.jpg" />
+<img width="119" height="96" alt="05103001.jpg" id="image23" src="/images/2006/01/05103001-150x150.jpg" />
 
-<img width="117" height="96" alt="05103002.jpg" id="image22" src="2006/01/05103002-150x150.jpg" />
+<img width="117" height="96" alt="05103002.jpg" id="image22" src="/images/2006/01/05103002-150x150.jpg" />

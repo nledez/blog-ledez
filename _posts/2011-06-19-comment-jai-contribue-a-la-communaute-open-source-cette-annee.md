@@ -75,7 +75,7 @@ Je vais essayer de me dégager un peu de temps pour finir mon path Bundler, et c
 
 Voila la fin de ce billet un peu fouillis qui m&rsquo;a permis de faire le point.
 
-Je profite de ce billet pour remercier tous les personnes et groupes que j&rsquo;ai cités pour les remercier de leurs supports. Et à l&rsquo;année prochaine <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je profite de ce billet pour remercier tous les personnes et groupes que j&rsquo;ai cités pour les remercier de leurs supports. Et à l&rsquo;année prochaine <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://www.breizhcamp.org/
  [2]: http://www.debian.org/

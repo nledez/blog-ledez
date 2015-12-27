@@ -70,7 +70,7 @@ Pour un développeur web 2 étapes dans la vie du projet :
   </ul>
   
   <div>
-    <span class="Apple-style-span" style="line-height: 18px;">Maintenant que je suis convaincu de passer à autre chose <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :</span>
+    <span class="Apple-style-span" style="line-height: 18px;">Maintenant que je suis convaincu de passer à autre chose <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :</span>
   </div>
 </div>
 
