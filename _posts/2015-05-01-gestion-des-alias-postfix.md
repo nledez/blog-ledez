@@ -110,7 +110,7 @@ Et comme j&rsquo;ai tweeté :
     </ul>
     
     <p>
-      Comme c&rsquo;est en open source, vous pouvez en faire ce que vous voulez. Mais attention, c&rsquo;est du je n&rsquo;ai-pas-le-temps-de-le maintenir-ware <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Comme c&rsquo;est en open source, vous pouvez en faire ce que vous voulez. Mais attention, c&rsquo;est du je n&rsquo;ai-pas-le-temps-de-le maintenir-ware <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
 
  [1]: https://blog.ledez.net/wp-content/uploads/2015/05/Postfix_logo.png

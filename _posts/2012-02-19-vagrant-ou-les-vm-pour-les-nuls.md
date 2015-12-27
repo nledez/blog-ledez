@@ -96,7 +96,7 @@ Par notre box installé tout à l&rsquo;heure :
 config.vm.box = "lucid64"
 {% endhighlight %}
 
-Et maintenant lancer la création de la VM. Attention c&rsquo;est magique <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :
+Et maintenant lancer la création de la VM. Attention c&rsquo;est magique <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :
 
 {% highlight bash %}
 $ vagrant up
@@ -310,14 +310,14 @@ $ vagrant up
 [default] -- v-root: /vagrant
 {% endhighlight %}
 
-Si vous avez compris comment mettre à jours la box, immaginez vous faire la même chose avec l&rsquo;installation de middleware (Apache, Nginx, PHP, Rails, &#8230;) <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Si vous avez compris comment mettre à jours la box, immaginez vous faire la même chose avec l&rsquo;installation de middleware (Apache, Nginx, PHP, Rails, &#8230;) <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Prochain épisode ? Déploiment d&rsquo;un environnement pour héberger du Rails ?
 
 Vous pouvez demander si vous avez d&rsquo;autres idées d&rsquo;articles.
 
 Edit:  
-Je me suis posé la question d’où est-ce que je pouvais trouver des boxes toutes prêtes. Parce que bon, Ubuntu 64bits c&rsquo;est bien. Mais moi j&rsquo;ai aussi de la Debian <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
+Je me suis posé la question d’où est-ce que je pouvais trouver des boxes toutes prêtes. Parce que bon, Ubuntu 64bits c&rsquo;est bien. Mais moi j&rsquo;ai aussi de la Debian <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
 J&rsquo;ai trouvé http://vagrantbox.es/ et je me suis rendu compte après que [@Ethernitys][3] l&rsquo;avait ajouté dans un Tweet qui concernait cet article.
 
  [1]: http://blog.ledez.net/wp-content/uploads/2012/02/vagrant.png

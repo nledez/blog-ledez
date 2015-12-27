@@ -227,6 +227,6 @@ Fast-forward
 {% endhighlight %}
 
 Toutes ces commandes donnent ça :  
-[<img src="http://blog.ledez.net/wp-content/uploads/2013/02/by-default-2013-02-13-at-22.55.41.png" alt="Git &quot;workflow&quot;" class="alignnone size-medium wp-image-545" />][1]
+[<img src="2013/02/by-default-2013-02-13-at-22.55.41.png" alt="Git &quot;workflow&quot;" class="alignnone size-medium wp-image-545" />][1]
 
- [1]: http://blog.ledez.net/wp-content/uploads/2013/02/by-default-2013-02-13-at-22.55.41.png
+ [1]: 2013/02/by-default-2013-02-13-at-22.55.41.png

@@ -97,6 +97,6 @@ vagrant up
 vagrant provision
 {% endhighlight %}
 
-Bon, c&rsquo;est un peu rapide, mais je n&rsquo;ai pas eu le temps de préparer mieux. Pourtant, j&rsquo;avais plein d&rsquo;idées <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Bon, c&rsquo;est un peu rapide, mais je n&rsquo;ai pas eu le temps de préparer mieux. Pourtant, j&rsquo;avais plein d&rsquo;idées <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://blog.ledez.net/informatique/utiliser-chef-1-opscode/ "Utiliser chef #1 – Création d’un compte chez Opscode"

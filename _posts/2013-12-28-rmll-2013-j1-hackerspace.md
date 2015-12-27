@@ -87,7 +87,7 @@ L&rsquo;USB sert d&rsquo;alimentation et collecte les données de températures 
 
 Bref, c&rsquo;était super marant de voir un hacker space à Bruxelle alors que je n&rsquo;ai même pas encore eu le temps de passer à celui de Rennes.
 
-Pour ceux qui se posent la question de la différence avec un FabLab. C&rsquo;est principalement le budget <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
+Pour ceux qui se posent la question de la différence avec un FabLab. C&rsquo;est principalement le budget <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
 Le FabLab va avoir plus de matériel, mais une cotisation plus élevée. On va y retrouver des personnes qui veulent préparer des prototypes et moins de &laquo;&nbsp;bidouilleurs&nbsp;&raquo;.
 
  [1]: http://fr.wikipedia.org/wiki/Hacker_(universit%C3%A9) "Définition Wikipédia de "Hacker""

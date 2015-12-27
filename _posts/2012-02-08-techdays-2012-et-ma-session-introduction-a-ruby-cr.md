@@ -20,7 +20,7 @@ Merci à tout le monde :
   * d&rsquo;être venu
   * pour l&rsquo;organisation
   * pour la logistique
-  * etc, etc <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  * etc, etc <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <!--more-->
 

@@ -69,7 +69,7 @@ bundle exec rspec
 {% endhighlight %}
 
 Ça donne :  
-[<img src="http://blog.ledez.net/wp-content/uploads/2013/06/by-default-2013-06-24-at-22.37.59.png" alt="Barre rouge" width="540" height="273" class="alignnone size-full wp-image-798" />][9]
+[<img src="2013/06/by-default-2013-06-24-at-22.37.59.png" alt="Barre rouge" width="540" height="273" class="alignnone size-full wp-image-798" />][9]
 
 C&rsquo;est rouge ! Et bien, comme maintenant tu fais du TDD c&rsquo;est normal tout va bien !
 
@@ -112,7 +112,7 @@ Et si tu édites les deux fichiers dans ton éditeur de texte (moi j&rsquo;utili
 mvim -o lib/demo_howto.rb spec/lib/demo_howto_spec.rb
 {% endhighlight %}
 
-Voilà de quoi démarrer <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Voilà de quoi démarrer <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Tu peux aller voir le code sur mon [Github][10].
 
@@ -138,7 +138,7 @@ Par :
   end
 {% endhighlight %}
 
-[<img src="http://blog.ledez.net/wp-content/uploads/2013/06/by-default-2013-06-24-at-23.03.01.png" alt="La barre verte" width="221" height="93" class="alignnone size-full wp-image-801" />][11]
+[<img src="2013/06/by-default-2013-06-24-at-23.03.01.png" alt="La barre verte" width="221" height="93" class="alignnone size-full wp-image-801" />][11]
 
 C&rsquo;est trop facile Ruby :p
 
@@ -152,6 +152,6 @@ EDIT: Ajout de Git dans les prérequis
  [6]: http://rubyinstaller.org/downloads/ "Un installeur Windows"
  [7]: http://msysgit.github.io/ "Git pour Windows"
  [8]: http://mxcl.github.io/homebrew/ "Homebrew"
- [9]: http://blog.ledez.net/wp-content/uploads/2013/06/by-default-2013-06-24-at-22.37.59.png
+ [9]: 2013/06/by-default-2013-06-24-at-22.37.59.png
  [10]: https://github.com/nledez/demo_howto "Mon Github sur le repository de l'article"
- [11]: http://blog.ledez.net/wp-content/uploads/2013/06/by-default-2013-06-24-at-23.03.01.png
+ [11]: 2013/06/by-default-2013-06-24-at-23.03.01.png

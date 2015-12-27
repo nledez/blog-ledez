@@ -74,7 +74,7 @@ Pour commencer doucement, des LED RGB (Rouge Vert Bleu, Red Green Blue).
   </p>
 </div>
 
-Un capteur de température. Bon là, c&rsquo;est surtout pour [le Mooc de &laquo;&nbsp;la fabrication numérique&nbsp;&raquo;][3]  que je l&rsquo;ai commandé. À l&rsquo;heure du 1wire et des DHT22, ça me fait tout bizarre de revenir quelques années en arrière. C&rsquo;est en analogique et chiant à calibrer <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Un capteur de température. Bon là, c&rsquo;est surtout pour [le Mooc de &laquo;&nbsp;la fabrication numérique&nbsp;&raquo;][3]  que je l&rsquo;ai commandé. À l&rsquo;heure du 1wire et des DHT22, ça me fait tout bizarre de revenir quelques années en arrière. C&rsquo;est en analogique et chiant à calibrer <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <div id="attachment_1012" style="width: 160px" class="wp-caption alignnone">
   <a href="http://www.ebay.com/itm/200914924969"><img class="size-thumbnail wp-image-1012" src="http://blog.ledez.net/wp-content/uploads/2014/05/ebay-4-Redesign-Pro-Mini-atmega328-3.3V-8M-Replace-ATmega128-Arduino-Compatible-Nano-150x150.jpg" alt="Pro Mini atmega328 3.3V 8M Arduino Compatible Nano" width="150" height="150" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/ebay-4-Redesign-Pro-Mini-atmega328-3.3V-8M-Replace-ATmega128-Arduino-Compatible-Nano-150x150.jpg 150w, http://blog.ledez.net/wp-content/uploads/2014/05/ebay-4-Redesign-Pro-Mini-atmega328-3.3V-8M-Replace-ATmega128-Arduino-Compatible-Nano-300x300.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/ebay-4-Redesign-Pro-Mini-atmega328-3.3V-8M-Replace-ATmega128-Arduino-Compatible-Nano.jpg 500w" sizes="(max-width: 150px) 100vw, 150px" /></a>
@@ -119,7 +119,7 @@ Ce truc là, c&rsquo;est un adaptateur USB/Série qui permet notamment de progra
 </div>
 
 <p class="p1">
-  Comme j&rsquo;en avais mare des problèmes d&rsquo;USB avec les Pro Mini j&rsquo;ai pris un équivalent avec de l&rsquo;USB intégré <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> On alors pour compléter ma collection :p
+  Comme j&rsquo;en avais mare des problèmes d&rsquo;USB avec les Pro Mini j&rsquo;ai pris un équivalent avec de l&rsquo;USB intégré <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> On alors pour compléter ma collection :p
 </p>
 
 <div id="attachment_1011" style="width: 160px" class="wp-caption alignnone">
@@ -131,7 +131,7 @@ Ce truc là, c&rsquo;est un adaptateur USB/Série qui permet notamment de progra
 </div>
 
 <p class="p1">
-  C&rsquo;est la même version que celle du dessus, mais à 0.62$ de moins (environ 45 centimes d&rsquo;Euros). Cette différence de prix s&rsquo;explique par un circuit intégré différent pour gérer l&rsquo;USB. Bon, au final j&rsquo;ai eu tellement de problèmes que j&rsquo;ai dû installer les drivers pour tout le monde <img src="https://blog.ledez.net/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Marche directement sous Linux (Ubuntu).
+  C&rsquo;est la même version que celle du dessus, mais à 0.62$ de moins (environ 45 centimes d&rsquo;Euros). Cette différence de prix s&rsquo;explique par un circuit intégré différent pour gérer l&rsquo;USB. Bon, au final j&rsquo;ai eu tellement de problèmes que j&rsquo;ai dû installer les drivers pour tout le monde <img src="smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Marche directement sous Linux (Ubuntu).
 </p>
 
  [1]: http://blog.ledez.net/wp-content/uploads/2014/05/Banniere-DIY-2.jpg

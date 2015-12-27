@@ -75,7 +75,7 @@ Restart=always
 {% endhighlight %}
 
 
-Comme tu peux le constater, c&rsquo;est loin d&rsquo;être du binaire. Simple à lire et comprendre. Et je ne sais pas pour toi, mais moi perso je n&rsquo;ai jamais aimé écrire les script init. C&rsquo;est toujours la galère <img src="https://blog.ledez.net/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Comme tu peux le constater, c&rsquo;est loin d&rsquo;être du binaire. Simple à lire et comprendre. Et je ne sais pas pour toi, mais moi perso je n&rsquo;ai jamais aimé écrire les script init. C&rsquo;est toujours la galère <img src="smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Alors que pour écrire celui-là, j&rsquo;y ai pris du plaisir (j’en entends dire d’ici que j’aime avoir mal &#8211; c’est surement vrai ^^).
 

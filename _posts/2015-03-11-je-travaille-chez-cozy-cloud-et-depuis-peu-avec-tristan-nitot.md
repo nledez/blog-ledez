@@ -35,7 +35,7 @@ excerpt_separator: <!--more-->
 
 Pour ceux qui me suivent un peu, j&rsquo;ai changé de travail en aout.
 
-Je suis arrivé chez [Cozy Cloud][1] comme administrateur système ou &laquo;&nbsp;[devops guru][2]&nbsp;&raquo; <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je suis arrivé chez [Cozy Cloud][1] comme administrateur système ou &laquo;&nbsp;[devops guru][2]&nbsp;&raquo; <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Je suis vraiment heureux et fier de travailler dans cette startup.
 
@@ -43,7 +43,7 @@ Et aujourd&rsquo;hui est une journée particulière. [Tristan Nitot nous rejoin
 
 <!--more-->
 
-Bref, une grosse journée s&rsquo;annonce ! <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Bref, une grosse journée s&rsquo;annonce ! <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <http://standblog.org/blog/post/2015/03/11/Je-rejoins-Cozy-Cloud>
 

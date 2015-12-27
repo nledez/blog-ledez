@@ -37,7 +37,7 @@ excerpt_separator: <!--more-->
 </div>
 
 Tu n&rsquo;as pas été gâté pour Noël ? Tu as envie de te mettre rapidement à GitLab ?  
-Je vais donc t&rsquo;aider à te rattraper <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je vais donc t&rsquo;aider à te rattraper <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Il y a quelque temps, on m&rsquo;a proposé de faire une &laquo;&nbsp;lecture&nbsp;&raquo; de &laquo;&nbsp;GitLab Repository Management&nbsp;&raquo;.
 

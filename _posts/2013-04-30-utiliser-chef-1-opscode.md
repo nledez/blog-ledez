@@ -72,7 +72,7 @@ Et avec le plan gratuit, pour 0$ vous avez :
   * 2 users
   * 1 environnement
 
-Bref, de quoi tester la solution. Je vous laisse vous découvrir tout le site d&rsquo;Opscode, j&rsquo;y reviendrais plus tard. En attendant, si vous n&rsquo;avez pas tout ça, installez (chez moi, ça marche sur un Mac, pour le reste débrouillez vous <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ) :
+Bref, de quoi tester la solution. Je vous laisse vous découvrir tout le site d&rsquo;Opscode, j&rsquo;y reviendrais plus tard. En attendant, si vous n&rsquo;avez pas tout ça, installez (chez moi, ça marche sur un Mac, pour le reste débrouillez vous <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ) :
 
   * <span style="line-height: 13px;">Un interpréteur Ruby &#8211; Via rbenv par exemple (<a title="Tutorial anglais pour installer un environnement Rails" href="http://blog.wyeworks.com/2012/4/13/my-osx-rails-installation-using-homebrew-and-rbenv-step-by-step/">comment installer Rails sur OSX</a> avec les steps 1 à 4, 8 à 11)</span>
   * VirtualBox (Le site de [VirtualBox][5])

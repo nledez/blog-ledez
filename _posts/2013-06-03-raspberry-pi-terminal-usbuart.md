@@ -62,7 +62,7 @@ L&rsquo;orange sur le PIN 8 (TXD)
 
 Le rouge sur le PIN 10 (RXD)
 
-Ca donne ça, et ça fonctionne <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Ca donne ça, et ça fonctionne <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 [<img class="alignnone size-large wp-image-750" alt="RaspberryPi-USBSerial" src="http://blog.ledez.net/wp-content/uploads/2013/06/RaspberryPi-USBSerial-1024x732.jpg" width="620" height="443" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/RaspberryPi-USBSerial-300x214.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/06/RaspberryPi-USBSerial-1024x732.jpg 1024w, http://blog.ledez.net/wp-content/uploads/2013/06/RaspberryPi-USBSerial.jpg 1280w" sizes="(max-width: 620px) 100vw, 620px" />][7]
 

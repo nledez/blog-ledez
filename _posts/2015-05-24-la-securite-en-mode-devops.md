@@ -45,7 +45,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </div> 
     
     <p>
-      Et c&rsquo;est une super idée d&rsquo;article <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Et c&rsquo;est une super idée d&rsquo;article <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
     
     <p>
@@ -61,7 +61,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      Sans vous refaire l&rsquo;histoire de devops (Internet est là pour ça <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ), on trouve dans la littérature qui parle du sujet l&rsquo;acronyme suivant :
+      Sans vous refaire l&rsquo;histoire de devops (Internet est là pour ça <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ), on trouve dans la littérature qui parle du sujet l&rsquo;acronyme suivant :
     </p>
     
     <p>
@@ -145,7 +145,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      Un exemple avec Rundeck, je donne la possibilité aux utilisateurs, de récupérer la liste des applications installées et leurs versions. Mais aussi de déployer une nouvelle instance et tout cela sans me le demander. Ni sans donner accès à des parties sensibles de l&rsquo;infrastructure. Parce que je fais confiance, mais jusqu&rsquo;à un certain point <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Un exemple avec Rundeck, je donne la possibilité aux utilisateurs, de récupérer la liste des applications installées et leurs versions. Mais aussi de déployer une nouvelle instance et tout cela sans me le demander. Ni sans donner accès à des parties sensibles de l&rsquo;infrastructure. Parce que je fais confiance, mais jusqu&rsquo;à un certain point <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
     
     <p>
@@ -193,7 +193,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      Et bien là, j&rsquo;écris des articles de blog <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Et bien là, j&rsquo;écris des articles de blog <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
     
     <p>

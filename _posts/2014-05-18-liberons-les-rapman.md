@@ -52,7 +52,7 @@ En ce moment j&rsquo;ai ça à la maison :
 </p>
 
 <p class="p1">
-  J&rsquo;ai réussi à faire tous les tests de préimpression. Mais au moment de l&rsquo;impression, le &laquo;&nbsp;homing&nbsp;&raquo; se fait bien. Puis ça se déplace en X et là, écran noir. En gros c&rsquo;est planté <img src="https://blog.ledez.net/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  J&rsquo;ai réussi à faire tous les tests de préimpression. Mais au moment de l&rsquo;impression, le &laquo;&nbsp;homing&nbsp;&raquo; se fait bien. Puis ça se déplace en X et là, écran noir. En gros c&rsquo;est planté <img src="smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 </p>
 
 <p class="p1">

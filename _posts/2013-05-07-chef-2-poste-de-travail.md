@@ -63,7 +63,7 @@ Production, préproduction, etc. En limitant les versions de recette dans les di
 
 #### Les noeuds (nodes)
 
-Le but est d&rsquo;installer nos machines qui peuvent être physiques, virtualisées ou dans le Cloud (c&rsquo;est à la mode parait-il <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ). Ce sont donc des noeuds. Pour exécuter les recettes sur les machines, vous avez le choix entre :
+Le but est d&rsquo;installer nos machines qui peuvent être physiques, virtualisées ou dans le Cloud (c&rsquo;est à la mode parait-il <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ). Ce sont donc des noeuds. Pour exécuter les recettes sur les machines, vous avez le choix entre :
 
   * chef-solo qui va être lancé sur une machine isolée
   * Et chef-client qui va utiliser le reste de l&rsquo;infrastructure que nous allons voir
@@ -148,14 +148,14 @@ _default
 ===== role:
 {% endhighlight %}
 
-Vous constatez que c&rsquo;est la même chose que dans l&rsquo;IHM Web <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Vous constatez que c&rsquo;est la même chose que dans l&rsquo;IHM Web <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Pour une raison que je n&rsquo;explique pas, la clé que j&rsquo;ai générée dans l&rsquo;article précédent ne marchait pas&#8230;  
 Je l&rsquo;ai regénérée à [l&rsquo;adresse de la gestion de compte][6].
 
 [<img class="alignnone size-full wp-image-643" alt="Régénérer sa clé utilisateur" src="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key.png" width="520" height="248" srcset="http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key-300x143.png 300w, http://blog.ledez.net/wp-content/uploads/2013/04/Chef2-reset-user-key.png 520w" sizes="(max-width: 520px) 100vw, 520px" />][7]
 
-Voila voila, si tout ça marche pour vous c&rsquo;est bon pour les articles à suivre. Sinon il va falloir trouver pourquoi <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Voila voila, si tout ça marche pour vous c&rsquo;est bon pour les articles à suivre. Sinon il va falloir trouver pourquoi <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Vous pourrez retrouver les fichiers utilisés [sur mon compte Github][8].  
 Et la version de l&rsquo;article courant dans [le tag article01][9].

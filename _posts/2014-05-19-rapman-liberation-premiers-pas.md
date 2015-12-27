@@ -247,7 +247,7 @@ Ouvrir Repetier et vérifier que la température est présente.
 ### Ventilateur {.p1}
 
 <p class="p1">
-  Je l&rsquo;ai cablé sur D09 et pour le test, vous avez compris comment ça marche <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  Je l&rsquo;ai cablé sur D09 et pour le test, vous avez compris comment ça marche <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 </p>
 
 ### Ressources {.p1}

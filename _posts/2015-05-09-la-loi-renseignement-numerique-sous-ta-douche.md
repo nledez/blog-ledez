@@ -38,7 +38,7 @@ excerpt_separator: <!--more-->
 
 Je n&rsquo;ai pas trop l&rsquo;habitude d&rsquo;écrire et encore moins de poster des billets d&rsquo;humeur ici. Malgré le fait que cela m&rsquo;ait démangé quelques fois.
 
-Mais là, en ce moment, j&rsquo;essaye d&rsquo;expliquer à mon entourage le problème de la loi sur le renseignement numérique. Et je n&rsquo;arrivais pas à trouver d&rsquo;image pour faire comprendre le problème à un public non &laquo;&nbsp;numériqué&nbsp;&raquo; <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Mais là, en ce moment, j&rsquo;essaye d&rsquo;expliquer à mon entourage le problème de la loi sur le renseignement numérique. Et je n&rsquo;arrivais pas à trouver d&rsquo;image pour faire comprendre le problème à un public non &laquo;&nbsp;numériqué&nbsp;&raquo; <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Et cette nuit pendant mon insomnie j&rsquo;ai trouvé !
 

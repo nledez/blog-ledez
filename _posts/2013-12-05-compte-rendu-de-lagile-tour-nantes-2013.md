@@ -103,7 +103,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 </div>
 
 <div class="shortcode col2-1">
-  Je suis ensuite allé voir la session Scrum ou kanban … comment choisir ? par Alexandre BOUTIN. Très sympa, conclusion, vous n&rsquo;avez qu&rsquo;a choisir <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />
+  Je suis ensuite allé voir la session Scrum ou kanban … comment choisir ? par Alexandre BOUTIN. Très sympa, conclusion, vous n&rsquo;avez qu&rsquo;a choisir <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /><br />
 </div>
 
 <div class="shortcode col3-1 first">
@@ -123,7 +123,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 </div>
 
 <div class="shortcode col2-1 first">
-  Ensuite, c&rsquo;était l&rsquo;heure de manger. Un peu folklorique pour accéder au buffet <img src="https://blog.ledez.net/wp-includes/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Heureusement que les agilités sont des personnes civilisées :p<br />
+  Ensuite, c&rsquo;était l&rsquo;heure de manger. Un peu folklorique pour accéder au buffet <img src="smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Heureusement que les agilités sont des personnes civilisées :p<br />
 </div>
 
 <div class="shortcode col3-1 first">
@@ -153,7 +153,7 @@ J&rsquo;étais invité à l&rsquo;Agile Tour de Nantes, dont voici le résumé d
 Ensuite, ce pour quoi nous étions venus à Nantes avec [Sylvain][1] ce jour-là, une session DevOps. C&rsquo;était une grande nouveauté pour moi, la présenter à 2. Cela s’est très bien passé malgré quelques ratés (une télécommande chacun&#8230;.). Et comme d&rsquo;habitude, un débat très intéressant a suivi.  
 Les slides sont disponibles sur [SlideShare][2].
 
-Dans la foulée, j&rsquo;avais mon LT &laquo;&nbsp;Y sont pas cher mes tests !&nbsp;&raquo; dont les slides sont [ICI][3]. 10/15 minutes, c&rsquo;est vraiment court et frustrant pour tout le monde. Le bon timming, c&rsquo;est 1h. Mais c&rsquo;est aussi le jeu du LT. Donc si vous voulez, je peux venir faire la présentation en 1h chez vous <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Dans la foulée, j&rsquo;avais mon LT &laquo;&nbsp;Y sont pas cher mes tests !&nbsp;&raquo; dont les slides sont [ICI][3]. 10/15 minutes, c&rsquo;est vraiment court et frustrant pour tout le monde. Le bon timming, c&rsquo;est 1h. Mais c&rsquo;est aussi le jeu du LT. Donc si vous voulez, je peux venir faire la présentation en 1h chez vous <img src="smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <div class="shortcode col3-1 first">
   <p>
