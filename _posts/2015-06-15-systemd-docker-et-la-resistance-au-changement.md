@@ -27,6 +27,7 @@ categories:
 tags:
   - docker
   - systemd
+excerpt_separator: <!--more-->
 ---
 [<img class="alignnone size-medium wp-image-2414" src="http://blog.ledez.net/wp-content/uploads/2015/06/systemd-avenir-300x229.jpg" alt="Systemd avenir" width="300" height="229" srcset="http://blog.ledez.net/wp-content/uploads/2015/06/systemd-avenir-300x229.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/06/systemd-avenir.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 

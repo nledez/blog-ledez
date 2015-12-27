@@ -23,6 +23,7 @@ builder_switch_frontend:
   - 0
 categories:
   - Rapman
+excerpt_separator: <!--more-->
 ---
 Chantez avec moi en coeur le refrain :
 

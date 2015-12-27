@@ -11,6 +11,7 @@ categories:
 tags:
   - git
   - slides
+excerpt_separator: <!--more-->
 ---
 Les slides &laquo;&nbsp;Git en 10 minutes&nbsp;&raquo; que j&rsquo;ai présentées ce soir au Devcamp #5 sont en ligne ici :
 

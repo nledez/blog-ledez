@@ -27,6 +27,7 @@ tags:
   - alias
   - mail
   - postfix
+excerpt_separator: <!--more-->
 ---
 [<img class="alignnone size-medium wp-image-2385" src="https://blog.ledez.net/wp-content/uploads/2015/05/Postfix_logo-300x159.png" alt="Postfix" width="300" height="159" />][1]Aujourd&rsquo;hui, j&rsquo;ai reçu un joli phishing sur mon adresse vinci-autoroutes@mon-domaine. C&rsquo;était un phishing pour le Crédit Agricole.
 

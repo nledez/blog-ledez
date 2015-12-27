@@ -16,6 +16,7 @@ tags:
   - puppet
   - tips
   - vagrant
+excerpt_separator: <!--more-->
 ---
 Lors du [Breizhcamp][1], j&rsquo;ai présenté dans ma démonstration comment tuner un peu les VM.
 

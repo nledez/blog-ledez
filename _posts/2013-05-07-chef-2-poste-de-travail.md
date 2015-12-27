@@ -13,6 +13,7 @@ tags:
   - chef
   - devops
   - ruby
+excerpt_separator: <!--more-->
 ---
 La suite du [précédent article &laquo;&nbsp;Utiliser chef #1 – Création d’un compte chez Opscode&nbsp;&raquo;][1]
 

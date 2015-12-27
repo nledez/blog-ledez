@@ -22,6 +22,7 @@ builder_switch_frontend:
   - 0
 categories:
   - Legos
+excerpt_separator: <!--more-->
 ---
 Hello,
 

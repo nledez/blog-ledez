@@ -21,6 +21,7 @@ builder_switch_frontend:
   - 0
 categories:
   - DIY
+excerpt_separator: <!--more-->
 ---
 [<img class="alignnone size-full wp-image-1019" src="http://blog.ledez.net/wp-content/uploads/2014/05/BannerArduinoStk500_getsync.jpg" alt="BannerArduinoStk500_getsync" width="751" height="140" />][1]
 

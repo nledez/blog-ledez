@@ -24,6 +24,7 @@ categories:
 tags:
   - Arduino
   - DIY
+excerpt_separator: <!--more-->
 ---
 [<img class="alignnone wp-image-1017 size-full" src="http://blog.ledez.net/wp-content/uploads/2014/05/Banniere-DIY-2.jpg" alt="Banniere-DIY-2" width="1000" height="200" srcset="http://blog.ledez.net/wp-content/uploads/2014/05/Banniere-DIY-2-300x60.jpg 300w, http://blog.ledez.net/wp-content/uploads/2014/05/Banniere-DIY-2.jpg 1000w" sizes="(max-width: 1000px) 100vw, 1000px" />][1]
 

@@ -13,6 +13,7 @@ tags:
   - array
   - ruby
   - tips
+excerpt_separator: <!--more-->
 ---
 J&rsquo;en ai parlé lors de ma session aux MS Techdays.
 

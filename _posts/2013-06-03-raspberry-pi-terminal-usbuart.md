@@ -26,6 +26,7 @@ tags:
   - Raspberryπ
   - serial
   - usb
+excerpt_separator: <!--more-->
 ---
 [<img class="alignnone  wp-image-744" alt="RaspberryPi" src="http://blog.ledez.net/wp-content/uploads/2013/06/RaspberryPi-1024x682.jpeg" width="372" height="247" />][1]
 

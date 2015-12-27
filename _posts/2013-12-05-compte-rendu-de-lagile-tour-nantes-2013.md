@@ -34,6 +34,7 @@ tags:
   - conf
   - devops
   - TDD
+excerpt_separator: <!--more-->
 ---
 Bon, je vais casser un peu la chronologie, mais je vais écrire l&rsquo;article tant que c&rsquo;est encore frais.
 

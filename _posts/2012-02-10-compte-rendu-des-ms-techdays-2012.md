@@ -8,6 +8,7 @@ permalink: /blog/compte-rendu-des-ms-techdays-2012/
 categories:
   - Blog
   - Fun
+excerpt_separator: <!--more-->
 ---
 Le résultat de ma checklist :  
 <!--more-->

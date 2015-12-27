@@ -9,6 +9,7 @@ categories:
   - Blog
   - OpenSource
   - Rails
+excerpt_separator: <!--more-->
 ---
 Je ne vais pas mettre des smilets toute les deux phrases, mais prenez le contenu du billet au second degré.
 

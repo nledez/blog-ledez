@@ -11,6 +11,7 @@ categories:
   - Loisirs
 tags:
   - informatique
+excerpt_separator: <!--more-->
 ---
 Comme quoi, je ne vais pas que dans des réunions avec des nerds.
 

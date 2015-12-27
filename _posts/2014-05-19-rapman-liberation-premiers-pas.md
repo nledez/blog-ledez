@@ -23,6 +23,7 @@ builder_switch_frontend:
   - 0
 categories:
   - Rapman
+excerpt_separator: <!--more-->
 ---
   1. Trouver une alimentation électrique
   2. Faire marcher l&rsquo;alimentation électrique

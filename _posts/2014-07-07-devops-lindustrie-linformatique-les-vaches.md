@@ -23,6 +23,7 @@ builder_switch_frontend:
   - 0
 categories:
   - DevOps
+excerpt_separator: <!--more-->
 ---
 <p class="p1">
   Je sais vous allez vous dire c&rsquo;est quoi le rapport avec les vaches ?

@@ -26,6 +26,7 @@ tags:
   - git
   - gitlab
   - livre
+excerpt_separator: <!--more-->
 ---
 <div id="attachment_928" style="width: 253px" class="wp-caption alignleft">
   <a href="http://bit.ly/1fTUYMy"><img class="size-medium wp-image-928" alt="GitLab Repository Management" src="http://blog.ledez.net/wp-content/uploads/2013/12/GitLab-Repository-Management-243x300.jpg" width="243" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/GitLab-Repository-Management-243x300.jpg 243w, http://blog.ledez.net/wp-content/uploads/2013/12/GitLab-Repository-Management.jpg 500w" sizes="(max-width: 243px) 100vw, 243px" /></a>

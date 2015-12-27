@@ -12,6 +12,7 @@ tags:
   - mac
   - osx
   - pdf
+excerpt_separator: <!--more-->
 ---
   1. Chalenge de la journée : réussir à trouver une solution pour transformer un document Word en PDF avec &laquo;&nbsp;papier à entête&nbsp;&raquo;
 

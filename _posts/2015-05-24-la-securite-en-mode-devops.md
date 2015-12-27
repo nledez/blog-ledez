@@ -26,6 +26,7 @@ categories:
 tags:
   - devops
   - Sécurité
+excerpt_separator: <!--more-->
 ---
 Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
 

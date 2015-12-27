@@ -28,6 +28,7 @@ tags:
   - capteur
   - DIY
   - Hack
+excerpt_separator: <!--more-->
 ---
 Je suis un fan du mouvement DIY (Do It Yourself). En gros de la bidouille.  
 J&rsquo;ai fait des études d&rsquo;électronique. Mais comme j&rsquo;étais nul en math, ça m&rsquo;a toujours &laquo;&nbsp;bloqué&nbsp;&raquo;.  

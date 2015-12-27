@@ -26,6 +26,7 @@ categories:
 tags:
   - humeur
   - loirenseignement
+excerpt_separator: <!--more-->
 ---
 <div id="attachment_2394" style="width: 248px" class="wp-caption alignnone">
   <a href="http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z.jpg"><img class="size-medium wp-image-2394" src="http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z-238x300.jpg" alt="Sous la douche" width="238" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z-238x300.jpg 238w, http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z.jpg 508w" sizes="(max-width: 238px) 100vw, 238px" /></a>

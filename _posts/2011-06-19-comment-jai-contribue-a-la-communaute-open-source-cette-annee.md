@@ -12,6 +12,7 @@ tags:
   - auto-entrepreneur
   - communauté
   - open-source
+excerpt_separator: <!--more-->
 ---
 Suite au [Breizhcamp][1], son sondage et tout ça, je me suis demandé comment j&rsquo;ai contribué récemment aux différentes communautés.
 

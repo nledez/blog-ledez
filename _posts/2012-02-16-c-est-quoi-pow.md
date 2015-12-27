@@ -13,6 +13,7 @@ tags:
   - pow
   - rails
   - ruby
+excerpt_separator: <!--more-->
 ---
 Pour répondre à un commentaire, sur mon prétendent [Post &laquo;&nbsp;Pow pour les nuls&nbsp;&raquo;][1] :
 

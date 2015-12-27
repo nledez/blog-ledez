@@ -11,6 +11,7 @@ tags:
   - vagran
   - virtualisation
   - vm
+excerpt_separator: <!--more-->
 ---
 <img class="size-medium wp-image-411 alignright" title="Vagrant" src="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-300x300.png" alt="" width="300" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling.png 350w" sizes="(max-width: 300px) 100vw, 300px" />
 

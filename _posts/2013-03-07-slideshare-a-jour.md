@@ -22,6 +22,7 @@ tags:
   - stockage
   - TDD
   - vagrant
+excerpt_separator: <!--more-->
 ---
 En cherchant 2/3 trucs sur Slideshare, je me suis rendu compte que certains de mes slides n&rsquo;étaient pas en ligne.
 

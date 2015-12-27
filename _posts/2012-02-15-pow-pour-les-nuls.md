@@ -15,6 +15,7 @@ tags:
   - rails
   - ruby
   - zsh
+excerpt_separator: <!--more-->
 ---
 Toutes les étapes pour avoir une machine avec un Pow et Zsh qui torchent ! :
 

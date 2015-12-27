@@ -11,6 +11,7 @@ categories:
 tags:
   - rails
   - ruby
+excerpt_separator: <!--more-->
 ---
 Ci-dessous les slides de la session.
 

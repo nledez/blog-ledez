@@ -26,6 +26,7 @@ tags:
   - chef
   - devops
   - opscode
+excerpt_separator: <!--more-->
 ---
 <img class=" wp-image-587 alignleft" alt="Le logo Chef" src="http://blog.ledez.net/wp-content/uploads/2013/04/logo-chef.png" width="158" height="123" /> Premier article d&rsquo;une série pour vous aider à mettre en place Chef pour déployer vos applicatifs dans vos machines. Les premiers articles seront publiés rapidement pour vous permettre de commencer très vite. Puis les suivants seront plus espacés dans le temps afin de bien maitriser les différentes parties. Objectifs :
 

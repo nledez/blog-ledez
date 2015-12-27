@@ -28,6 +28,7 @@ tags:
   - hacker
   - hackerspace
   - rmll
+excerpt_separator: <!--more-->
 ---
 <div id="attachment_934" style="width: 1034px" class="wp-caption alignnone">
   <a href="http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner.jpg"><img class="size-large wp-image-934" alt="RMLL 2013 j1 hackerspace" src="http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner-1024x227.jpg" width="1024" height="227" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner-300x66.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner-1024x227.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>

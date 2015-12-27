@@ -10,6 +10,7 @@ categories:
 tags:
   - ruby
   - TDD
+excerpt_separator: <!--more-->
 ---
 [<img class="alignnone  wp-image-792" alt="Ruby" src="http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png" width="181" height="181" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png 504w" sizes="(max-width: 181px) 100vw, 181px" />][1] Je sais bien que ça te démange toi aussi de [pisser du code][2].
 
