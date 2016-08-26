@@ -4,6 +4,7 @@ title: Jouez avec des feux tricolores en Ruby
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1104
+permalink: /keynotes/jouez-feux-tricolores-en-ruby/
 page_layout:
   - default
 content_width:

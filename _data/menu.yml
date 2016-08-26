@@ -1,0 +1,12 @@
+- text: Accueil
+  url: /
+- text: A propos
+  url: /a-propos/
+- text: Keynotes
+  url: /keynotes/
+- text: DevOps
+  url: /category/devops/
+- text: Ruby
+  url: /category/ruby/
+- text: Tips
+  url: /category/tips/

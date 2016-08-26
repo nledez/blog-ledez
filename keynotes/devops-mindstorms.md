@@ -4,6 +4,7 @@ title: DevOps Mindstorms
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1118
+permalink: /keynotes/devops-mindstorms/
 page_layout:
   - default
 content_width:

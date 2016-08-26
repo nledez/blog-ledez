@@ -1,9 +1,10 @@
 ---
-id: 1108
-title: Introduction à Vagrant
+id: 1114
+title: Git for dumbass
 author: Nicolas Ledez
 layout: page
-guid: http://blog.ledez.net/?page_id=1108
+guid: http://blog.ledez.net/?page_id=1114
+permalink: /keynotes/git-for-dumbass/
 page_layout:
   - default
 content_width:
@@ -37,10 +38,8 @@ hide_navigation:
 builder_switch_frontend:
   - 0
 ---
-Vous avez besoin de tester un truc rapidement sur une machine ?
+Tu ne sais pas encore te servir de Git ?
 
-Vous savez que ça risque de la casser ?
+Viens avec ton PC et ton cerveau (c&rsquo;est important).
 
-Mais vous avez la flemme d&rsquo;installer une VM ?
-
-Laissez donc Vagrant le faire à votre place. Venez voir, c&rsquo;est magique !
+Et à la fin de la session, tu risques te pouvoir t&rsquo;en servir.

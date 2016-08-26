@@ -1,9 +1,10 @@
 ---
-id: 1102
-title: Tu veux scripter ?
+id: 1108
+title: Introduction à Vagrant
 author: Nicolas Ledez
 layout: page
-guid: http://blog.ledez.net/?page_id=1102
+guid: http://blog.ledez.net/?page_id=1108
+permalink: /keynotes/introduction-vagrant/
 page_layout:
   - default
 content_width:
@@ -37,16 +38,10 @@ hide_navigation:
 builder_switch_frontend:
   - 0
 ---
-Et ben tu viens !
+Vous avez besoin de tester un truc rapidement sur une machine ?
 
-Dans cette session, je montrerai les bases du scripting dans différents langages.
+Vous savez que ça risque de la casser ?
 
-Et à la fin une synthèse des avantages et inconvénients de chacun.
+Mais vous avez la flemme d&rsquo;installer une VM ?
 
-Bref tu vas scripter.
-
-### Remarque
-
-<p class="p1">
-  Conférence jouée aux RMLL 2013. Introduction à Ruby, Python et Bash.
-</p>
+Laissez donc Vagrant le faire à votre place. Venez voir, c&rsquo;est magique !

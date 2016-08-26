@@ -4,6 +4,7 @@ title: keynotes
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1095
+permalink: /keynotes/
 page_layout:
   - default
 content_width:
@@ -66,13 +67,13 @@ Voici la liste :
 Je ne mange pas de chocolat. Ça en fera plus pour vous au moment du dessert <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://www.brownbaglunch.fr/
- [2]: http://blog.ledez.net/keynotes/infrastructure-as-code-chef/ "« Infrastructure as code » avec Chef"
- [3]: http://blog.ledez.net/keynotes/devops-lafter-agile/ "Dev(\)Ops ? l’after Agile ?"
- [4]: http://blog.ledez.net/keynotes/devops-mindstorms/ "DevOps Mindstorms"
- [5]: http://blog.ledez.net/keynotes/git-for-dumbass/ "Git for dumbass"
- [6]: http://blog.ledez.net/keynotes/introduction-ruby/ "Introduction à Ruby"
- [7]: http://blog.ledez.net/keynotes/introduction-vagrant/ "Introduction à Vagrant"
- [8]: http://blog.ledez.net/keynotes/introduction-au-cloud/ "Introduction au Cloud"
- [9]: http://blog.ledez.net/keynotes/jouez-feux-tricolores-en-ruby/ "Jouez avec des feux tricolores en Ruby"
- [10]: http://blog.ledez.net/keynotes/tu-veux-scripter/ "Tu veux scripter ?"
- [11]: http://blog.ledez.net/keynotes/y-pas-cher-mes-tests/ "Y sont pas cher mes tests !"
+ [2]: /keynotes/infrastructure-as-code-chef/ "« Infrastructure as code » avec Chef"
+ [3]: /keynotes/devops-lafter-agile/ "Dev(\)Ops ? l’after Agile ?"
+ [4]: /keynotes/devops-mindstorms/ "DevOps Mindstorms"
+ [5]: /keynotes/git-for-dumbass/ "Git for dumbass"
+ [6]: /keynotes/introduction-ruby/ "Introduction à Ruby"
+ [7]: /keynotes/introduction-vagrant/ "Introduction à Vagrant"
+ [8]: /keynotes/introduction-au-cloud/ "Introduction au Cloud"
+ [9]: /keynotes/jouez-feux-tricolores-en-ruby/ "Jouez avec des feux tricolores en Ruby"
+ [10]: /keynotes/tu-veux-scripter/ "Tu veux scripter ?"
+ [11]: /keynotes/y-pas-cher-mes-tests/ "Y sont pas cher mes tests !"

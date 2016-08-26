@@ -4,6 +4,7 @@ title: '&laquo;&nbsp;Infrastructure as code&nbsp;&raquo; avec Chef'
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1112
+permalink: /keynotes/infrastructure-as-code-chef/
 page_layout:
   - default
 content_width:

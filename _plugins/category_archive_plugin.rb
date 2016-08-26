@@ -35,7 +35,11 @@ module Jekyll
 
     def posts_group_by_category(site)
       category_map = {}
-      site.posts.each {|p| p.categories.each {|c| (category_map[c] ||= []) << p } }
+      site.posts.docs.each do |p|
+        p['categories'].each do |c|
+          (category_map[c] ||= []) << p
+        end
+      end
       category_map
     end
   end
@@ -95,11 +99,11 @@ module Jekyll
       self.data = {
           'layout' => @layout,
           'type' => 'archive',
-          'title' => "Category archive for #{@category}",
+          'title' => "Catégorie #{@category}",
           'posts' => posts,
           'url' => File.join('/',
                      CategoryArchiveUtil.archive_base(site),
-                     @category_dir_name, 'index.html')
+                     @category_dir_name, '/')
       }
     end
 

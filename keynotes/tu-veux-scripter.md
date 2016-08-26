@@ -1,9 +1,10 @@
 ---
-id: 1114
-title: Git for dumbass
+id: 1102
+title: Tu veux scripter ?
 author: Nicolas Ledez
 layout: page
-guid: http://blog.ledez.net/?page_id=1114
+guid: http://blog.ledez.net/?page_id=1102
+permalink: /keynotes/tu-veux-scripter/
 page_layout:
   - default
 content_width:
@@ -37,8 +38,16 @@ hide_navigation:
 builder_switch_frontend:
   - 0
 ---
-Tu ne sais pas encore te servir de Git ?
+Et ben tu viens !
 
-Viens avec ton PC et ton cerveau (c&rsquo;est important).
+Dans cette session, je montrerai les bases du scripting dans différents langages.
 
-Et à la fin de la session, tu risques te pouvoir t&rsquo;en servir.
+Et à la fin une synthèse des avantages et inconvénients de chacun.
+
+Bref tu vas scripter.
+
+### Remarque
+
+<p class="p1">
+  Conférence jouée aux RMLL 2013. Introduction à Ruby, Python et Bash.
+</p>

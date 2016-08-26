@@ -4,6 +4,7 @@ title: Introduction au Cloud
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1106
+permalink: /keynotes/introduction-au-cloud/
 page_layout:
   - default
 content_width:

@@ -1,0 +1,15 @@
+{% assign navurl = page.url | remove: 'index.html' %}
+<div class="trigger">
+{% for item in include.nav %}
+        <a class="page-link" href="{{ item.url }}">
+            {% if item.url == navurl %}
+                <b>{{ item.text }}</b>
+            {% else %}
+                {{ item.text }}
+            {% endif %}
+        </a>
+    {% if item.subitems and navurl contains item.url %}
+        {% include nav.html nav=item.subitems %}
+    {% endif %}
+{% endfor %}
+</div>

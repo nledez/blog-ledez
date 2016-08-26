@@ -4,6 +4,7 @@ title: Introduction à Ruby
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1110
+permalink: /keynotes/introduction-ruby/
 page_layout:
   - default
 content_width:
