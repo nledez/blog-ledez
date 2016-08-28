@@ -3,23 +3,8 @@ id: 986
 title: 'Rangement des pièces d&rsquo;un Lego Minstorms EV3'
 author: Nicolas Ledez
 layout: post
-comments: true
 guid: http://blog.ledez.net/?p=986
 permalink: /legos/rangement-pieces-dun-lego-minstorms-ev3/
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-builder_switch_frontend:
-  - 0
 categories:
   - Legos
 excerpt_separator: <!--more-->
