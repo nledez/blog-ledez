@@ -23,7 +23,7 @@ categories:
   - DIY
 excerpt_separator: <!--more-->
 ---
-[<img class="alignnone size-full wp-image-1019" src="/images/2014/05/BannerArduinoStk500_getsync.jpg" alt="BannerArduinoStk500_getsync" width="751" height="140" />][1]
+[<img class="alignnone size-full wp-image-1019" src="{{ site.url }}/images/2014/05/BannerArduinoStk500_getsync.jpg" alt="BannerArduinoStk500_getsync" width="751" height="140" />][1]
 
 Comme tu as pu voir [ici][2], et [ici][3] j&rsquo;aime bien les Ardiuno. Mais j&rsquo;ai rencontré pas mal de problèmes avec les derniers que j&rsquo;ai reçus.
 
@@ -106,5 +106,5 @@ Le fichier était le &laquo;&nbsp;FTDIUSBSerialDriver\_v2\_2_18.dmg&nbsp;&raquo;
 Enjoy !
 
  [1]: 2014/05/BannerArduinoStk500_getsync.jpg
- [2]: http://blog.ledez.net/diy/commande-electronique-semaine-1/ "Commande électronique de la semaine #1 – DIY"
- [3]: http://blog.ledez.net/diy/commande-electronique-semaine-2-diy/ "Commande électronique de la semaine #2 – DIY"
+ [2]: {{ site.url }}/diy/commande-electronique-semaine-1/ "Commande électronique de la semaine #1 – DIY"
+ [3]: {{ site.url }}/diy/commande-electronique-semaine-2-diy/ "Commande électronique de la semaine #2 – DIY"

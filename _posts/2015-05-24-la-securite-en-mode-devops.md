@@ -22,6 +22,7 @@ unlink_post_image:
 builder_switch_frontend:
   - 0
 categories:
+  - Informatique
   - DevOps
 tags:
   - devops
@@ -45,11 +46,11 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </div> 
     
     <p>
-      Et c&rsquo;est une super idée d&rsquo;article <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Et c&rsquo;est une super idée d&rsquo;article <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
     
     <p>
-      <a href="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm.jpg"><img class="alignnone wp-image-2408 size-medium" src="/images/2015/05/lxfsm-300x209.jpg" alt="devops sécurité" width="300" height="209" srcset="http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm-300x209.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/05/lxfsm.jpg 490w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="{{ site.url }}/images/2015/05/lxfsm.jpg"><img class="alignnone wp-image-2408 size-medium" src="{{ site.url }}/images/2015/05/lxfsm-300x209.jpg" alt="devops sécurité" width="300" height="209" srcset="{{ site.url }}/images/2015/05/lxfsm-300x209.jpg 300w, {{ site.url }}/images/2015/05/lxfsm.jpg 490w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>
@@ -61,7 +62,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      Sans vous refaire l&rsquo;histoire de devops (Internet est là pour ça <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ), on trouve dans la littérature qui parle du sujet l&rsquo;acronyme suivant :
+      Sans vous refaire l&rsquo;histoire de devops (Internet est là pour ça <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> ), on trouve dans la littérature qui parle du sujet l&rsquo;acronyme suivant :
     </p>
     
     <p>
@@ -145,7 +146,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      Un exemple avec Rundeck, je donne la possibilité aux utilisateurs, de récupérer la liste des applications installées et leurs versions. Mais aussi de déployer une nouvelle instance et tout cela sans me le demander. Ni sans donner accès à des parties sensibles de l&rsquo;infrastructure. Parce que je fais confiance, mais jusqu&rsquo;à un certain point <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Un exemple avec Rundeck, je donne la possibilité aux utilisateurs, de récupérer la liste des applications installées et leurs versions. Mais aussi de déployer une nouvelle instance et tout cela sans me le demander. Ni sans donner accès à des parties sensibles de l&rsquo;infrastructure. Parce que je fais confiance, mais jusqu&rsquo;à un certain point <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
     
     <p>
@@ -193,7 +194,7 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     </p>
     
     <p>
-      Et bien là, j&rsquo;écris des articles de blog <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+      Et bien là, j&rsquo;écris des articles de blog <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
     
     <p>

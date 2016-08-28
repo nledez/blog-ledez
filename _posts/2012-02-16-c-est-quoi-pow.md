@@ -15,7 +15,7 @@ tags:
   - ruby
 excerpt_separator: <!--more-->
 ---
-Pour répondre à un commentaire, sur mon prétendent [Post &laquo;&nbsp;Pow pour les nuls&nbsp;&raquo;][1] :
+Pour répondre à un commentaire, sur mon précédent [Post &laquo;&nbsp;Pow pour les nuls&nbsp;&raquo;][1] :
 
 Pour un développeur web 2 étapes dans la vie du projet :
 
@@ -70,7 +70,7 @@ Pour un développeur web 2 étapes dans la vie du projet :
   </ul>
   
   <div>
-    <span class="Apple-style-span" style="line-height: 18px;">Maintenant que je suis convaincu de passer à autre chose <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :</span>
+    <span class="Apple-style-span" style="line-height: 18px;">Maintenant que je suis convaincu de passer à autre chose <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :</span>
   </div>
 </div>
 
@@ -109,8 +109,8 @@ Pour un développeur web 2 étapes dans la vie du projet :
   </ul>
   
   <div>
-    Voilà, je pense vous avoir donné envie d&rsquo;acheter un Mac et de lire mon autre article &laquo;&nbsp;<a title="Pow pour les nuls" href="http://blog.ledez.net/informatique/tips/pow-pour-les-nuls/">Pow pour les nuls</a>&laquo;&nbsp;
+    Voilà, je pense vous avoir donné envie d&rsquo;acheter un Mac et de lire mon autre article &laquo;&nbsp;<a title="Pow pour les nuls" href="{{ site.url }}informatique/tips/pow-pour-les-nuls/">Pow pour les nuls</a>&laquo;&nbsp;
   </div>
 </div>
 
- [1]: http://blog.ledez.net/informatique/tips/pow-pour-les-nuls/ "Pow pour les nuls"
+ [1]: {{ site.url }}informatique/tips/pow-pour-les-nuls/ "Pow pour les nuls"

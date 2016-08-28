@@ -29,7 +29,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 <div id="attachment_928" style="width: 253px" class="wp-caption alignleft">
-  <a href="http://bit.ly/1fTUYMy"><img class="size-medium wp-image-928" alt="GitLab Repository Management" src="/images/2013/12/GitLab-Repository-Management-243x300.jpg" width="243" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/GitLab-Repository-Management-243x300.jpg 243w, http://blog.ledez.net/wp-content/uploads/2013/12/GitLab-Repository-Management.jpg 500w" sizes="(max-width: 243px) 100vw, 243px" /></a>
+  <a href="http://bit.ly/1fTUYMy"><img class="size-medium wp-image-928" alt="GitLab Repository Management" src="{{ site.url }}/images/2013/12/GitLab-Repository-Management-243x300.jpg" width="243" height="300" srcset="{{ site.url }}/images/2013/12/GitLab-Repository-Management-243x300.jpg 243w, {{ site.url }}/images/2013/12/GitLab-Repository-Management.jpg 500w" sizes="(max-width: 243px) 100vw, 243px" /></a>
   
   <p class="wp-caption-text">
     GitLab Repository Management
@@ -37,7 +37,7 @@ excerpt_separator: <!--more-->
 </div>
 
 Tu n&rsquo;as pas été gâté pour Noël ? Tu as envie de te mettre rapidement à GitLab ?  
-Je vais donc t&rsquo;aider à te rattraper <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je vais donc t&rsquo;aider à te rattraper <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Il y a quelque temps, on m&rsquo;a proposé de faire une &laquo;&nbsp;lecture&nbsp;&raquo; de &laquo;&nbsp;GitLab Repository Management&nbsp;&raquo;.
 

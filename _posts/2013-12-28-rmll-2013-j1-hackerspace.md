@@ -31,7 +31,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 <div id="attachment_934" style="width: 1034px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner.jpg"><img class="size-large wp-image-934" alt="RMLL 2013 j1 hackerspace" src="/images/2013/12/RMLL-2013-j1-hackerspace-banner-1024x227.jpg" width="1024" height="227" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner-300x66.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/RMLL-2013-j1-hackerspace-banner-1024x227.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  <a href="{{ site.url }}/images/2013/12/RMLL-2013-j1-hackerspace-banner.jpg"><img class="size-large wp-image-934" alt="RMLL 2013 j1 hackerspace" src="{{ site.url }}/images/2013/12/RMLL-2013-j1-hackerspace-banner-1024x227.jpg" width="1024" height="227" srcset="{{ site.url }}/images/2013/12/RMLL-2013-j1-hackerspace-banner-300x66.jpg 300w, {{ site.url }}/images/2013/12/RMLL-2013-j1-hackerspace-banner-1024x227.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
   
   <p class="wp-caption-text">
     RMLL 2013 j1 hackerspace
@@ -47,7 +47,7 @@ Déjà, c&rsquo;est quoi un hacker ?<!--more-->Un hacker, pour une définition c
 Le hacker space est donc l&rsquo;espace où tout ce beau monde viens se retrouver pour parler de tous ces hacks.
 
 <div id="attachment_935" style="width: 1034px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-16.34.56.jpg"><img class="size-large wp-image-935" alt="Le Hacker Space de l'ULB &quot;URLab&quot;" src="/images/2013/12/2013-07-08-16.34.56-1024x349.jpg" width="1024" height="349" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-16.34.56-300x102.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-16.34.56-1024x349.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
+  <a href="{{ site.url }}/images/2013/12/2013-07-08-16.34.56.jpg"><img class="size-large wp-image-935" alt="Le Hacker Space de l'ULB &quot;URLab&quot;" src="{{ site.url }}/images/2013/12/2013-07-08-16.34.56-1024x349.jpg" width="1024" height="349" srcset="{{ site.url }}/images/2013/12/2013-07-08-16.34.56-300x102.jpg 300w, {{ site.url }}/images/2013/12/2013-07-08-16.34.56-1024x349.jpg 1024w" sizes="(max-width: 1024px) 100vw, 1024px" /></a>
   
   <p class="wp-caption-text">
     Le Hacker Space de l&rsquo;ULB &laquo;&nbsp;URLab&nbsp;&raquo;
@@ -56,7 +56,7 @@ Le hacker space est donc l&rsquo;espace où tout ce beau monde viens se retrouve
 
 Et celui de l&rsquo;[Université Libre de Bruxelle][2] est plutôt bien. La photo est un peu déformée, mais il ne faut pas bouger pendant la photo :s
 
-[<img class="alignnone size-medium wp-image-936" alt="Pony fix Apple" src="/images/2013/12/2013-07-08-16.53.13-300x225.jpg" width="300" height="225" srcset="http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-16.53.13-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-16.53.13-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][3]
+[<img class="alignnone size-medium wp-image-936" alt="Pony fix Apple" src="{{ site.url }}/images/2013/12/2013-07-08-16.53.13-300x225.jpg" width="300" height="225" srcset="{{ site.url }}/images/2013/12/2013-07-08-16.53.13-300x225.jpg 300w, {{ site.url }}/images/2013/12/2013-07-08-16.53.13-1024x768.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" />][3]
 
 Cette photo résume bien le contenu d&rsquo;un hacker space :
 
@@ -72,7 +72,7 @@ Cette photo résume bien le contenu d&rsquo;un hacker space :
 Bref, tout ce qu&rsquo;il faut pour fabriquer des trucs comme ça :
 
 <div id="attachment_937" style="width: 160px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-17.07.14.jpg"><img class="size-thumbnail wp-image-937" alt="Sonde température Arduino" src="/images/2013/12/2013-07-08-17.07.14-150x150.jpg" width="150" height="150" /></a>
+  <a href="{{ site.url }}/images/2013/12/2013-07-08-17.07.14.jpg"><img class="size-thumbnail wp-image-937" alt="Sonde température Arduino" src="{{ site.url }}/images/2013/12/2013-07-08-17.07.14-150x150.jpg" width="150" height="150" /></a>
   
   <p class="wp-caption-text">
     Sonde température Arduino
@@ -81,16 +81,16 @@ Bref, tout ce qu&rsquo;il faut pour fabriquer des trucs comme ça :
 
 Si je me souviens bien, c&rsquo;est un Arduino sur lequel sont branchés deux capteurs de températures. Un à l&rsquo;intérieur et l&rsquo;autre à l&rsquo;extérieur. Et il est branché en USB sur :
 
-[<img class="alignnone size-thumbnail wp-image-939" alt="Un serveur &quot;Arduino&quot;" src="/images/2013/12/2013-07-08-17.07.07-150x150.jpg" width="150" height="150" />][4]
+[<img class="alignnone size-thumbnail wp-image-939" alt="Un serveur &quot;Arduino&quot;" src="{{ site.url }}/images/2013/12/2013-07-08-17.07.07-150x150.jpg" width="150" height="150" />][4]
 
 L&rsquo;USB sert d&rsquo;alimentation et collecte les données de températures pour les mettre à disposition sur le réseau.
 
 Bref, c&rsquo;était super marant de voir un hacker space à Bruxelle alors que je n&rsquo;ai même pas encore eu le temps de passer à celui de Rennes.
 
-Pour ceux qui se posent la question de la différence avec un FabLab. C&rsquo;est principalement le budget <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
+Pour ceux qui se posent la question de la différence avec un FabLab. C&rsquo;est principalement le budget <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
 Le FabLab va avoir plus de matériel, mais une cotisation plus élevée. On va y retrouver des personnes qui veulent préparer des prototypes et moins de &laquo;&nbsp;bidouilleurs&nbsp;&raquo;.
 
  [1]: http://fr.wikipedia.org/wiki/Hacker_(universit%C3%A9) "Définition Wikipédia de "Hacker""
  [2]: http://www.ulb.ac.be/ "Université Libre de Bruxelle"
- [3]: http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-16.53.13.jpg
- [4]: http://blog.ledez.net/wp-content/uploads/2013/12/2013-07-08-17.07.07.jpg
+ [3]: {{ site.url }}/images/2013/12/2013-07-08-16.53.13.jpg
+ [4]: {{ site.url }}/images/2013/12/2013-07-08-17.07.07.jpg

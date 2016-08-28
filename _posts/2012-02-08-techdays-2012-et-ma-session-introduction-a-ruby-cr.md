@@ -20,7 +20,7 @@ Merci à tout le monde :
   * d&rsquo;être venu
   * pour l&rsquo;organisation
   * pour la logistique
-  * etc, etc <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+  * etc, etc <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 <!--more-->
 

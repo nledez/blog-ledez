@@ -16,16 +16,16 @@ excerpt_separator: <!--more-->
 ---
   1. Chalenge de la journée : réussir à trouver une solution pour transformer un document Word en PDF avec &laquo;&nbsp;papier à entête&nbsp;&raquo;
 
-Coup de bol c&rsquo;est sur Mac <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
+Coup de bol c&rsquo;est sur Mac <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
 <!--more-->
 
 ### Etape 1 : transformer un PDF en PDF avec fond de page
 
 J&rsquo;ai trouvé [pdftk][1] qui permet de travailler le PDF, le couteau suisse du PDF quoi&#8230; En plus avec un logo hyper sexy :
 
-<img class="alignnone size-medium wp-image-454" title="pdftk-logo" src="/images/2012/02/pdftk-logo.png" alt="Logo pdftk" />
+<img class="alignnone size-medium wp-image-454" title="pdftk-logo" src="{{ site.url }}/images/2012/02/pdftk-logo.png" alt="Logo pdftk" />
 
-<img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+<img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 $doc_source est le document que je veux transformer.
 
@@ -48,7 +48,7 @@ $pdftk "$doc_source" cat 1 output - | $pdftk - background "$stamp" output - | $p
 
 ### Etape 2 : automatiser un peu tout ça
 
-[<img class="alignleft  wp-image-458" title="Automator" src="/images/2012/02/Automator-300x300.png" alt="Logo Automator" width="180" height="180" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/Automator-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/Automator-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/Automator.png 512w" sizes="(max-width: 180px) 100vw, 180px" />][2][Automator][3] est fait pour ça non ?
+[<img class="alignleft  wp-image-458" title="Automator" src="{{ site.url }}/images/2012/02/Automator-300x300.png" alt="Logo Automator" width="180" height="180" srcset="{{ site.url }}/images/2012/02/Automator-150x150.png 150w, {{ site.url }}/images/2012/02/Automator-300x300.png 300w, {{ site.url }}/images/2012/02/Automator.png 512w" sizes="(max-width: 180px) 100vw, 180px" />][2][Automator][3] est fait pour ça non ?
 
 Simple pour automatiser des trucs, super bien intégré. Avec même des fonctionnalités inattendues.
 
@@ -61,7 +61,7 @@ Simple pour automatiser des trucs, super bien intégré. Avec même des fonction
 &nbsp;
 
 Créer un nouveau Workflow avec :  
-[<img class="alignnone size-full wp-image-460" title="Workflow-01" src="/images/2012/02/Workflow-011.png" alt="" width="896" height="555" />][4]
+[<img class="alignnone size-full wp-image-460" title="Workflow-01" src="{{ site.url }}/images/2012/02/Workflow-011.png" alt="" width="896" height="555" />][4]
 
 Et le source :
 
@@ -91,29 +91,29 @@ Bon, ça marche par contre :
   1. Imprimer mon document en PDF
   2. Déplacer mon PDF sur mon application
 
-Je suis un peu fainéant moi <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je suis un peu fainéant moi <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 ### Etape 3 : je vous ai bien dit que c&rsquo;était magique ?
 
-Quand on ouvre l&rsquo;application on trouve ça :[<img src="/images/2012/02/Workflow-031.png" alt="" title="Workflow-03" width="513" height="292" class="alignnone size-full wp-image-469" />][5]
+Quand on ouvre l&rsquo;application on trouve ça :[<img src="{{ site.url }}/images/2012/02/Workflow-031.png" alt="" title="Workflow-03" width="513" height="292" class="alignnone size-full wp-image-469" />][5]
 
-La petite imprimante doit bien servir à quelque chose <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+La petite imprimante doit bien servir à quelque chose <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Pour éviter de refaire tout mon workflow, je vais le dupliquer :
 
-[<img src="/images/2012/02/Workflow-021.png" alt="" title="Workflow-02" width="519" height="299" class="alignnone size-full wp-image-472" />][6]
+[<img src="{{ site.url }}/images/2012/02/Workflow-021.png" alt="" title="Workflow-02" width="519" height="299" class="alignnone size-full wp-image-472" />][6]
 
 Ensuite on supprime la première boite qui prend le PDF en paramètre :  
-[<img src="/images/2012/02/Workflow-04.png" alt="" title="Workflow-04" width="618" height="249" class="alignnone size-full wp-image-470" />][7]
+[<img src="{{ site.url }}/images/2012/02/Workflow-04.png" alt="" title="Workflow-04" width="618" height="249" class="alignnone size-full wp-image-470" />][7]
 
 On enregistre le plug-in. La boite de dialogue va simplement demander le nom du plug-in d&rsquo;impression.
 
-Et maintenant pour avoir le document, on va simplement imprimer et dans la liste &laquo;&nbsp;PDF&nbsp;&raquo; on va retrouver notre plug-in <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Et maintenant pour avoir le document, on va simplement imprimer et dans la liste &laquo;&nbsp;PDF&nbsp;&raquo; on va retrouver notre plug-in <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://www.pdflabs.com/tools/pdftk-the-pdf-toolkit/ "Site de PDFTK"
- [2]: http://blog.ledez.net/wp-content/uploads/2012/02/Automator.png
+ [2]: {{ site.url }}/images/2012/02/Automator.png
  [3]: http://www.apple.com/remotedesktop/automation.html "Site d'Automator"
- [4]: 2012/02/Workflow-011.png
- [5]: 2012/02/Workflow-031.png
- [6]: 2012/02/Workflow-021.png
- [7]: 2012/02/Workflow-04.png
+ [4]: {{ site.url }}/images/2012/02/Workflow-011.png
+ [5]: {{ site.url }}/images/2012/02/Workflow-031.png
+ [6]: {{ site.url }}/images/2012/02/Workflow-021.png
+ [7]: {{ site.url }}/images/2012/02/Workflow-04.png

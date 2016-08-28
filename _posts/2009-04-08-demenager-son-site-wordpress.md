@@ -32,4 +32,4 @@ Permalinks Moved Permanently
 
 Il n&rsquo;y a rien à configurer ici.
 
- [1]: http://blog.ledez.net/2009/03/mise-a-jours-du-blog/
+ [1]: {{ site.url }}/2009/03/mise-a-jours-du-blog/

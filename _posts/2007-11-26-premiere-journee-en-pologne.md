@@ -20,9 +20,9 @@ Et quelques vues de la rue dans laquelle je dors.
 
 [![Vue2][5]][6]
 
- [1]: http://blog.ledez.net/wp-content/uploads/2007/11/img_1252-150x150.jpg
- [2]: http://blog.ledez.net/wp-content/uploads/2007/11/img_1252.jpg "Repas"
- [3]: http://blog.ledez.net/wp-content/uploads/2007/11/img_1255-150x150.jpg
- [4]: http://blog.ledez.net/wp-content/uploads/2007/11/img_1255.jpg "Vue1"
- [5]: http://blog.ledez.net/wp-content/uploads/2007/11/img_1256-150x150.jpg
- [6]: http://blog.ledez.net/wp-content/uploads/2007/11/img_1256.jpg "Vue2"
+ [1]: {{ site.url }}/images/2007/11/img_1252-150x150.jpg
+ [2]: {{ site.url }}/images/2007/11/img_1252.jpg "Repas"
+ [3]: {{ site.url }}/images/2007/11/img_1255-150x150.jpg
+ [4]: {{ site.url }}/images/2007/11/img_1255.jpg "Vue1"
+ [5]: {{ site.url }}/images/2007/11/img_1256-150x150.jpg
+ [6]: {{ site.url }}/images/2007/11/img_1256.jpg "Vue2"

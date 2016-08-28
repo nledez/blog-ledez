@@ -31,7 +31,7 @@ tags:
   - rmll
   - ruby
 ---
-[<img class="alignnone  wp-image-771" alt="Breizhcamp" src="http://blog.ledez.net/wp-content/uploads/2013/06/Breizhcamp.png" width="354" height="82" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/Breizhcamp-300x69.png 300w, http://blog.ledez.net/wp-content/uploads/2013/06/Breizhcamp.png 744w" sizes="(max-width: 354px) 100vw, 354px" />][1]  [<img class="alignnone  wp-image-767" alt="RMLL 2013" src="/images/2013/06/rmll-2013.png" width="199" height="82" />][2]
+[<img class="alignnone  wp-image-771" alt="Breizhcamp" src="{{ site.url }}/images/2013/06/Breizhcamp.png" width="354" height="82" srcset="{{ site.url }}/images/2013/06/Breizhcamp-300x69.png 300w, {{ site.url }}/images/2013/06/Breizhcamp.png 744w" sizes="(max-width: 354px) 100vw, 354px" />][1]  [<img class="alignnone  wp-image-767" alt="RMLL 2013" src="{{ site.url }}/images/2013/06/rmll-2013.png" width="199" height="82" />][2]
 
 Bonjour à tous,
 
@@ -55,11 +55,11 @@ Bref de quoi occuper un peu.
 
 Mais je suis prêt :
 
-[<img class="alignnone size-large wp-image-781" alt="CartesVisites" src="/images/2013/06/CartesVisites-1024x768.jpg" width="620" height="465" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/CartesVisites-300x225.jpg 300w, http://blog.ledez.net/wp-content/uploads/2013/06/CartesVisites-1024x768.jpg 1024w" sizes="(max-width: 620px) 100vw, 620px" />][12]
+[<img class="alignnone size-large wp-image-781" alt="CartesVisites" src="{{ site.url }}/images/2013/06/CartesVisites-1024x768.jpg" width="620" height="465" srcset="{{ site.url }}/images/2013/06/CartesVisites-300x225.jpg 300w, {{ site.url }}/images/2013/06/CartesVisites-1024x768.jpg 1024w" sizes="(max-width: 620px) 100vw, 620px" />][12]
 
 UPDATE : Mise à jour des sessions confirmées
 
- [1]: http://blog.ledez.net/wp-content/uploads/2013/06/Breizhcamp.png
+ [1]: {{ site.url }}/images/2013/06/Breizhcamp.png
  [2]: 2013/06/rmll-2013.png
  [3]: http://www.breizhcamp.org/ "Breizhcamp"
  [4]: http://www.lacantine-rennes.net/2013/06/devcamp-9-etat-de-lart-du-developpement/
@@ -70,4 +70,4 @@ UPDATE : Mise à jour des sessions confirmées
  [9]: http://schedule2013.rmll.info/programme/technical/developpement-logiciel/article/introduction-a-ruby?lang=fr "Introduction à Ruby"
  [10]: http://schedule2013.rmll.info/programme/technical/developpement-logiciel/article/git-for-dumbass?lang=fr "Git for dumbass"
  [11]: http://schedule2013.rmll.info/programme/session-speciale-grand-public/article/tu-veux-scripter?lang=fr "Tu veux scripter ? Initiation aux langages de script"
- [12]: http://blog.ledez.net/wp-content/uploads/2013/06/CartesVisites.jpg
+ [12]: {{ site.url }}/images/2013/06/CartesVisites.jpg

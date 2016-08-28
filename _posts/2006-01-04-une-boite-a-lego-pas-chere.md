@@ -12,6 +12,9 @@ Nous cherchions une boîte à Lego pas chère. Et bien nous avons trouvé 15 Eur
 
 Les deux boîtes sont fournies ensemble.
 
-<a id="I21" onclick="if(true)toggleImage(21);else alert('There is no thumbnail associated with this photo.');return false;" href="javascript:void()"><img width="128" height="96" id="image17" alt="IMG_9297.JPG" src="http://blog.ledez.net/wp-content/uploads/2006/01/img_9297-150x150.jpg" />   <img width="128" height="96" id="image18" alt="IMG_9298.JPG" src="http://blog.ledez.net/wp-content/uploads/2006/01/img_9298-150x150.jpg" />    </a><a id="I21" onclick="if(true)toggleImage(21);else alert('There is no thumbnail associated with this photo.');return false;" href="javascript:void()"><img width="128" height="96" id="image19" alt="IMG_9299.JPG" src="/images/2006/01/img_9299-150x150.jpg" /></a>
+![La boîte neuve et vide]({{ site.url }}/images/2006/01/img_9297-150x150.jpg)
+![Le deux boîtes remplies]({{ site.url }}/images/2006/01/img_9298-150x150.jpg)
+![La petite boîte fermée]({{ site.url }}/images/2006/01/img_9299-150x150.jpg)
 
-<a id="I21" onclick="if(true)toggleImage(21);else alert('There is no thumbnail associated with this photo.');return false;" href="javascript:void()"><img width="128" height="96" id="image21" alt="IMG_9301.JPG" src="http://blog.ledez.net/wp-content/uploads/2006/01/img_9301-150x150.jpg" />    </a><a id="I21" onclick="if(true)toggleImage(21);else alert('There is no thumbnail associated with this photo.');return false;" href="javascript:void()"><img width="72" height="96" id="image20" alt="IMG_9300.JPG" src="/images/2006/01/img_9300-150x150.jpg" /></a>
+![La petite boîte ouverte]({{ site.url }}/images/2006/01/img_9300-150x150.jpg)
+![Le dessus de la petite boîte]({{ site.url }}/images/2006/01/img_9301-150x150.jpg)

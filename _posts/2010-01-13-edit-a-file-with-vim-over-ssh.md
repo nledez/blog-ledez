@@ -13,7 +13,7 @@ tags:
   - tips
   - vim
 ---
-Next step of [http://blog.ledez.net/informatique/tips/editer-un-fichier-directement-en-ftp-avec-vim/][1]
+Next step of [{{ site.url }}informatique/tips/editer-un-fichier-directement-en-ftp-avec-vim/][1]
 
 I would like to edit /etc/init.d/squid on bozzo host:
 
@@ -29,4 +29,4 @@ vim scp://bozzo/etc/init.d/squid
 
 vim edit the file &laquo;&nbsp;etc/init.d/squid&nbsp;&raquo; in user home directory (/root/etc/squid/squid.conf in normal root account)
 
- [1]: http://blog.ledez.net/informatique/tips/editer-un-fichier-directement-en-ftp-avec-vim/ "Edit a file with vim over FTP"
+ [1]: {{ site.url }}informatique/tips/editer-un-fichier-directement-en-ftp-avec-vim/ "Edit a file with vim over FTP"

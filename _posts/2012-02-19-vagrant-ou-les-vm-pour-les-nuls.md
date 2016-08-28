@@ -13,7 +13,7 @@ tags:
   - vm
 excerpt_separator: <!--more-->
 ---
-<img class="size-medium wp-image-411 alignright" title="Vagrant" src="/images/2012/02/vagrant_chilling-300x300.png" alt="" width="300" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant_chilling.png 350w" sizes="(max-width: 300px) 100vw, 300px" />
+<img class="size-medium wp-image-411 alignright" title="Vagrant" src="{{ site.url }}/images/2012/02/vagrant_chilling-300x300.png" alt="" width="300" height="300" srcset="{{ site.url }}/images/2012/02/vagrant_chilling-150x150.png 150w, {{ site.url }}/images/2012/02/vagrant_chilling-300x300.png 300w, {{ site.url }}/images/2012/02/vagrant_chilling.png 350w" sizes="(max-width: 300px) 100vw, 300px" />
 
 Pour un administrateur système, la virtualisation est un super jouet.
 
@@ -42,11 +42,11 @@ Package : c&rsquo;est la version compressée d&rsquo;un modèle de VM.
 
 On télécharge un package pour l&rsquo;installer en tant que box. Une instance de VM peut être convertie en package.
 
-[<img class="alignnone size-medium wp-image-419" title="Workflow Vagrant" src="/images/2012/02/vagrant-300x186.png" alt="" width="300" height="186" srcset="http://blog.ledez.net/wp-content/uploads/2012/02/vagrant-300x186.png 300w, http://blog.ledez.net/wp-content/uploads/2012/02/vagrant.png 741w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="alignnone size-medium wp-image-419" title="Workflow Vagrant" src="{{ site.url }}/images/2012/02/vagrant-300x186.png" alt="" width="300" height="186" srcset="{{ site.url }}/images/2012/02/vagrant-300x186.png 300w, {{ site.url }}/images/2012/02/vagrant.png 741w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 ### Installation de VirtualBox
 
-<img class="size-full wp-image-416 alignright" title="Virtual Box" src="/images/2012/02/vbox_logo2_gradient.png" alt="" width="140" height="180" />
+<img class="size-full wp-image-416 alignright" title="Virtual Box" src="{{ site.url }}/images/2012/02/vbox_logo2_gradient.png" alt="" width="140" height="180" />
 
 La première chose à faire est d&rsquo;installer Virtual Box : direction [le site de Virtual Box][2]. Prenez l&rsquo;installeur qui correspond à votre système d&rsquo;exploitation. Attention Vagrant ne supporte que les versions VirtualBox 4.0.x et 4.1.x. Il y a peut-être une solution pour votre distribution Linux du style package tout prêt. Et je ne sais absolument pas ce que ça donne sous Windows.
 
@@ -96,7 +96,7 @@ Par notre box installé tout à l&rsquo;heure :
 config.vm.box = "lucid64"
 {% endhighlight %}
 
-Et maintenant lancer la création de la VM. Attention c&rsquo;est magique <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :
+Et maintenant lancer la création de la VM. Attention c&rsquo;est magique <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> :
 
 {% highlight bash %}
 $ vagrant up
@@ -310,16 +310,16 @@ $ vagrant up
 [default] -- v-root: /vagrant
 {% endhighlight %}
 
-Si vous avez compris comment mettre à jours la box, immaginez vous faire la même chose avec l&rsquo;installation de middleware (Apache, Nginx, PHP, Rails, &#8230;) <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Si vous avez compris comment mettre à jours la box, immaginez vous faire la même chose avec l&rsquo;installation de middleware (Apache, Nginx, PHP, Rails, &#8230;) <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Prochain épisode ? Déploiment d&rsquo;un environnement pour héberger du Rails ?
 
 Vous pouvez demander si vous avez d&rsquo;autres idées d&rsquo;articles.
 
 Edit:  
-Je me suis posé la question d’où est-ce que je pouvais trouver des boxes toutes prêtes. Parce que bon, Ubuntu 64bits c&rsquo;est bien. Mais moi j&rsquo;ai aussi de la Debian <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
+Je me suis posé la question d’où est-ce que je pouvais trouver des boxes toutes prêtes. Parce que bon, Ubuntu 64bits c&rsquo;est bien. Mais moi j&rsquo;ai aussi de la Debian <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />  
 J&rsquo;ai trouvé http://vagrantbox.es/ et je me suis rendu compte après que [@Ethernitys][3] l&rsquo;avait ajouté dans un Tweet qui concernait cet article.
 
- [1]: http://blog.ledez.net/wp-content/uploads/2012/02/vagrant.png
+ [1]: {{ site.url }}/images/2012/02/vagrant.png
  [2]: https://www.virtualbox.org/wiki/Downloads "Le téléchargement de Virtual Box"
  [3]: http://twitter.com/#!/Ethernitys "@Ethernitys"

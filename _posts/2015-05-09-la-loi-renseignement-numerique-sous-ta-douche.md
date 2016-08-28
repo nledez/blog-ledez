@@ -29,7 +29,7 @@ tags:
 excerpt_separator: <!--more-->
 ---
 <div id="attachment_2394" style="width: 248px" class="wp-caption alignnone">
-  <a href="http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z.jpg"><img class="size-medium wp-image-2394" src="/images/2015/05/266043885_4eead59f06_z-238x300.jpg" alt="Sous la douche" width="238" height="300" srcset="http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z-238x300.jpg 238w, http://blog.ledez.net/wp-content/uploads/2015/05/266043885_4eead59f06_z.jpg 508w" sizes="(max-width: 238px) 100vw, 238px" /></a>
+  <a href="{{ site.url }}/images/2015/05/266043885_4eead59f06_z.jpg"><img class="size-medium wp-image-2394" src="{{ site.url }}/images/2015/05/266043885_4eead59f06_z-238x300.jpg" alt="Sous la douche" width="238" height="300" srcset="{{ site.url }}/images/2015/05/266043885_4eead59f06_z-238x300.jpg 238w, {{ site.url }}/images/2015/05/266043885_4eead59f06_z.jpg 508w" sizes="(max-width: 238px) 100vw, 238px" /></a>
   
   <p class="wp-caption-text">
     Sous la douche
@@ -38,7 +38,7 @@ excerpt_separator: <!--more-->
 
 Je n&rsquo;ai pas trop l&rsquo;habitude d&rsquo;écrire et encore moins de poster des billets d&rsquo;humeur ici. Malgré le fait que cela m&rsquo;ait démangé quelques fois.
 
-Mais là, en ce moment, j&rsquo;essaye d&rsquo;expliquer à mon entourage le problème de la loi sur le renseignement numérique. Et je n&rsquo;arrivais pas à trouver d&rsquo;image pour faire comprendre le problème à un public non &laquo;&nbsp;numériqué&nbsp;&raquo; <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Mais là, en ce moment, j&rsquo;essaye d&rsquo;expliquer à mon entourage le problème de la loi sur le renseignement numérique. Et je n&rsquo;arrivais pas à trouver d&rsquo;image pour faire comprendre le problème à un public non &laquo;&nbsp;numériqué&nbsp;&raquo; <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Et cette nuit pendant mon insomnie j&rsquo;ai trouvé !
 

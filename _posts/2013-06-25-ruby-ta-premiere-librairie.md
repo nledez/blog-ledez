@@ -12,7 +12,7 @@ tags:
   - TDD
 excerpt_separator: <!--more-->
 ---
-[<img class="alignnone  wp-image-792" alt="Ruby" src="/images/2013/06/Ruby.png" width="181" height="181" srcset="http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-150x150.png 150w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby-300x300.png 300w, http://blog.ledez.net/wp-content/uploads/2013/06/Ruby.png 504w" sizes="(max-width: 181px) 100vw, 181px" />][1] Je sais bien que ça te démange toi aussi de [pisser du code][2].
+[<img class="alignnone  wp-image-792" alt="Ruby" src="{{ site.url }}/images/2013/06/Ruby.png" width="181" height="181" srcset="{{ site.url }}/images/2013/06/Ruby-150x150.png 150w, {{ site.url }}/images/2013/06/Ruby-300x300.png 300w, {{ site.url }}/images/2013/06/Ruby.png 504w" sizes="(max-width: 181px) 100vw, 181px" />][1] Je sais bien que ça te démange toi aussi de [pisser du code][2].
 
 <troll>Et quoi de mieux que de faire du Ruby ?</troll>
 
@@ -69,7 +69,7 @@ bundle exec rspec
 {% endhighlight %}
 
 Ça donne :  
-[<img src="/images/2013/06/by-default-2013-06-24-at-22.37.59.png" alt="Barre rouge" width="540" height="273" class="alignnone size-full wp-image-798" />][9]
+[<img src="{{ site.url }}/images/2013/06/by-default-2013-06-24-at-22.37.59.png" alt="Barre rouge" width="540" height="273" class="alignnone size-full wp-image-798" />][9]
 
 C&rsquo;est rouge ! Et bien, comme maintenant tu fais du TDD c&rsquo;est normal tout va bien !
 
@@ -112,7 +112,7 @@ Et si tu édites les deux fichiers dans ton éditeur de texte (moi j&rsquo;utili
 mvim -o lib/demo_howto.rb spec/lib/demo_howto_spec.rb
 {% endhighlight %}
 
-Voilà de quoi démarrer <img src="/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Voilà de quoi démarrer <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Tu peux aller voir le code sur mon [Github][10].
 
@@ -138,7 +138,7 @@ Par :
   end
 {% endhighlight %}
 
-[<img src="/images/2013/06/by-default-2013-06-24-at-23.03.01.png" alt="La barre verte" width="221" height="93" class="alignnone size-full wp-image-801" />][11]
+[<img src="{{ site.url }}/images/2013/06/by-default-2013-06-24-at-23.03.01.png" alt="La barre verte" width="221" height="93" class="alignnone size-full wp-image-801" />][11]
 
 C&rsquo;est trop facile Ruby :p
 

@@ -29,7 +29,7 @@ tags:
   - systemd
 excerpt_separator: <!--more-->
 ---
-[<img class="alignnone size-medium wp-image-2414" src="/images/2015/06/systemd-avenir-300x229.jpg" alt="Systemd avenir" width="300" height="229" srcset="http://blog.ledez.net/wp-content/uploads/2015/06/systemd-avenir-300x229.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/06/systemd-avenir.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+[<img class="alignnone size-medium wp-image-2414" src="{{ site.url }}/images/2015/06/systemd-avenir-300x229.jpg" alt="Systemd avenir" width="300" height="229" srcset="{{ site.url }}/images/2015/06/systemd-avenir-300x229.jpg 300w, {{ site.url }}/images/2015/06/systemd-avenir.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]
 
 Comme tout bon sysadmin barbu, bourru et qui tourne à la caféine en intraveineuse, je n&rsquo;aime pas le changement dans mes habitudes de travail.
 
@@ -75,7 +75,7 @@ Restart=always
 {% endhighlight %}
 
 
-Comme tu peux le constater, c&rsquo;est loin d&rsquo;être du binaire. Simple à lire et comprendre. Et je ne sais pas pour toi, mais moi perso je n&rsquo;ai jamais aimé écrire les script init. C&rsquo;est toujours la galère <img src="/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Comme tu peux le constater, c&rsquo;est loin d&rsquo;être du binaire. Simple à lire et comprendre. Et je ne sais pas pour toi, mais moi perso je n&rsquo;ai jamais aimé écrire les script init. C&rsquo;est toujours la galère <img src="{{ site.url }}/images/smilies/frownie.png" alt=":(" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Alors que pour écrire celui-là, j&rsquo;y ai pris du plaisir (j’en entends dire d’ici que j’aime avoir mal &#8211; c’est surement vrai ^^).
 
@@ -90,7 +90,7 @@ Bref, j&rsquo;en suis même à regretter que systemd ne soit pas dans mes autres
 
 ## Docker
 
-[<img class="alignnone size-medium wp-image-2417" src="/images/2015/06/docker-en-prod-300x290.jpg" alt="Docker en prod" width="300" height="290" srcset="http://blog.ledez.net/wp-content/uploads/2015/06/docker-en-prod-300x290.jpg 300w, http://blog.ledez.net/wp-content/uploads/2015/06/docker-en-prod.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" />][3]
+[<img class="alignnone size-medium wp-image-2417" src="{{ site.url }}/images/2015/06/docker-en-prod-300x290.jpg" alt="Docker en prod" width="300" height="290" srcset="{{ site.url }}/images/2015/06/docker-en-prod-300x290.jpg 300w, {{ site.url }}/images/2015/06/docker-en-prod.jpg 400w" sizes="(max-width: 300px) 100vw, 300px" />][3]
 
 Et maintenant Docker. C&rsquo;est un peu la même chose. J&rsquo;aime beaucoup le projet. Il promet des choses très intéressantes pour le futur de notre métier.
 
@@ -106,9 +106,9 @@ Tout ça pour en venir à la résistance au changement. Nous les sysadmin bouru,
 
 Donc il ne faut pas trop que cela change. Je me connecte dans ma VM en SSH. Je fais un ps pour voir tous mes process. Mais si je passe à Docker, tout ça va être chamboulé. Et moi en tant que sysadmin, je n&rsquo;aime pas ça du tout !
 
-Mais comme hier avec me script init, je scriptais, puis : /etc/init.d/couchdb [stop|start|status]
+Mais comme hier avec me script init, je scriptais, puis : `/etc/init.d/couchdb [stop|start|status]`
 
-Maintenant, c&rsquo;est &laquo;&nbsp;vi /etc/systemd/system/couchdb.service ; systemctl daemon-reload ; systemctl [stop|start|status] couchdb&nbsp;&raquo;
+Maintenant, c&rsquo;est &laquo;&nbsp;`vi /etc/systemd/system/couchdb.service ; systemctl daemon-reload ; systemctl [stop|start|status] couchdb`&nbsp;&raquo;
 
 Ça m&rsquo;a pris un peu de temps pour comprendre comment tout cela marchait. Mais maintenant, je suis plus à l&rsquo;aise avec le nouveau système. Et je n&rsquo;ai vraiment pas envie de revenir en arrière.
 
@@ -120,6 +120,6 @@ Arrête de regarder en arrière. Regarde de l&rsquo;avant. Tu apprendras beaucou
 
 Bref, vis avec ton temps !
 
- [1]: http://blog.ledez.net/wp-content/uploads/2015/06/systemd-avenir.jpg
+ [1]: {{ site.url }}/images/2015/06/systemd-avenir.jpg
  [2]: http://0pointer.net/blog/projects/the-biggest-myths.html
- [3]: http://blog.ledez.net/wp-content/uploads/2015/06/docker-en-prod.jpg
+ [3]: {{ site.url }}/images/2015/06/docker-en-prod.jpg
