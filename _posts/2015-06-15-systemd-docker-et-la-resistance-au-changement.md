@@ -20,6 +20,7 @@ Comme tout bon sysadmin barbu, bourru et qui tourne à la caféine en intraveine
 Par contre, j&rsquo;aime la ligne de commande. Les fichiers texte à plat. Les choses simples en sommes. Comme je le dis souvent &laquo;&nbsp;Si on fait simple. On prend le risque que cela marche&nbsp;&raquo;.
 
 Et bien, parlons de systemd !  
+
 <!--more-->
 
 ## Systemd
