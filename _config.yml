@@ -22,6 +22,9 @@ disqusid: blog-ledez
 twitter_username: nledez
 github_username:  nledez
 
+flickr:
+  api_key: f45ad84fc21f101ecb9f6b9ffb3e7d6f
+
 paginate: 5
 paginate_path: "/page:num/"
 
