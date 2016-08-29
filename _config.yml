@@ -18,8 +18,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Ruby, Python, devops, Linux, Raspberry π, ...
 baseurl: "" # the subpath of your site, e.g. /blog
 # url: "http://jekyll.ledez.net" # the base hostname & protocol for your site
-# url: "http://blog.ledez.net" # the base hostname & protocol for your site
-url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
+url: "http://blog.ledez.net" # the base hostname & protocol for your site
+# url: "http://127.0.0.1:4000" # the base hostname & protocol for your site
 disqusid: blog-ledez
 twitter_username: nledez
 github_username:  nledez

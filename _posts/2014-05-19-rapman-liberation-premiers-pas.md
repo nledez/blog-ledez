@@ -5,24 +5,9 @@ author: Nicolas Ledez
 layout: post
 guid: http://blog.ledez.net/?p=1036
 permalink: /diy/impression3d/rapman/rapman-liberation-premiers-pas/
-feature_size:
-  - blank
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-builder_switch_frontend:
-  - 0
 categories:
   - Rapman
+  - impression3d
 excerpt_separator: <!--more-->
 ---
   1. Trouver une alimentation électrique

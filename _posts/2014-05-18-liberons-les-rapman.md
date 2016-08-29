@@ -5,24 +5,9 @@ author: Nicolas Ledez
 layout: post
 guid: http://blog.ledez.net/?p=1025
 permalink: /diy/impression3d/rapman/liberons-les-rapman/
-feature_size:
-  - blank
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-builder_switch_frontend:
-  - 0
 categories:
   - Rapman
+  - impression3d
 excerpt_separator: <!--more-->
 ---
 Chantez avec moi en coeur le refrain :
