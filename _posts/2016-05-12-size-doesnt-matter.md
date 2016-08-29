@@ -14,7 +14,7 @@ tags:
   - devops
 excerpt_separator: <!--more-->
 ---
-Cette semaine je suis intervenu en keynote lors de l&rsquo;[OVH world tour à Rennes][1] :
+Cette semaine je suis intervenu en keynote lors de l&rsquo;[OVH world tour à Rennes](https://www.ovh.com/fr/events/RS10052016rennes-ovh-world-tour-rennes) :
 
 {% twitter oembed https://twitter.com/BrenAbolivier/status/729955713464840192 %}
 
@@ -39,5 +39,3 @@ Pour l&rsquo;anecdote j&rsquo;ai quelques soucis de charges sur certains service
 Et à chaque fois, je me dis &laquo;&nbsp;je ne comprends pas pourquoi cela ne fonctionne pas. Je n&rsquo;ai que 2000 machines&#8230;&nbsp;&raquo;.
     
 Voilà, c&rsquo;est tout ce que je voulais vous dire. Mais ça ne tenait pas dans 140 caractères ^^
-
- [1]: https://www.ovh.com/fr/events/RS10052016rennes-ovh-world-tour-rennes

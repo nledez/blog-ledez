@@ -29,7 +29,7 @@ tags:
   - Sécurité
 excerpt_separator: <!--more-->
 ---
-Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
+Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier](https://twitter.com/jpgaulier/) :
 
 <div class="post-embed">
   <blockquote class="twitter-tweet" width="500">
@@ -200,5 +200,3 @@ Ce week-end, je me suis fait interpeler par mon copain [@jpgaulier][1] :
     <p>
       Qu&rsquo;en pense tu JPG ?
     </p>
-
- [1]: https://twitter.com/jpgaulier/

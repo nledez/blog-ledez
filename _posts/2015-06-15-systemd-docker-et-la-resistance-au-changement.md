@@ -13,7 +13,7 @@ tags:
   - systemd
 excerpt_separator: <!--more-->
 ---
-[<img class="alignnone size-medium wp-image-2414" src="{{ site.url }}/images/2015/06/systemd-avenir-300x229.jpg" alt="Systemd avenir" width="300" height="229" srcset="{{ site.url }}/images/2015/06/systemd-avenir-300x229.jpg 300w, {{ site.url }}/images/2015/06/systemd-avenir.jpg 500w" sizes="(max-width: 300px) 100vw, 300px" />][1]
+![Systemd avenir]({{ site.url }}/images/2015/06/systemd-avenir-300x229.jpg)
 
 Comme tout bon sysadmin barbu, bourru et qui tourne à la caféine en intraveineuse, je n&rsquo;aime pas le changement dans mes habitudes de travail.
 
@@ -105,6 +105,5 @@ Arrête de regarder en arrière. Regarde de l&rsquo;avant. Tu apprendras beaucou
 
 Bref, vis avec ton temps !
 
- [1]: {{ site.url }}/images/2015/06/systemd-avenir.jpg
  [2]: http://0pointer.net/blog/projects/the-biggest-myths.html
  [3]: {{ site.url }}/images/2015/06/docker-en-prod.jpg
