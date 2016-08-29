@@ -26,7 +26,7 @@ Chez <a href="https://twitter.com/MyCozyCloud">Cozy Cloud</a> nous sommes pour l
 
 Et pourtant, nous gérons au quotidien dans les 2/3000 &laquo;&nbsp;machines&nbsp;&raquo;. Dont une trentaine de serveurs physiques.
 
-Ce n&rsquo;est visiblement pas si commun que cela <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Ce n&rsquo;est visiblement pas si commun que cela <img src="https://{{ site.url }}/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Et comment nous en sommes arrivés à cela :
 * Utilisation de <a href="https://docs.saltstack.com/en/latest/">SaltStack</a> qui permet de gérer beaucoup de machines

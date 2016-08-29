@@ -5,22 +5,6 @@ author: Nicolas Ledez
 layout: post
 guid: http://blog.ledez.net/?p=2382
 permalink: /informatique/gestion-des-alias-postfix/
-feature_size:
-  - blank
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-builder_switch_frontend:
-  - 0
 categories:
   - Informatique
 tags:
@@ -113,4 +97,4 @@ Et comme j&rsquo;ai tweeté :
       Comme c&rsquo;est en open source, vous pouvez en faire ce que vous voulez. Mais attention, c&rsquo;est du je n&rsquo;ai-pas-le-temps-de-le maintenir-ware <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
     </p>
 
- [1]: https://blog.ledez.net/wp-content/uploads/2015/05/Postfix_logo.png
+ [1]: https://{{ site.url }}/wp-content/uploads/2015/05/Postfix_logo.png
