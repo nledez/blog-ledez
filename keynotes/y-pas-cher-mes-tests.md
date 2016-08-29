@@ -4,6 +4,7 @@ title: Y sont pas cher mes tests !
 author: Nicolas Ledez
 layout: page
 guid: http://blog.ledez.net/?page_id=1098
+permalink: /keynotes/y-pas-cher-mes-tests/
 page_layout:
   - default
 content_width:
