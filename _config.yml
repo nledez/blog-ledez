@@ -24,6 +24,13 @@ disqusid: blog-ledez
 twitter_username: nledez
 github_username:  nledez
 
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+sass:
+  style: compressed
+
 flickr:
   api_key: f45ad84fc21f101ecb9f6b9ffb3e7d6f
 
