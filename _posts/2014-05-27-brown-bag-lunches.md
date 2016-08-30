@@ -5,22 +5,6 @@ author: Nicolas Ledez
 layout: post
 guid: http://blog.ledez.net/?p=1124
 permalink: /blog/brown-bag-lunches/
-feature_size:
-  - blank
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-builder_switch_frontend:
-  - 0
 categories:
   - Blog
 ---

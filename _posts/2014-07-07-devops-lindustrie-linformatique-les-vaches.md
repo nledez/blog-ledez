@@ -5,22 +5,6 @@ author: Nicolas Ledez
 layout: post
 guid: http://blog.ledez.net/?p=1132
 permalink: /informatique/devops/devops-lindustrie-linformatique-les-vaches/
-feature_size:
-  - blank
-hide_post_title:
-  - default
-unlink_post_title:
-  - default
-hide_post_meta:
-  - default
-hide_post_date:
-  - default
-hide_post_image:
-  - default
-unlink_post_image:
-  - default
-builder_switch_frontend:
-  - 0
 categories:
   - DevOps
 excerpt_separator: <!--more-->
@@ -37,13 +21,13 @@ excerpt_separator: <!--more-->
   Pour démarrer, je vais vous parler un peu de moi.
 </p>
 
-# Mon enfance {.p1}
+# Mon enfance
 
 <p class="p1">
   Je suis né en Corrèze. Oui le pays de Chirac, les pommes, la verdure. À l&rsquo;époque Internet pour personne. Donc je l&rsquo;ai bien vécu <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" /> Mais comme j&rsquo;habitais à la campagne, j&rsquo;avais beaucoup de paysans autour de chez moi. Je me souviens que quand j&rsquo;étais petit tout le village aller aider le paysan à faire &laquo;&nbsp;le foin&nbsp;&raquo;. Et en échange, dans l&rsquo;année nous avions le droit d&rsquo;avoir un peu de lait produit par sa vingtaine de vaches. Ces moments de moisson étaient hyper conviviaux. Mais là, ce n&rsquo;est plus le sujet.
 </p>
 
-# Ma formation initiale {.p1}
+# Ma formation initiale
 
 <p class="p1">
   Ensuite j&rsquo;ai déménagé en Saône et Loire ou j&rsquo;ai fait un BEP Maintenance des Systèmes Mécaniques Automatisés. En gros apprendre à faire la maintenance d&rsquo;une chaine de production industrielle. Pour des clients type Potain, PSA, etc. Et sur une chaine de production, la moindre interruption de service coute extrêmement cher (plusieurs dizaines de personnes au chômage technique). J&rsquo;ai donc appris à :
@@ -60,7 +44,7 @@ excerpt_separator: <!--more-->
   Vous vous rappelez des vaches ? Et bien je vais vous en parler. Mais un peu plus tard.
 </p>
 
-# L&rsquo;arrivée dans le monde tu travail {.p1}
+# L&rsquo;arrivée dans le monde tu travail
 
 <p class="p2">
   Donc j&rsquo;arrive dans le monde du travail à Rennes. Chez Equant dans le service du &laquo;&nbsp;Webhosting&nbsp;&raquo; dans le service dédié à France Telecom. Là, ça a changé :
@@ -99,7 +83,7 @@ excerpt_separator: <!--more-->
   Le voilà donc le rapport avec les vaches ! Mais oui maintenant &laquo;&nbsp;dans mon garage&nbsp;&raquo; (c&rsquo;est pour des associations) avec du Puppet/Chef/Ansible/Saltstack/Scripts, je gère 180 serveurs. Et au final, je passe autant de temps qu&rsquo;avant à gérer ces serveurs.
 </p>
 
-# Automatisation ! {.p2}
+# Automatisation !
 
 <p class="p2">
   C&rsquo;est donc un excellent moyen de gérer ses machines plus facilement. En effet, si un problème est remonté sur une machine, on corrige la recette/script on déploie sur des machines de tests. Et si c&rsquo;est OK, on généralise sur tout le parc en quelques minutes/heures. Là ou auparavant il fallait des jours voir des mois. Idem pour MAJ de sécurités, etc.

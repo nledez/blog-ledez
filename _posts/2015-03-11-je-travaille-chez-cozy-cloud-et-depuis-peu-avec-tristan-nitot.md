@@ -9,15 +9,15 @@ categories:
   - Blog
 excerpt_separator: <!--more-->
 ---
-![Cozy][cozy_logo]
+![Cozy]({{ site.url }}/images/2015/03/bighappycloud.png "CozyCloud full size")
 
 Pour ceux qui me suivent un peu, j&rsquo;ai changé de travail en aout.
 
-Je suis arrivé chez [Cozy Cloud][cozy] comme administrateur système ou &laquo;&nbsp;[devops guru][2]&nbsp;&raquo; <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
+Je suis arrivé chez [Cozy Cloud](http://cozy.io/) comme administrateur système ou &laquo;&nbsp;[devops guru](https://twitter.com/nledez/status/525243869953540096)&nbsp;&raquo; <img src="{{ site.url }}/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
 Je suis vraiment heureux et fier de travailler dans cette startup.
 
-Et aujourd&rsquo;hui est une journée particulière. [Tristan Nitot nous rejoint][3] !
+Et aujourd&rsquo;hui est une journée particulière. [Tristan Nitot nous rejoint](http://blog.cozycloud.cc/news/2015/03/11/tristan-nitot-joins-the-cozy-crew/) !
 
 <!--more-->
 
@@ -52,9 +52,3 @@ Bref, une grosse journée s&rsquo;annonce ! <img src="{{ site.url }}/images/smil
 {% twitter oembed https://twitter.com/clochix/status/575556493119995904 %}
 {% twitter oembed https://twitter.com/MyCozyCloud/status/575556608232701952 %}
 {% twitter oembed https://twitter.com/bayartb/status/575572964785152000 %}
-
- [cozy]: http://cozy.io/
- [cozy_logo]: {{ site.url }}/images/2015/03/bighappycloud.png "CozyCloud full size"
- [cozy_logo_thumb]: {{ site.url }}/images/2015/03/bighappycloud-300x228.png "CozyCloud"
- [2]: https://twitter.com/nledez/status/525243869953540096
- [3]: http://blog.cozycloud.cc/news/2015/03/11/tristan-nitot-joins-the-cozy-crew/
