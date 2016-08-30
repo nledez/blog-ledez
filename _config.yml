@@ -21,6 +21,7 @@ github_username:  nledez
 exclude:
   - Gemfile
   - Gemfile.lock
+  - scripts
 
 sass:
   style: compressed
