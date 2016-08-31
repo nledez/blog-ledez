@@ -2,7 +2,7 @@
 title: Migration de Wordpress vers Jekyll
 lang: fr
 layout: post
-permalink: /migration-de-wordpress-vers-jekyll/
+permalink: /blog/migration-de-wordpress-vers-jekyll/
 categories: [ Blog ]
 tags:  [ jekyll blog ]
 excerpt_separator: <!--more-->
