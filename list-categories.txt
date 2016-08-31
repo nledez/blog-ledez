@@ -1,0 +1,5 @@
+---
+layout: null
+---
+{% assign sortedcategories = site.categories | sort %}{% for category in sortedcategories %}{{ category | first }}
+{% endfor %}
