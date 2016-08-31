@@ -17,9 +17,7 @@ slug=$(echo "$slug" | tr -s " ")
 slug=$(echo "$slug" | tr "[:space:]" "-")
 slug="${slug:0:${#slug}-1}"
 
-date=$(date +%Y-%m-%d)
-
-post="./_drafts/${date}-${slug}.md"
+post="./_drafts/${slug}.md"
 echo $post
 
 body=""
