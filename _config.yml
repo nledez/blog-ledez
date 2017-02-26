@@ -4,7 +4,7 @@ gems:
   - jekyll-sitemap
 
 # the base hostname & protocol for your site
-url: "http://blog.ledez.net"
+url: "https://blog.ledez.net"
 
 # Site settings
 title: Live from my brain with some lag
