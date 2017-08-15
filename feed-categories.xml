@@ -2,11 +2,11 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
- <title>Your Title - {{ page.tag }}</title>
+ <title>Your Title - {{ page.category }}</title>
  <link href="{{ site.url }}/{{ page.url }}" rel="self"/>
- <link href="{{ site.url }}//tag/{{ page.tag }}.html"/>
+ <link href="{{ site.url }}//category/{{ page.category }}.html"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}//tag/{{ page.tag }}.html</id>
+ <id>{{ site.url }}//category/{{ page.category }}.html</id>
  <author>
    <name>Author Here</name>
  </author>

@@ -62,6 +62,13 @@ Voici la liste :
 
 [Y sont pas cher mes tests !][11]
 
+[devops lovers][12]
+
+[Retour d'expérience sur l'utilisation de Saltstack chez Cozy Cloud][13]
+
+[Travailler dans une startup la tête dans les nuages][14]
+
+
 ### Remarques
 
 Je ne mange pas de chocolat. Ça en fera plus pour vous au moment du dessert <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
@@ -77,3 +84,6 @@ Je ne mange pas de chocolat. Ça en fera plus pour vous au moment du dessert <im
  [9]: /keynotes/jouez-feux-tricolores-en-ruby/ "Jouez avec des feux tricolores en Ruby"
  [10]: /keynotes/tu-veux-scripter/ "Tu veux scripter ?"
  [11]: /keynotes/y-pas-cher-mes-tests/ "Y sont pas cher mes tests !"
+ [12]: /keynotes/devops-lovers/ "devops lovers"
+ [13]: /keynotes/retour-xp-saltstack-cozycloud/ "Retour d'expérience sur l'utilisation de Saltstack chez Cozy Cloud"
+ [14]: /keynotes/travailler-dans-une-startup-la-tete-dans-les-nuages/ "Travailler dans une startup la tête dans les nuages"
