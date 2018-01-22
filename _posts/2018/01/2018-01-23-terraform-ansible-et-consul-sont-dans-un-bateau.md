@@ -2,10 +2,16 @@
 title: Terraform, Ansible et Consul sont dans un bateau
 lang: fr
 layout: post
-permalink: /terraform-ansible-et-consul-sont-dans-un-bateau/
+permalink: /informatique/devops/terraform-ansible-et-consul-sont-dans-un-bateau/
 categories:
   - DevOps
-tags:  [ terraform ansible consul ]
+tags:
+  - devops
+  - openstack
+  - ovhpubliccloud
+  - terraform
+  - ansible
+  - consul
 excerpt_separator: <!--more-->
 ---
 ![PCi, Terraform, Ansible, Consul & Co.]({{ site.url }}/images/2018/01/LogoArticlesPC_Terraform_Ansible_Consul_HAProxy.png)
