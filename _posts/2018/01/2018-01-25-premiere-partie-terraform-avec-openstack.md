@@ -19,7 +19,7 @@ OK, donc c'est partit !
 
 On va commencer avec Terraform. C'est simple, installe [Terraform](https://www.terraform.io/downloads.html) dans ton PATH.
 
-excerpt_separator: <!--more-->
+<!--more-->
 
 Vérifie que la partie [OpenStack](https://www.terraform.io/docs/providers/openstack/index.html) est bien configurée.
 

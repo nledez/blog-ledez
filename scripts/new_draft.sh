@@ -1,5 +1,4 @@
 #!/bin/sh
-
 if [ -z "$1" ]; then
 	echo "Usage: provide a title argument."
 	exit -1
@@ -9,7 +8,7 @@ fi
 
 # Slugify, inspired by https://github.com/benlinton/bash-slugify/blob/master/slugify
 slug=$(echo "$title" | tr "[:upper:]" "[:lower:]")
-slug=$(echo "$slug" | sed "y/āáǎàēéěèīíǐìōóǒòūúǔùǖǘǚǜĀÁǍÀĒÉĚÈĪÍǏÌŌÓǑÒŪÚǓÙǕǗǙǛ/aaaaeeeeiiiioooouuuuüüüüAAAAEEEEIIIIOOOOUUUUÜÜÜÜ/")
+# slug=$(echo "$slug" | sed "y/àéèê/aeee/")
 slug=$(echo "$slug" | tr "[:punct:]" " ")
 slug=$(echo "$slug" | tr _ " ")
 slug=$(echo "$slug" | tr - " ")
@@ -36,4 +35,4 @@ EOF
 
 echo "$body" > "$post"
 
-/Applications/MacDown.app/Contents/MacOS/MacDown "$post" &
+# /Applications/MacDown.app/Contents/MacOS/MacDown "$post" &
