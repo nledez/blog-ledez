@@ -52,11 +52,11 @@ GEM
     memoizable (0.4.2)
       thread_safe (~> 0.3, >= 0.3.1)
     mercenary (0.3.6)
-    mini_portile2 (2.0.0)
+    mini_portile2 (2.3.0)
     multipart-post (2.0.0)
     naught (1.1.0)
-    nokogiri (1.6.7.2)
-      mini_portile2 (~> 2.0.0.rc2)
+    nokogiri (1.8.2)
+      mini_portile2 (~> 2.3.0)
     nuggets (1.0.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
@@ -99,10 +99,10 @@ DEPENDENCIES
   jekyll-sitemap
   jekyll-tagging
   jekyll-twitter-plugin
-  nokogiri
+  nokogiri (~> 1.8.1)
   rouge
   typhoeus
   uglifier
 
 BUNDLED WITH
-   1.11.2
+   1.14.6
