@@ -42,15 +42,11 @@ Comme je me suis proposé pour parler de ce que vous voulez dans le cadre des [
 
 Voici la liste :
 
-[&laquo;&nbsp;Infrastructure as code&nbsp;&raquo; avec Chef][2]
+[Consul et la dynamique des infrastructures fluides][2]
 
 [Dev()Ops ? l&rsquo;after Agile ?][3]
 
 [DevOps Mindstorms][4]
-
-[Git for dumbass][5]
-
-[Introduction à Ruby][6]
 
 [Introduction à Vagrant][7]
 
@@ -74,11 +70,9 @@ Voici la liste :
 Je ne mange pas de chocolat. Ça en fera plus pour vous au moment du dessert <img src="https://blog.ledez.net/wp-includes/images/smilies/simple-smile.png" alt=":)" class="wp-smiley" style="height: 1em; max-height: 1em;" />
 
  [1]: http://www.brownbaglunch.fr/
- [2]: /keynotes/infrastructure-as-code-chef/ "« Infrastructure as code » avec Chef"
+ [2]: /keynotes/consul-et-la-dynamique-des-infrastructures-fluides/ "Consul et la dynamique des infrastructures fluides"
  [3]: /keynotes/devops-lafter-agile/ "Dev(\)Ops ? l’after Agile ?"
  [4]: /keynotes/devops-mindstorms/ "DevOps Mindstorms"
- [5]: /keynotes/git-for-dumbass/ "Git for dumbass"
- [6]: /keynotes/introduction-ruby/ "Introduction à Ruby"
  [7]: /keynotes/introduction-vagrant/ "Introduction à Vagrant"
  [8]: /keynotes/introduction-au-cloud/ "Introduction au Cloud"
  [9]: /keynotes/jouez-feux-tricolores-en-ruby/ "Jouez avec des feux tricolores en Ruby"
