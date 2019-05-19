@@ -32,8 +32,8 @@ Un peu de lecture pour comprendre ce que c'est :
 
 [Définition Wikipedia de Preboot Execution Environment](https://fr.wikipedia.org/wiki/Preboot_Execution_Environment).
 
-Le TLTR c'est :
-- Le bios démarre
+TL;DR donc, pour résumer c’est :
+- Le BIOS démarre
 - Il passe par le firmware de la carte réseau (boot menu & NIC)
 - Le firmware PXE fait une requête DHCP qui lui donne les informations
   - IP
@@ -42,9 +42,9 @@ Le TLTR c'est :
 - PXE télécharge l'image en TFTP
 - PXE boot l'image
 
-Ça, c'était bien quand j'avais un NAS avec tout ce qu'il falait comme stockage. Mais je suis passé sur un [APU2](https://pcengines.ch/apu2.htm) avec [OpenSense](https://opnsense.org/). Je suis donc passé de 6To de stockage à 13Go en SDD. Par contre, je suis aussi passé d'un ASDL faiblar à de la fibre qui mets le datacenter d'[OVH](https://www.ovh.com/fr/serveurs_dedies/) dans mon salon.
+Ça, c'était bien quand j'avais un NAS avec tout ce qu'il fallait comme stockage. Mais je suis passé sur un [APU2](https://pcengines.ch/apu2.htm) avec [OpenSense](https://opnsense.org/). Je suis donc passé de 6To de stockage à 13Go en SDD. Par contre, je suis aussi passé d'un ASDL faiblar à de la fibre qui met le datacenter d'[OVH](https://www.ovh.com/fr/serveurs_dedies/) dans mon salon.
 
-Il me falait donc une solution pour booter à partir d'une machine sur Internet.
+Il me fallait donc une solution pour booter à partir d'une machine sur Internet.
 
 [iPXE](http://ipxe.org/start) arrive à la rescousse. C'est une version open source (c'est un point positif) de firmware PXE. Mais surtout avec beaucoup plus de fonctionnalités (et c'est là que ça devient intéressant). Comme la possibilité de télécharger les images en HTTP à la place de TFTP.
 
@@ -57,17 +57,21 @@ Si on reprend la suite de tout à l'heure :
 - PXE boot l'image iPXE
 - iPXE télécharge le reste de sa configuration en HTTP (ou autre protocole)
 
-Il faut donc avoir :
-- Un serveur DHCP (mon OpenSense)
-- Un serveur TFTP (mon OpenSense)
-- Une image iPXE (à mettre sur mon OpenSense)
-- Un serveur HTTP (chez OVH ou votre serveur local)
+Il te faudra donc :
+- Un serveur DHCP (sur ton routeur/firewall OpenSense)
+- Un serveur TFTP (toujours ton serveur OpenSense)
+- Une image iPXE (sur le serveur TFTP donc OpenSense)
+- Un serveur HTTP (chez OVH ou ton serveur local)
+
+Alors, je dis OpenSense, et le reste de l’article est basé dessus. Mais ça fonctionnera parfaitement avec PFSense, DD-WRT, un Linux installé à la “main”.
 
 Pour générer l'image iPXE, 2 solutions :
 - [Un générateur de ROM en ligne](https://rom-o-matic.eu/)
 - [Compiler à partir des sources](http://git.ipxe.org/ipxe.git)
 
 J'ai passé pas mal de temps a essayer de faire fonctionner les images générées par rom-o-matic. Mais c'était pénible de remettre la configuration, attendre la génération sur le serveur. Et puis, c'est cool de leur libérer un peu de CPU.
+
+Mais tu peux facilement reproduire la configuration ci-dessous dans les paramètres ROM-o-Matic. Mais c’est beaucoup moins marrant :)
 
 Bon. On y va ? Ou bien ?
 
@@ -86,7 +90,7 @@ server{
 }
 ```
 
-On va y mettre tout le bazard :
+Tu vas maintenant installer tous les fichiers nécessaires à la partie iPXE :
 
 ```bash
 cd /var/www
@@ -98,14 +102,14 @@ touch boot/.bootdir
 ./install.sh boot
 ```
 
-# Installation des sources pour installer une Ubuntu
+# Installation des sources pour l’installeur Ubuntu
 
 ```bash
 cd /var/www/ipxe
 ./install-ubuntu.sh
 ```
 
-# Générer le binaire iPXE
+# Généreration du binaire iPXE
 
 ```bash
 cd /var/www/ipxe
@@ -263,7 +267,7 @@ index 3c14a2cd..75f3a432 100644
   * Obscure configuration options
 ```
 
-Maintenant, on va compiler tout ça :
+Maintenant, tu vas pouvoir compiler tout ça :
 
 ```bash
 /var/www/ipxe/ipxe/src# make bin/undionly.kpxe
@@ -278,7 +282,7 @@ rm bin/version.undionly.kpxe.o bin/undionly.kpxe.zinfo bin/undionly.kpxe.bin bin
 
 Et voilà, c'est terminé pour la partie iPXE.
 
-# Maintenant, il faut configurer le DHCP / TFTP (sur l'OpenSense)
+# Maintenant, tu dois configurer le DHCP / TFTP (sur l'OpenSense)
 
 On va commencer par DNSMasq pour la partie TFTP :
 
@@ -295,7 +299,7 @@ enable-tftp
 tftp-root=/tftp
 ```
 
-Un coup de "Save". Et on passe à Unbound :
+Clique sur "Save". Et passes à Unbound :
 
 ![Configuration du DHCP]({{ site.url }}/images/2019/05/dhcp-configuration.png)
 
@@ -304,7 +308,7 @@ Dans Service / DHCPv4 / LAN :
   - "Set TFTP hostname" -> "192.168.2.1"
   - "Set Bootfile" -> "/tftp/undionly.kpxe"
 
-Et pour finir, on va positionner le firmware que l'on a construit tout à l'heure. Une fois dans un shell (en ssh par exemple):
+Et pour finir, tu vas copier le firmware que tu as construit tout à l'heure. Ouvre un shell (en ssh par exemple):
 
 ```bash
 mkdir /tftp
@@ -315,4 +319,4 @@ curl http://ipxe.example.com/ipxe/src/bin/undionly.kpxe > undionly.kpxe
 Et voilà ce que ça donne :
 [Screencast de boot iPXE](https://youtu.be/to5nw1eQ7wI)
 
-On voit le boot PXE + iPXE avec Memtest86+ puis une installation Ubuntu.
+Tu peux voir le boot PXE + iPXE avec Memtest86+ puis un début d’installation Ubuntu.
