@@ -1,8 +1,10 @@
 ---
 title: ANAVI Light Controller, Sonoff-Tasmota & Domoticz in a boat
-lang: en
+date: 2019-02-17
+lang: fr
 layout: post
 permalink: /iot/anavi-light-controller-sonoff-tasmota-domoticz-in-a-boat/
+url: /iot/anavi-light-controller-sonoff-tasmota-domoticz-in-a-boat/
 categories:
   - iOT
 tags:

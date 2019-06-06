@@ -47,8 +47,8 @@ Bref, une grosse journée s&rsquo;annonce ! <img src="{{ site.url }}/images/smil
 
 [http://www.zdnet.fr/actualites/tristan-nitot-rejoint-le-cloud-open-source-de-cozy-39816192.htm](http://www.zdnet.fr/actualites/tristan-nitot-rejoint-le-cloud-open-source-de-cozy-39816192.htm)
 
-{% twitter oembed https://twitter.com/nitot/status/575557249134891008 %}
-{% twitter oembed https://twitter.com/nitot/status/575556250559193088 %}
-{% twitter oembed https://twitter.com/clochix/status/575556493119995904 %}
-{% twitter oembed https://twitter.com/MyCozyCloud/status/575556608232701952 %}
-{% twitter oembed https://twitter.com/bayartb/status/575572964785152000 %}
+{% twitter https://twitter.com/nitot/status/575557249134891008 %}
+{% twitter https://twitter.com/nitot/status/575556250559193088 %}
+{% twitter https://twitter.com/clochix/status/575556493119995904 %}
+{% twitter https://twitter.com/MyCozyCloud/status/575556608232701952 %}
+{% twitter https://twitter.com/bayartb/status/575572964785152000 %}

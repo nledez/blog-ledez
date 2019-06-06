@@ -16,7 +16,7 @@ excerpt_separator: <!--more-->
 ---
 Cette semaine je suis intervenu en keynote lors de l&rsquo;[OVH world tour à Rennes](https://www.ovh.com/fr/events/RS10052016rennes-ovh-world-tour-rennes) :
 
-{% twitter oembed https://twitter.com/BrenAbolivier/status/729955713464840192 %}
+{% twitter https://twitter.com/BrenAbolivier/status/729955713464840192 %}
 
 Et j&rsquo;ai pris conscience de quelque chose&#8230;
 

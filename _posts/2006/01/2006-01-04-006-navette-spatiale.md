@@ -1,6 +1,7 @@
 ---
 id: 15
 title: '006 &#8211; Navette spatiale'
+date: 2006-01-04
 author: Nicolas Ledez
 layout: post
 guid: http://nicolas.ledez.free.fr/blog/?p=15

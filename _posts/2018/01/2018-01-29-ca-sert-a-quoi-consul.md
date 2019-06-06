@@ -12,7 +12,7 @@ excerpt_separator: <!--more-->
 ---
 ![PCi, Terraform, Ansible, Consul & Co.]({{ site.url }}/images/2018/01/LogoArticlesPC_Terraform_Ansible_Consul_HAProxy.png)
 
-[Nicolas me demandait dans un autre billet]({{ site.baseurl }}{% post_url 2018-01-25-premiere-partie-terraform-avec-openstack %}) :
+[Nicolas me demandait dans un autre billet]({{ site.baseurl }}/informatique/devops/premiere-partie-terraform-avec-openstack/) :
 
 > Pas l'objet principal de ton article, mais concrètement à quoi ça sert Consul ? Quelle utilisation en as-tu ?
 > 
