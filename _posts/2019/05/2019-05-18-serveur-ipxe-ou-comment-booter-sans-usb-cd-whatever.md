@@ -1,21 +1,26 @@
 ---
+date: 2019-05-19
 title: Serveur iPXE ou comment booter sans USB/CD/whatever
-lang: fr
+author: Nicolas Ledez
 layout: post
 permalink: /informatique/serveur-ipxe-ou-comment-booter-sans-usb-cd-whatever/
 categories:
   - Informatique
 tags:
+  - Informatique
   - sysadmin
   - Ubuntu
 excerpt_separator: <!--more-->
 ---
+![iPXE]({{ site.url }}/images/2019/05/bootroms.jpeg)
+
 Serveur iPXE ou comment booter sans USB/CD/whatever
 
 Avant, quand je voulais (ré)installer une machine, je gravais un CD (bien personnalisé à coup de mkisofs).
 Ensuite, je suis passé aux clés USB.
 
 Mais c'est toujours pénible :
+
 - Il faut retrouver un média de libre
 - Il faut construire une image
 - Il faut graver/flasher l'image sur le média
@@ -33,6 +38,7 @@ Un peu de lecture pour comprendre ce que c'est :
 [Définition Wikipedia de Preboot Execution Environment](https://fr.wikipedia.org/wiki/Preboot_Execution_Environment).
 
 TL;DR donc, pour résumer c’est :
+
 - Le BIOS démarre
 - Il passe par le firmware de la carte réseau (boot menu & NIC)
 - Le firmware PXE fait une requête DHCP qui lui donne les informations
@@ -53,11 +59,13 @@ Par contre, le firmware n'est pas forcément disponible dans les cartes réseau 
 Ça tombe bien, on peut faire une image compatible PXE pour iPXE (Upsa powered).
 
 Si on reprend la suite de tout à l'heure :
+
 - PXE télécharge l'image iPXE en TFTP
 - PXE boot l'image iPXE
 - iPXE télécharge le reste de sa configuration en HTTP (ou autre protocole)
 
 Il te faudra donc :
+
 - Un serveur DHCP (sur ton routeur/firewall OpenSense)
 - Un serveur TFTP (toujours ton serveur OpenSense)
 - Une image iPXE (sur le serveur TFTP donc OpenSense)
@@ -66,6 +74,7 @@ Il te faudra donc :
 Alors, je dis OpenSense, et le reste de l’article est basé dessus. Mais ça fonctionnera parfaitement avec PFSense, DD-WRT, un Linux installé à la “main”.
 
 Pour générer l'image iPXE, 2 solutions :
+
 - [Un générateur de ROM en ligne](https://rom-o-matic.eu/)
 - [Compiler à partir des sources](http://git.ipxe.org/ipxe.git)
 
@@ -79,7 +88,7 @@ Bon. On y va ? Ou bien ?
 
 Tu fais comme tu veux. Mais moi, je mets Nginx comme serveur HTTP. Voici la configuration du virtualhost à mettre :
 
-```nginx
+{% highlight nginx %}
 server{
 	listen 80;
 	listen [::]:80;
@@ -88,11 +97,11 @@ server{
         root /var/www/ipxe;
         index index.html index.htm;
 }
-```
+{% endhighlight %}
 
 Tu vas maintenant installer tous les fichiers nécessaires à la partie iPXE :
 
-```bash
+{% highlight bash %}
 cd /var/www
 git clone https://github.com/nledez/ipxe-root ipxe
 cd /var/www/ipxe
@@ -100,18 +109,18 @@ sed 's@%BOOT_URL%@http://ipxe.example.com/@;s@http://boot.smidsrod.lan/@http://i
 mkdir boot
 touch boot/.bootdir
 ./install.sh boot
-```
+{% endhighlight %}
 
 # Installation des sources pour l’installeur Ubuntu
 
-```bash
+{% highlight bash %}
 cd /var/www/ipxe
 ./install-ubuntu.sh
-```
+{% endhighlight %}
 
 # Généreration du binaire iPXE
 
-```bash
+{% highlight bash %}
 cd /var/www/ipxe
 git clone git://git.ipxe.org/ipxe.git ipxe
 cd ipxe/src
@@ -124,11 +133,11 @@ chain http://ipxe.example.com/boot.ipxe
 EOF
 
 vi config/general.h
-```
+{% endhighlight %}
 
 C'est là, ou ça prend du temps pour avoir tous les bons paramètres fonctionnels. Voilà un patch de git vs ma configuration :
 
-```patch
+{% highlight patch %}
 diff --git a/src/config/general.h b/src/config/general.h
 index 3c14a2cd..75f3a432 100644
 --- a/src/config/general.h
@@ -265,11 +274,11 @@ index 3c14a2cd..75f3a432 100644
 
  /*
   * Obscure configuration options
-```
+{% endhighlight %}
 
 Maintenant, tu vas pouvoir compiler tout ça :
 
-```bash
+{% highlight bash %}
 /var/www/ipxe/ipxe/src# make bin/undionly.kpxe
   [VERSION] bin/version.undionly.kpxe.o
   [LD] bin/undionly.kpxe.tmp
@@ -278,7 +287,7 @@ Maintenant, tu vas pouvoir compiler tout ça :
   [ZBIN] bin/undionly.kpxe.zbin
   [FINISH] bin/undionly.kpxe
 rm bin/version.undionly.kpxe.o bin/undionly.kpxe.zinfo bin/undionly.kpxe.bin bin/undionly.kpxe.zbin
-```
+{% endhighlight %}
 
 Et voilà, c'est terminé pour la partie iPXE.
 
@@ -289,34 +298,37 @@ On va commencer par DNSMasq pour la partie TFTP :
 ![Configuration de DNSMasq]({{ site.url }}/images/2019/05/dnsmasq-configuration.png)
 
 Dans Service / Dnsmasq DNS / Settings :
+
 - Cocher "Enable" si ce n'est pas fait
 - "Listen port" -> "5353" ou autre chose, mais pas 53 qui rentrerait en conflit avec Unbound
 - "Network interface" -> "LAN", j'ai mis ça pour éviter de répondre aux requêtes sur la partie WAN
 - "Advanced" voir ci-dessous
 
-```
+{% highlight ini %}
 enable-tftp
 tftp-root=/tftp
-```
+{% endhighlight %}
 
 Clique sur "Save". Et passes à Unbound :
 
 ![Configuration du DHCP]({{ site.url }}/images/2019/05/dhcp-configuration.png)
 
 Dans Service / DHCPv4 / LAN :
+
 - Dans la partie "TFTP server"
   - "Set TFTP hostname" -> "192.168.2.1"
   - "Set Bootfile" -> "/tftp/undionly.kpxe"
 
 Et pour finir, tu vas copier le firmware que tu as construit tout à l'heure. Ouvre un shell (en ssh par exemple):
 
-```bash
+{% highlight bash %}
 mkdir /tftp
 cd /tftp/
 curl http://ipxe.example.com/ipxe/src/bin/undionly.kpxe > undionly.kpxe
-```
+{% endhighlight %}
 
 Et voilà ce que ça donne :
+
 [Screencast de boot iPXE](https://youtu.be/to5nw1eQ7wI)
 
 Tu peux voir le boot PXE + iPXE avec Memtest86+ puis un début d’installation Ubuntu.
