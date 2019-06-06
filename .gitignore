@@ -1,5 +1,6 @@
-_site
-_site_prod
-.sass-cache
+_site/
+_site_prod/
+.sass-cache/
+.vendor/
 .jekyll-metadata
 .tweet-cache
