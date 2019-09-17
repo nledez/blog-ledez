@@ -22,3 +22,6 @@ rsync --dry-run ${RSYNC_OPTS} ${RSYNC_SRC} ${RSYNC_DST}
 echo "Sync & abort? (Ctrl-C)"
 read
 rsync ${RSYNC_OPTS} ${RSYNC_SRC} ${RSYNC_DST}
+
+echo
+echo 'https://blog-staging.ledez.net'

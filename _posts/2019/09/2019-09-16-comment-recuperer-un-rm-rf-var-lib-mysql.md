@@ -3,7 +3,7 @@ date: 2019-09-16
 title: Comment récupérer un 'rm -rf /var/lib/mysql/*'
 author: Nicolas Ledez
 layout: post
-permalink: /comment-récupérer-un-rm-rf-var-lib-mysql/
+permalink: /informatique/comment-récupérer-un-rm-rf-var-lib-mysql/
 categories:
   - Informatique
 tags:
@@ -56,7 +56,7 @@ Mais d'abord, voici comment reproduire ça chez vous (dans un Vagant). N'essayez
 
 On va utiliser [Vagrant](https://www.vagrantup.com)
 
-```
+{% highlight bash %}
 git clone https://github.com/nledez/recover_deleted_mysql.git
 cd recover_deleted_mysql
 vagrant up
@@ -89,11 +89,11 @@ sudo find /var/lib/mysql -type d -exec rmdir {} \;
 sudo ls -la /var/lib/mysql/
 # Et maintenant, on va vérifier que c'est bien la grosse merde en prod :
 echo 'show databases;' | sudo mysql
-```
+{% endhighlight %}
 
 # On va démarrer la restauration :
 
-```
+{% highlight bash %}
 # On crée un répertoire dans lequel on va mettre les fichiers que l'on va récupérer (il faudra la place de l'ancien /var/lib/mysql)
 sudo mkdir /recover
 # On va récupérer le PID du process Mysql
@@ -102,13 +102,13 @@ ps ax | grep [m]ysqld
 MYSQL_PID=2530
 # On va faire un `lsof` qui va nous montrer pourquoi on va pouvoir récupérer la catastrophe
 sudo lsof -p $MYSQL_PID
-```
+{% endhighlight %}
 
 ## Et maintenant, laissons opérer la magie
 
 ### Le script en mode `--help`
 
-```
+{% highlight bash %}
 $ sudo /vagrant/recover_deleted_mysql.py --help
 usage: recover_deleted_mysql.py [-h] --pid PID [--recover_path RECOVER_PATH]
                                 [--mysql_path MYSQL_PATH] [--touch_files]
@@ -129,14 +129,14 @@ optional arguments:
                         List of databases to export require --csv_path
                         argument
   --csv_path CSV_PATH   Path of csv export
-```
+{% endhighlight %}
 
 ### Récupération des fichiers supprimés
 
-```
+{% highlight bash %}
 sudo /vagrant/recover_deleted_mysql.py --pid $MYSQL_PID --mysql_path /var/lib/mysql --recover_path /recover
 # Et on peux vérifier avec la commande `sudo find /recover -ls`
-```
+{% endhighlight %}
 
 ### Extraction des données aux formats CSV pour plus de sécurité
 
@@ -144,7 +144,7 @@ Bon, si jamais la BDD est corrompue, on sera bien content d'avoir les données a
 Par contre, dans mes tests, j'ai eu beaucoup de crash du moteur Mysql, il faut donc être très prudent dans les commandes.
 Mais aussi se dire que ça risque de planter et que l'on va tout perdre.
 
-```
+{% highlight bash %}
 # Première étape, on va faire un touch des fichiers qui ont été supprimés (oui, ca parait débile, mais pourtant ça fonctionne)
 sudo /vagrant/recover_deleted_mysql.py --pid $MYSQL_PID --mysql_path /var/lib/mysql --touch_files
 # TRÈS important, changer les droits des répertoires et fichiers avant de faire quoi que ce soit (c'est là que Mysql peut planter)
@@ -164,16 +164,16 @@ echo 'show tables;' | sudo mysql employees
 echo 'SHOW VARIABLES LIKE "secure_file_priv";' | sudo mysql # Get /var/lib/mysql-files/
 # Et on lance l'export
 sudo /vagrant/recover_deleted_mysql.py --pid $MYSQL_PID --csv_path /var/lib/mysql-files --export_as_csv employees
-```
+{% endhighlight %}
 
 Et voilà !
 
 ### Remettre les données en place
 
-```
+{% highlight bash %}
 # On copie les fichiers restaurés dans le répertoire Mysql :
 sudo rsync -av /recover/var/lib/mysql/ /var/lib/mysql/
-# On arrest Mysql
+# On arrête Mysql
 sudo service mysql stop
 # On remet les bons droits
 sudo chown -R mysql:mysql /var/lib/mysql
@@ -188,7 +188,7 @@ sudo service mysql restart
 # On relance un Mysqldump pour être bien sûr que la BDD refonctionne bien
 cd
 sudo mysqldump employees > employees.sql
-```
+{% endhighlight %}
 
 ## Diverses instructions
 
@@ -226,7 +226,7 @@ C'est la partie que je maîtrise moins, mais j'imagine le comportement de Mysql.
 
 Quand on fait un `show databases;` Mysql doit lire la liste des répertoires dans `/var/lib/mysql`. C'est pour ça que l'on peut se retrouver avec une base de donnés `lost+found`.
 
-Ensuite quand on fait un `show tables;` Mysql doit lire la liste des fichiers `*.MYI` ou `*.MYD` (ou les deux, ou quand l'un manque ça doit planter). Donc un touch des fichiers fait apparaître les tables. Mais comme les fichiers sont déjà ouverts, il va pouvoir accéder aux anciens fichiers supprimés.
+Ensuite quand on fait un `show tables;` Mysql doit lire la liste des fichiers `*.MYI` ou `*.MYD` (ou les deux, ou quand l'un manque ça doit planter). Donc un touch des fichiers fait apparaître les tables. Mais comme les fichiers sont déjà ouverts, il va pouvoir accéder aux contenu des anciens fichiers supprimés.
 
 Par contre un `desc table` ou un `select` ne va pas fonctionner. Pour cela Mysql a besoin des fichiers `*.frm` qui contiennent la structure des tables. Et là, il faut que les fichiers `frm/MYD/MYI` soient bien alignés.
 

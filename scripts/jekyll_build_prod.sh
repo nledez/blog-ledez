@@ -1,7 +1,7 @@
 #!/bin/bash
 BASE=$(dirname $0)
 RSYNC_SRC="_site_prod/"
-RSYNC_DST="nerio.ledez.net:/var/www/blog-staging.ledez.net/"
+RSYNC_DST="nerio.ledez.net:/var/www/blog.ledez.net/"
 RSYNC_OPTS="-av --delete-after"
 
 if [ ! -f $BASE/jekyll_envs.sh ]; then
@@ -22,3 +22,6 @@ rsync --dry-run ${RSYNC_OPTS} ${RSYNC_SRC} ${RSYNC_DST}
 echo "Sync & abort? (Ctrl-C)"
 read
 rsync ${RSYNC_OPTS} ${RSYNC_SRC} ${RSYNC_DST}
+
+echo
+echo 'https://blog.ledez.net'
