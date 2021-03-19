@@ -16,7 +16,7 @@ if [ ! -d $RSYNC_SRC ]; then
 	exit 1
 fi
 
-docker run --rm --volume="$PWD:/srv/jekyll" --volume="$PWD/.vendor/bundle:/usr/local/bundle" -it jekyll/builder:$JEKYLL_VERSION jekyll build --config _config.yml,_config-staging.yml
+docker run --rm --volume="$PWD:/srv/jekyll" --volume="$PWD/.vendor/bundle:/usr/local/bundle" -it jekyll/builder:$JEKYLL_VERSION jekyll build --config _config.yml,_config-staging.yml --verbose
 
 rsync --dry-run ${RSYNC_OPTS} ${RSYNC_SRC} ${RSYNC_DST}
 echo "Sync & abort? (Ctrl-C)"
