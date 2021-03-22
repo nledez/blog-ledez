@@ -1,7 +1,14 @@
-. ../blog-ledez-jekyll-source-twitter.sh
+# Update
+vi ./scripts/jekyll_envs.sh
+./scripts/jekyll_update.sh
 
+# Create post
 ./scripts/new_draft.sh 'Terraform, Ansible et Consul sont dans un bateau'
 ./scripts/create_images_directory.sh
-bundle exec jekyll server --config _config.yml,_config-dev.yml --draft
-bundle exec jekyll server --config _config.yml,_config-dev.yml --draft --incremental
-bundle exec jekyll server --config _config.yml,_config-dev.yml
+
+./scripts/jekyll_launch_dev.sh
+
+./scripts/publish_draft.sh
+
+./scripts/jekyll_build_staging.sh
+./scripts/jekyll_build_prod.sh

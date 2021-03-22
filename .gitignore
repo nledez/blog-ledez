@@ -4,3 +4,4 @@ _site_prod/
 .vendor/
 .jekyll-metadata
 .tweet-cache
+.jekyll-cache/

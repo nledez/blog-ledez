@@ -23,6 +23,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - scripts
+  - README.md
+  - _images_source
 
 sass:
   style: compressed
