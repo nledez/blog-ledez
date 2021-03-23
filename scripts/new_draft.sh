@@ -16,21 +16,29 @@ slug=$(echo "$slug" | tr -s " ")
 slug=$(echo "$slug" | tr "[:space:]" "-")
 slug="${slug:0:${#slug}-1}"
 
+date=`date +%Y-%m-%d`
+
 post="./_drafts/${slug}.md"
 echo $post
 
 body=""
 read -d '' body <<EOF
 ---
+date: $date
 title: $title
 lang: fr
 layout: post
 permalink: /${slug}/
-categories: [ ]
-tags:  [ ]
+categories:
+  - Informatique
+tags:
+  - Informatique
 excerpt_separator: <!--more-->
 ---
 
+![Illustation blabla]({{ site.url }}/images/202X/xx/image.jpg)
+
+<!--more-->
 EOF
 
 echo "$body" > "$post"
