@@ -1,6 +1,7 @@
 ---
 date: 2021-03-22
 title: Sauvegardes, analyse de risque, PRA et PCA
+lang: fr
 layout: post
 permalink: /sauvegardes-analyse-de-risque-pra-et-pca/
 categories:
